@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="GitHub Malayalam Xtream EPG updater">
-  <channel id="stream-443068">
+  <channel id="malayalam-443068">
     <display-name>MALAYALAM: ZEE KERALAM HD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ZEE-KERALAM.jpeg" />
   </channel>
-  <channel id="stream-443067">
+  <channel id="malayalam-443067">
     <display-name>MALAYALAM: ZEE KERALAM</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ZEE-KERALAM.jpeg" />
   </channel>
@@ -12,303 +12,301 @@
     <display-name>MALAYALAM: SURYA HD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/SURYA-HD.jpeg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="Surya.in">
-    <title>U3dheWFtdmFyYXBhbnRoYWw=</title>
-    <desc>TmFuZGluaSwgYSBkZXZvdGVkIHZpbGxhZ2UgZ2lybCwgY3Jvc3NlcyBwYXRocyB3aXRoIFN1cnlhLCB3aG9zZSByZXNlbnRtZW50IHRvd2FyZCBoaXMgbW90aGVyIGRyaXZlcyBoaW0gdG8gcHVyc3VlIGEgcmVsYXRpb25zaGlwIHdpdGggaGVyLg==</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="Surya.in">
-    <title>QW5qdSBTdW5kYXJpa2Fs</title>
-    <desc>Rml2ZSBmcmllbmRzIHNldHRsZSBpbnRvIGEgc3RyaWN0IGhvc3RlbCwgdW5hd2FyZSBvZiBpdHMgZ3JpbSBwYXN0LiBUaGVpciBtaXNjaGlldm91cyBwbGFuIHRvIHNoZWx0ZXIgYSBteXN0ZXJpb3VzIGd1ZXN0IGJhY2tmaXJlcywgdW5sZWFzaGluZyBhIHNlcmllcyBvZiBzdHJhbmdlIGluY2lkZW50cy4=</desc>
+    <title>Anju Sundarikal</title>
+    <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="Surya.in">
-    <title>UGV5dGhvemhpeWF0aGU=</title>
-    <desc>RGVzcGl0ZSBoZXIgd2FybXRoIGFuZCBjb3VyYWdlLCBDaGFydWxhdGhhIHllYXJucyBmb3IgbG92ZSB0byBlc2NhcGUgaGVyIGVzdHJhbmdlZCBmYXRoZXIgYW5kIGNydWVsIHN0ZXBtb3RoZXIgaW4gYSB0dW11bHR1b3VzIGhvdXNlaG9sZC4=</desc>
+    <title>Peythozhiyathe</title>
+    <desc>Despite her warmth and courage, Charulatha yearns for love to escape her estranged father and cruel stepmother in a tumultuous household.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="Surya.in">
-    <title>U3VyeWEgU2FuZ2VldGhhbQ==</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Surya Sangeetham</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="Surya.in">
+    <title>Amme Mookambike</title>
+    <desc>After being abandoned at the temple as a child, Sauparnika is raised by Surendran as a florist. However, her reputation for answered prayers shifts when Sandeep enters her life.</desc>
   </programme>
   <channel id="SuryaMovies.in">
     <display-name>MALAYALAM: SURYA MOVIES</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/SURYA-MOVIES.jpeg" />
   </channel>
   <programme start="20260909000000 +0000" stop="20260909023000 +0000" channel="SuryaMovies.in">
-    <title>UHJhdmFhc2Ft</title>
-    <desc>QWZ0ZXIgbG9zaW5nIGhpcyBqb2IsIEdvdmluZGFua3V0dHkgYmVjb21lcyBlbWJyb2lsZWQgaW4gYSBzdGF0ZSBvZiB1dHRlciBhbnhpZXR5IGFuZCBkZXNwZXJhdGlvbiwgd2hpY2ggbGVhZHMgaGltIHRvIG1ha2UgYSBkaWZmaWN1bHQgY2FsbC4=</desc>
+    <title>Pravaasam</title>
+    <desc>After losing his job, Govindankutty becomes embroiled in a state of utter anxiety and desperation, which leads him to make a difficult call.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="SuryaMovies.in">
-    <title>RmlsbGVy</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHByb21vdGlvbmFsIHZpZGVvcyBhbmQgdHJhaWxlcnMgb2YgQm9sbHl3b29kIG1vdmllcyBmZWF0dXJpbmcgcG9wdWxhciBhY3RvcnMgYW5kIGFjdHJlc3Nlcy4=</desc>
+    <title>Filler</title>
+    <desc>A comprehensive compilation of promotional videos and trailers of Bollywood movies featuring popular actors and actresses.</desc>
   </programme>
   <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="SuryaMovies.in">
-    <title>RmlsbGVy</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHByb21vdGlvbmFsIHZpZGVvcyBhbmQgdHJhaWxlcnMgb2YgQm9sbHl3b29kIG1vdmllcyBmZWF0dXJpbmcgcG9wdWxhciBhY3RvcnMgYW5kIGFjdHJlc3Nlcy4=</desc>
+    <title>Filler</title>
+    <desc>A comprehensive compilation of promotional videos and trailers of Bollywood movies featuring popular actors and actresses.</desc>
   </programme>
   <programme start="20260909033000 +0000" stop="20260909063000 +0000" channel="SuryaMovies.in">
-    <title>U2F5YW5uYSBWYXJ0aGFrYWw=</title>
-    <desc>VXBvbiBmYWxsaW5nIHByZXkgdG8gdGhlIG1hbHByYWN0aWNlcyBvZiB0aGUgZ292ZXJubWVudCdzIGRhcmsgc2lkZSwgUmF2aSBLdW1hciByZXZlYWxzIGhpcyBwbGlnaHQgdG8gdGhlIHdvcmxkLiBIb3dldmVyLCBoaXMgYWN0aW9ucyBzb29uIGludml0ZSB0cm91YmxlIGluIGhpcyBsaWZlLg==</desc>
+    <title>Sayanna Varthakal</title>
+    <desc>Upon falling prey to the malpractices of the government's dark side, Ravi Kumar reveals his plight to the world. However, his actions soon invite trouble in his life.</desc>
   </programme>
   <channel id="SuryaMusic.in">
     <display-name>MALAYALAM: SURYA MUSIC</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/SURYA-MUSIC.jpg" />
   </channel>
   <programme start="20260909010000 +0000" stop="20260909020000 +0000" channel="SuryaMusic.in">
-    <title>SW5ib3g=</title>
+    <title>Inbox</title>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909030000 +0000" channel="SuryaMusic.in">
-    <title>S3V0aHUgUmVsb2FkZWQ=</title>
+    <title>Kuthu Reloaded</title>
   </programme>
   <programme start="20260909030000 +0000" stop="20260909040000 +0000" channel="SuryaMusic.in">
-    <title>VGFtaWwgVGhpcmFp</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHNvbWUgb2YgdGhlIG1vc3QgYWNjbGFpbWVkIHNvbmdzIGZyb20gcmVub3duZWQgVGFtaWwgZmlsbXMgcGxheWVkIGJhY2sgdG8gYmFjayB0byBlbnRocmFsIHRoZSBhdWRpZW5jZS4=</desc>
+    <title>Tamil Thirai</title>
+    <desc>A comprehensive compilation of some of the most acclaimed songs from renowned Tamil films played back to back to enthral the audience.</desc>
   </programme>
   <programme start="20260909040000 +0000" stop="20260909050000 +0000" channel="SuryaMusic.in">
-    <title>SXN0YW0gUG9sZSBQYXR0dQ==</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHNvbWUgb2YgdGhlIG1vc3QgYWNjbGFpbWVkIHNvbmdzIGZyb20gcmVub3duZWQgTWFsYXlhbGFtIGZpbG1zIHBsYXllZCBiYWNrIHRvIGJhY2sgdG8gZW50aHJhbGwgdGhlIGF1ZGllbmNlLg==</desc>
+    <title>Istam Pole Pattu</title>
+    <desc>A comprehensive compilation of some of the most acclaimed songs from renowned Malayalam films played back to back to enthrall the audience.</desc>
   </programme>
   <channel id="Surya.in">
     <display-name>MALAYALAM: SURYA TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/surya.png" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="Surya.in">
-    <title>U3dheWFtdmFyYXBhbnRoYWw=</title>
-    <desc>TmFuZGluaSwgYSBkZXZvdGVkIHZpbGxhZ2UgZ2lybCwgY3Jvc3NlcyBwYXRocyB3aXRoIFN1cnlhLCB3aG9zZSByZXNlbnRtZW50IHRvd2FyZCBoaXMgbW90aGVyIGRyaXZlcyBoaW0gdG8gcHVyc3VlIGEgcmVsYXRpb25zaGlwIHdpdGggaGVyLg==</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="Surya.in">
-    <title>QW5qdSBTdW5kYXJpa2Fs</title>
-    <desc>Rml2ZSBmcmllbmRzIHNldHRsZSBpbnRvIGEgc3RyaWN0IGhvc3RlbCwgdW5hd2FyZSBvZiBpdHMgZ3JpbSBwYXN0LiBUaGVpciBtaXNjaGlldm91cyBwbGFuIHRvIHNoZWx0ZXIgYSBteXN0ZXJpb3VzIGd1ZXN0IGJhY2tmaXJlcywgdW5sZWFzaGluZyBhIHNlcmllcyBvZiBzdHJhbmdlIGluY2lkZW50cy4=</desc>
+    <title>Anju Sundarikal</title>
+    <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="Surya.in">
-    <title>UGV5dGhvemhpeWF0aGU=</title>
-    <desc>RGVzcGl0ZSBoZXIgd2FybXRoIGFuZCBjb3VyYWdlLCBDaGFydWxhdGhhIHllYXJucyBmb3IgbG92ZSB0byBlc2NhcGUgaGVyIGVzdHJhbmdlZCBmYXRoZXIgYW5kIGNydWVsIHN0ZXBtb3RoZXIgaW4gYSB0dW11bHR1b3VzIGhvdXNlaG9sZC4=</desc>
+    <title>Peythozhiyathe</title>
+    <desc>Despite her warmth and courage, Charulatha yearns for love to escape her estranged father and cruel stepmother in a tumultuous household.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="Surya.in">
-    <title>U3VyeWEgU2FuZ2VldGhhbQ==</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Surya Sangeetham</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="Surya.in">
+    <title>Amme Mookambike</title>
+    <desc>After being abandoned at the temple as a child, Sauparnika is raised by Surendran as a florist. However, her reputation for answered prayers shifts when Sandeep enters her life.</desc>
   </programme>
   <channel id="Flowers.in">
     <display-name>MALAYALAM: ASIANET NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/FLOWERS-TV.jpg" />
   </channel>
   <programme start="20260909010000 +0000" stop="20260909020000 +0000" channel="Flowers.in">
-    <title>Rmxvd2VycyBDb21lZHkgSXRoIEl0ZW0gVmVyZQ==</title>
-    <desc>Q29tZWRpYW5zIHRha2UgdGhlIHN0YWdlIGFuZCBwZXJmb3JtIGhpbGFyaW91cyBza2l0cywgc2hvd2Nhc2luZyB0aGVpciB0YWxlbnQgYW5kIGF0dGVtcHRpbmcgdG8gaW1wcmVzcyB0aGUganVkZ2VzLCBpbiBvcmRlciB0byB3aW4gdGhlIGNvbXBldGl0aW9uLg==</desc>
+    <title>Flowers Comedy Ith Item Vere</title>
+    <desc>Comedians take the stage and perform hilarious skits, showcasing their talent and attempting to impress the judges, in order to win the competition.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="Flowers.in">
-    <title>U3VzdQ==</title>
-    <desc>VGhlIGNvbmZsaWN0aW5nIHBlcnNwZWN0aXZlcyBvZiBkYXVnaHRlci1pbi1sYXcgYW5kIG1vdGhlci1pbi1sYXcgY3JlYXRlIHRlbnNpb25zIHRoYXQgbGVhZCB0byBmcmVxdWVudCBhcmd1bWVudHMgYW5kIGZhbWlseSBkaXNjb3JkLg==</desc>
+    <title>Susu</title>
+    <desc>The conflicting perspectives of daughter-in-law and mother-in-law create tensions that lead to frequent arguments and family discord.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="Flowers.in">
-    <title>SmVldmF2YXJzaGFt</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Jeevavarsham</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="Flowers.in">
-    <title>U3R1ZGVudCBTdGFydCBVcA==</title>
-    <desc>VGhlIGhvc3QgcHJvdmlkZXMgYSBsb29rIGludG8gdGhlIGRpZmZlcmVudCBpbm5vdmF0aXZlIHN0YXJ0LXVwIGlkZWFzIGRldmVsb3BlZCBieSBzdHVkZW50cywgc2hlZGRpbmcgbGlnaHQgb24gdGhlaXIgaW1wbGVtZW50YXRpb24gYW5kIHNpZ25pZmljYW5jZS4=</desc>
+    <title>Student Start Up</title>
+    <desc>The host provides a look into the different innovative start-up ideas developed by students, shedding light on their implementation and significance.</desc>
   </programme>
   <channel id="AsianetNews.in">
     <display-name>MALAYALAM: ASIANET NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/FLOWERS-TV.jpg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="AsianetNews.in">
-    <title>R29vZCBOaWdodCBOZXdz</title>
-    <desc>U3RheSBpbmZvcm1lZCB3aXRoIHRoZSBsYXRlc3QgYnJlYWtpbmcgbmV3cyBhbmQgaGVhZGxpbmVzLg==</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909015500 +0000" channel="AsianetNews.in">
-    <title>R3VsZiBOZXdz</title>
-    <desc>TmV3cyBmcm9tIFdlc3QgQXNpYW4gY291bnRyaWVzLg==</desc>
+    <title>Gulf News</title>
+    <desc>News from West Asian countries.</desc>
   </programme>
   <programme start="20260909015500 +0000" stop="20260909020000 +0000" channel="AsianetNews.in">
-    <title>TXVuc2hp</title>
-    <desc>VGhlIHNvY2lvcG9saXRpY2FsIGNhbnZhcyBvZiBLZXJhbGEgaXMgZ2l2ZW4gYSByZWZyZXNoaW5nIGxvb2sgdGhyb3VnaCB0aGUgZXllcyBvZiBhIGNhcnRvb25pc3Qu</desc>
+    <title>Munshi</title>
+    <desc>The sociopolitical canvas of Kerala is given a refreshing look through the eyes of a cartoonist.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="AsianetNews.in">
-    <title>TmV3IEplbiBVdGhzYXZhbQ==</title>
+    <title>Smart Drive</title>
+  </programme>
+  <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="AsianetNews.in">
+    <title>New Jen Uthsavam</title>
   </programme>
   <channel id="AsianetNews.in">
     <display-name>MALAYALAM: ASIANET NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-NEWS.jpeg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="AsianetNews.in">
-    <title>R29vZCBOaWdodCBOZXdz</title>
-    <desc>U3RheSBpbmZvcm1lZCB3aXRoIHRoZSBsYXRlc3QgYnJlYWtpbmcgbmV3cyBhbmQgaGVhZGxpbmVzLg==</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909015500 +0000" channel="AsianetNews.in">
-    <title>R3VsZiBOZXdz</title>
-    <desc>TmV3cyBmcm9tIFdlc3QgQXNpYW4gY291bnRyaWVzLg==</desc>
+    <title>Gulf News</title>
+    <desc>News from West Asian countries.</desc>
   </programme>
   <programme start="20260909015500 +0000" stop="20260909020000 +0000" channel="AsianetNews.in">
-    <title>TXVuc2hp</title>
-    <desc>VGhlIHNvY2lvcG9saXRpY2FsIGNhbnZhcyBvZiBLZXJhbGEgaXMgZ2l2ZW4gYSByZWZyZXNoaW5nIGxvb2sgdGhyb3VnaCB0aGUgZXllcyBvZiBhIGNhcnRvb25pc3Qu</desc>
+    <title>Munshi</title>
+    <desc>The sociopolitical canvas of Kerala is given a refreshing look through the eyes of a cartoonist.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="AsianetNews.in">
-    <title>TmV3IEplbiBVdGhzYXZhbQ==</title>
+    <title>Smart Drive</title>
+  </programme>
+  <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="AsianetNews.in">
+    <title>New Jen Uthsavam</title>
   </programme>
   <channel id="AsianetPlus.in">
     <display-name>MALAYALAM: ASIANET PLUS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-PLUS.jpg" />
   </channel>
-  <programme start="20260909003000 +0000" stop="20260909013000 +0000" channel="AsianetPlus.in">
-    <title>QWFrYXNoYSBLb3R0YXlpbGUgU3VsdGFu</title>
-    <desc>R2Vvcmdla3V0dHkgYXNrcyBLdXR0eSB0byBidWlsZCBob3VzZXMgZm9yIGhpbSwgYnV0IGEgZGVidC1yaWRkZW4gS3V0dHkgcmVudHMgb3V0IHRoZSBob3VzZXMgaW5zdGVhZCBvZiBidWlsZGluZyB0aGVtLiBUcm91YmxlIGVuc3VlcyBhZnRlciBHZW9yZ2VrdXR0eSBmaW5kcyBvdXQgYW5kIHRocm93cyBvdXQgdGhlIHRlbmFudHMu</desc>
-  </programme>
-  <programme start="20260909003000 +0000" stop="20260909013000 +0000" channel="AsianetPlus.in">
-    <title>TW92aWU=</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="AsianetPlus.in">
-    <title>TW92aWU=</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="AsianetPlus.in">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909050000 +0000" channel="AsianetPlus.in">
-    <title>RmluZ2VyIFByaW50</title>
-    <desc>QSBwYXRyaWFyY2ggb2YgYSByb3lhbCBmYW1pbHkgZ29lcyBvbiBhIG1pc3Npb24gdG8gZmluZCB0aGUgbXVyZGVyZXJzIHJlc3BvbnNpYmxlIGZvciBraWxsaW5nIGhpcyBkZXNjZW5kYW50LiBIZSB0YWtlcyB0aGUgaGVscCBvZiBoaXMgbmVwaGV3cyB3aG8gYXJlIHBvbGljZSBvZmZpY2Vycy4=</desc>
+    <title>Finger Print</title>
+    <desc>A patriarch of a royal family goes on a mission to find the murderers responsible for killing his descendant. He takes the help of his nephews who are police officers.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909043000 +0000" channel="AsianetPlus.in">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <channel id="Asianet.in">
     <display-name>MALAYALAM: ASIANET HD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-HD.jpg" />
   </channel>
-  <programme start="20260909003000 +0000" stop="20260909013000 +0000" channel="Asianet.in">
-    <title>S29sdXZ1IC8gQXJjaGFuYQ==</title>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="Asianet.in">
-    <title>UHJhYmhhdGF2ZWRhbSAvIE1hZGh1cmFzaHRha2Ft</title>
+    <title>Prabhatavedam / Madhurashtakam</title>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909030000 +0000" channel="Asianet.in">
-    <title>U3VwcmFiaGF0YSBWYWliaGF2YW0=</title>
-    <desc>VmFyaW91cyByZWxpZ2lvdXMgc2Nob2xhcnMgZXhwbGFpbiB0aGUgaW1wb3J0YW5jZSBvZiB1bmRlcnN0YW5kaW5nIHRoZSBtZWFuaW5nIG9mIFZlbmthdGVzd2FyYSBTdXByYWJhdGgsIGEgSGluZHUgc2xva2Eu</desc>
+    <title>Suprabhata Vaibhavam</title>
+    <desc>Various religious scholars explain the importance of understanding the meaning of Venkateswara Suprabath, a Hindu sloka.</desc>
   </programme>
   <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="Asianet.in">
-    <title>U3ViaG9kYXlhbSAvIE5pdHlhcHVqYWxpdmlnbw==</title>
-    <desc>QSByZWxpZ2lvdXMgZXhwZXJ0IHByb3ZpZGVzIHNwaXJpdHVhbCB0ZWFjaGluZ3MgYW5kIGluc2lnaHRzOyBhIHNwaXJpdHVhbCBsZWFkZXIgb2ZmZXJzIHByYXllcnMgYW5kIHBlcmZvcm1zIHJpdHVhbHMgZXZlcnkgbW9ybmluZy4=</desc>
+    <title>Subhodayam / Nityapujalivigo</title>
+    <desc>A religious expert provides spiritual teachings and insights; a spiritual leader offers prayers and performs rituals every morning.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="Asianet.in">
+    <title>Vishnusahasranama Sototram</title>
   </programme>
   <channel id="AsianetMovies.in">
     <display-name>MALAYALAM: ASIANET MOVIES HD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-MOVIE.jpeg" />
   </channel>
   <programme start="20260909010000 +0000" stop="20260909034000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <programme start="20260909034000 +0000" stop="20260909064000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <programme start="20260909064000 +0000" stop="20260909092000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <programme start="20260909092000 +0000" stop="20260909120000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <channel id="AsianetMovies.in">
     <display-name>MALAYALAM: ASIANET MOVIE</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-MOVIE.jpeg" />
   </channel>
   <programme start="20260909010000 +0000" stop="20260909034000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <programme start="20260909034000 +0000" stop="20260909064000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <programme start="20260909064000 +0000" stop="20260909092000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <programme start="20260909092000 +0000" stop="20260909120000 +0000" channel="AsianetMovies.in">
-    <title>TW92aWU=</title>
-    <desc>TW92aWUgdG8gYmUgYW5ub3VuY2VkLg==</desc>
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
   </programme>
   <channel id="AmritaTV.in">
     <display-name>MALAYALAM: AMRITHA TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/AMRITHA-TV.jpeg" />
   </channel>
-  <programme start="20260908230000 +0000" stop="20260909013000 +0000" channel="AmritaTV.in">
-    <title>VGh1bGxhZGhhIE1hbmFtdW0gVGh1bGx1bQ==</title>
-    <desc>S3V0dHkgaXMgYSBnb29kLWhlYXJ0ZWQgc291bCwgYnV0IHVuZm9ydHVuYXRlIGluY2lkZW50cyB0ZW5kIHRvIHBvcnRyYXkgaGlzIHJ1ZmZpYW4gc2lkZSB3aGVuZXZlciBoZSBlbmNvdW50ZXJzIHRoZSBnaXJsIGhlIGxvdmVzLiBBIGJpemFycmUgaW5jaWRlbnQgYnJpbmdzIHRoZW0gY2xvc2VyIGFuZCB5ZXQga2VlcHMgdGhlbSBhcGFydC4=</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="AmritaTV.in">
-    <title>QW1yaWRvdGF5YW0=</title>
+    <title>Amridotayam</title>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="AmritaTV.in">
-    <title>U2FuZGh5YSBEZWVwYW0=</title>
-    <desc>UmVsaWdpb3VzIGxlYWRlcnMgYW5kIHNjaG9sYXJzIGRlbGl2ZXIgYSBkaXNjb3Vyc2Ugb24gdmFyaW91cyBhc3BlY3RzIG9mIEtlcmFsYSdzIHJpY2ggY3VsdHVyYWwgaGVyaXRhZ2UgYW5kIHNwaXJpdHVhbCBvYnNlcnZhbmNlcy4=</desc>
+    <title>Sandhya Deepam</title>
+    <desc>Religious leaders and scholars deliver a discourse on various aspects of Kerala's rich cultural heritage and spiritual observances.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="AmritaTV.in">
-    <title>U3dhcmFyY2hhbmE=</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Swararchana</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="AmritaTV.in">
+    <title>Amridotayam</title>
   </programme>
   <channel id="DDMalayalam.in">
     <display-name>MALAYALAM: DD MALAYALAM</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/DD-MALAYALAM.jpg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="DDMalayalam.in">
-    <title>S3Jpc2hpIERhcnNoYW4=</title>
-    <desc>VGhlIGhvc3Qgc2hlZHMgbGlnaHQgb24gaW1wb3J0YW50IHVwZGF0ZXMgc3Vycm91bmRpbmcgYWdyaWN1bHR1cmUgZnJvbSBhY3Jvc3MgdGhlIG5hdGlvbiB3aGlsc3QgcHJvdmlkaW5nIGtleSBpbnB1dHMgdGhhdCBjYW4gYmUgb2YgaGVscCB0byBmYXJtZXJzLg==</desc>
-  </programme>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="DDMalayalam.in">
-    <title>S2F0aGFrYWxp</title>
-    <desc>VGhlIGhvc3QgaW52aXRlcyB2YXJpb3VzIEthdGhha2FsaSBhcnRpc3RzIHRvIHBlcmZvcm0gYSBzZXJpZXMgb2YgY2xhc3NpY2FsIGRhbmNlIHJvdXRpbmVzIHRoYXQgcmV0ZWxsIHN0b3JpZXMgZnJvbSBIaW5kdSBzY3JpcHR1cmVzIHRocm91Z2ggZXhxdWlzaXRlIHRoZWF0cmljYWwgZXhwcmVzc2lvbi4=</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="DDMalayalam.in">
-    <title>Q2hlbWJhaSBNdXNpYyBGZXN0aXZhbA==</title>
-    <desc>SGlnaGxpZ2h0cyBvZiB0aGUgZmFtb3VzIENoZW1iYWkgTXVzaWMgRmVzdGl2YWwsIGhlbGQgaW4gdHJpYnV0ZSB0byBob25vdXIgdGhlIGxhdGUgQ2FybmF0aWMgbXVzaWNpYW4gQ2hlbWJhaSBWYWlkeWFuYXRoYSBCaGFnYXZhdGhhci4=</desc>
+    <title>Chembai Music Festival</title>
+    <desc>Highlights of the famous Chembai Music Festival, held in tribute to honour the late Carnatic musician Chembai Vaidyanatha Bhagavathar.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="DDMalayalam.in">
-    <title>WCdtYXMgU29uZyBNYXJheWFtdXR0b20gSm9obnk=</title>
-    <desc>VGFsZW50ZWQgc2luZ2VycyBhbmQgbXVzaWNpYW5zIHBlcmZvcm0gYSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIG1lbG9kaW91cyBkZXZvdGlvbmFsIENocmlzdG1hcyBzb25ncyBvZiBNYXJheWFtdXR0b20gSm9obm55Lg==</desc>
+    <title>X'mas Song Marayamuttom Johny</title>
+    <desc>Talented singers and musicians perform a comprehensive compilation of melodious devotional Christmas songs of Marayamuttom Johnny.</desc>
+  </programme>
+  <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="DDMalayalam.in">
+    <title>Devotional Song</title>
+    <desc>A religious leader guides a congregation of devout Hindus into prayerful meditation and sings soulful hymns in praise of gods and goddesses.</desc>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909031500 +0000" channel="DDMalayalam.in">
+    <title>Sanskrit News</title>
+    <desc>The host presents the latest updates pertaining to various important current affairs, religious and cultural events in Sanskrit.</desc>
   </programme>
   <channel id="JaihindTV.in">
     <display-name>MALAYALAM: JAIHIND TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/JAIHIND-TV.jpg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="JaihindTV.in">
-    <title>QWwtYmF5YW4=</title>
-    <desc>QW4gSXNsYW1pYyBzY2hvbGFyIGRlbGl2ZXJzIGEgcmVsaWdpb3VzIGRpc2NvdXJzZSBhbmQgcmVjaXRlcyB2ZXJzZXMgZnJvbSB0aGUgUXVyYW4gd2hpbGUgZXhwbGFpbmluZyB2YXJpb3VzIHNpZ25pZmljYW50IHRlbmV0cyBvZiBJc2xhbS4=</desc>
-  </programme>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="JaihindTV.in">
-    <title>TmV4dCBTdGVw</title>
+  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="JaihindTV.in">
+    <title>Comedy Punch</title>
+    <desc>A comprehensive compilation of hilarious scenes and comical snippets, played consecutively, in order to entertain the audience.</desc>
   </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="JaihindTV.in">
-    <title>Q29tZWR5IFB1bmNo</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIGhpbGFyaW91cyBzY2VuZXMgYW5kIGNvbWljYWwgc25pcHBldHMsIHBsYXllZCBjb25zZWN1dGl2ZWx5LCBpbiBvcmRlciB0byBlbnRlcnRhaW4gdGhlIGF1ZGllbmNlLg==</desc>
+    <title>Big News</title>
+    <desc>The host presents numerous top stories, latest happenings and significant updates from the national and international front.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="JaihindTV.in">
-    <title>QmlnIE5ld3M=</title>
-    <desc>VGhlIGhvc3QgcHJlc2VudHMgbnVtZXJvdXMgdG9wIHN0b3JpZXMsIGxhdGVzdCBoYXBwZW5pbmdzIGFuZCBzaWduaWZpY2FudCB1cGRhdGVzIGZyb20gdGhlIG5hdGlvbmFsIGFuZCBpbnRlcm5hdGlvbmFsIGZyb250Lg==</desc>
+  <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="JaihindTV.in">
+    <title>Power Point</title>
+    <desc>The host invites experts from various fields and moderates a debate between them on socio-political issues and current events of the nation.</desc>
+  </programme>
+  <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="JaihindTV.in">
+    <title>Big News</title>
+    <desc>The host presents numerous top stories, latest happenings and significant updates from the national and international front.</desc>
   </programme>
   <channel id="JanamTV.in">
     <display-name>MALAYALAM: JANAM TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/JANAM-TV.jpg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="JanamTV.in">
-    <title>SmFuYW0gVG9uaWdodA==</title>
-    <desc>VGhlIGhvc3QgY29sbGF0ZXMgYW5kIHByZXNlbnRzIHRoZSBsYXRlc3QgdXBkYXRlcyBhbmQga2V5IGRldmVsb3BtZW50cyBwZXJ0YWluaW5nIHRvIHRoZSBzb2Npby1wb2xpdGljYWwgYW5kIGVjb25vbWljIG1hdHRlcnMgb2YgdGhlIGRheS4=</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="JanamTV.in">
-    <title>UG9saWNoZXpodXRodQ==</title>
-    <desc>VGhlIGhvc3QgYW5hbHlzZXMgdGhlIGxhdGVzdCBzdGF0ZSBwb2xpdGljYWwgdXBkYXRlcywgb2ZmZXJpbmcgaW5zaWdodHMgYW5kIG9ic2VydmF0aW9ucyBvZiB0aGUgaW1wYWN0IG9uIGV2ZXJ5ZGF5IGNpdGl6ZW5zLg==</desc>
+    <title>Polichezhuthu</title>
+    <desc>The host analyses the latest state political updates, offering insights and observations of the impact on everyday citizens.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="JanamTV.in">
-    <title>TmF0dHUgVmFyYW1idQ==</title>
-    <desc>VGhlIGhvc3Qgc2hlZHMgbGlnaHQgb24gYSBudW1iZXIgb2Ygc21hbGwtc2NhbGUsIGhvbWUtZ3Jvd24gYnVzaW5lc3NlcyBydW4gYnkgcGVvcGxlIGZyb20gcnVyYWwgcmVnaW9ucyBhbmQgc3R1ZGllcyB0aGUgd2F5IHRoZXkgb3BlcmF0ZSB0aGVpciBlbnRlcnByaXNlcy4=</desc>
+    <title>Nattu Varambu</title>
+    <desc>The host sheds light on a number of small-scale, home-grown businesses run by people from rural regions and studies the way they operate their enterprises.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="JanamTV.in">
-    <title>TGl2ZTogTGl2ZSBOZXdz</title>
-    <desc>VGhlIGhvc3QgY29sbGF0ZXMgYW5kIHByZXNlbnRzIHNvbWUgb2YgdGhlIG1vc3QgaW1wb3J0YW50IG5ld3MgYW5kIGxhdGVzdCB1cGRhdGVzIHRoYXQgY2F0ZXIgdG8gdGhlIGludGVyZXN0cyBvZiB0aGUgcGVvcGxlLCBsaXZlLg==</desc>
+    <title>Live: Live News</title>
+    <desc>The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live.</desc>
   </programme>
-  <channel id="stream-443051">
+  <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="JanamTV.in">
+    <title>Natuvishesham</title>
+    <desc>The host collates and presents the latest and the most important news updates and developments from across the state and the nation.</desc>
+  </programme>
+  <channel id="malayalam-443051">
     <display-name>MALAYALAM: KAIRALI ARABIA</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KAIRALI-ARABIA.jpeg" />
   </channel>
-  <channel id="stream-443050">
+  <channel id="malayalam-443050">
     <display-name>MALAYALAM: KAIRALI NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KAIRALI-NEWS.jpg" />
   </channel>
-  <channel id="stream-443049">
+  <channel id="malayalam-443049">
     <display-name>MALAYALAM: KAIRALI PEOPLE TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KAIRALI-PEOPLE-TV.jpg" />
   </channel>
@@ -317,80 +315,80 @@
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KAPPA-TV.png" />
   </channel>
   <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="KappaTV.in">
-    <title>TmlnaHQgQmlyZA==</title>
-    <desc>VGFsZW50ZWQgbXVzaWNpYW5zIGFuZCBzaW5nZXJzIHBlcmZvcm0gYSBjb2xsZWN0aW9uIG9mIG1lbG9kaW91cyBhbmQgc291bGZ1bCBzb25ncyB0byBlbnRocmFsbCB0aGUgYXVkaWVuY2Ugd2l0aCB0aGVpciBjYXB0aXZhdGluZyBza2lsbHMu</desc>
+    <title>Night Bird</title>
+    <desc>Talented musicians and singers perform a collection of melodious and soulful songs to enthrall the audience with their captivating skills.</desc>
   </programme>
   <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="KappaTV.in">
-    <title>R29sZGVuIE9sZGllcw==</title>
-    <desc>QSByaWNoIGFuZCB0dW5lZnVsIGNvbXBpbGF0aW9uIG9mIGNhdGNoeSBhbmQgbWVsb2Rpb3VzIHNvbmdzIGZyb20gbW92aWVzIG9mIHllc3RlcnllYXJzIHRvIGVuZ2FnZSBhbmQgZW50ZXJ0YWluIG9sZGVyIGF1ZGllbmNlcy4=</desc>
+    <title>Golden Oldies</title>
+    <desc>A rich and tuneful compilation of catchy and melodious songs from movies of yesteryears to engage and entertain older audiences.</desc>
   </programme>
   <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="KappaTV.in">
-    <title>UmlzZSBBbmQgU2hpbmU=</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHBvcHVsYXIgc29uZ3MgZnJvbSB0aGUgbGF0ZXN0IGJsb2NrYnVzdGVyIG1vdmllcyBhY3Jvc3MgdmFyaW91cyBmaWxtIGluZHVzdHJpZXMgaXMgcGxheWVkIGJhY2stdG8tYmFjay4=</desc>
+    <title>Rise And Shine</title>
+    <desc>A comprehensive compilation of popular songs from the latest blockbuster movies across various film industries is played back-to-back.</desc>
   </programme>
   <programme start="20260909040000 +0000" stop="20260909043000 +0000" channel="KappaTV.in">
-    <title>UmlzZSBBbmQgU2hpbmU=</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHBvcHVsYXIgc29uZ3MgZnJvbSB0aGUgbGF0ZXN0IGJsb2NrYnVzdGVyIG1vdmllcyBhY3Jvc3MgdmFyaW91cyBmaWxtIGluZHVzdHJpZXMgaXMgcGxheWVkIGJhY2stdG8tYmFjay4=</desc>
+    <title>Rise And Shine</title>
+    <desc>A comprehensive compilation of popular songs from the latest blockbuster movies across various film industries is played back-to-back.</desc>
   </programme>
   <channel id="KaumudyTV.in">
     <display-name>MALAYALAM: KAUMUDY</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KAUMUDY-.jpg" />
   </channel>
-  <programme start="20260909003000 +0000" stop="20260909013000 +0000" channel="KaumudyTV.in">
-    <title>U3RyYWlnaHQgTGluZQ==</title>
-    <desc>VGhlIGhvc3QgaW52aXRlcyBwcm9taW5lbnQgYnVzaW5lc3MgbGVhZGVycyBhbmQgY2VsZWJyaXRpZXMgdG8gZGlzY3VzcyBhIHdpZGUgcmFuZ2Ugb2YgaW1wb3J0YW50IHRvcGljcyBhbmQgc2hhcmUgdGhlaXIgb3BpbmlvbnMgb24gdGhlIHNhbWUu</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="KaumudyTV.in">
-    <title>U2lsdmVyIFNjcmVlbg==</title>
-    <desc>RGl2ZSBpbnRvIHRoZSBmaWxtIHdvcmxkIHdpdGggdXBkYXRlcyBvbiBtb3ZpZSByZWxlYXNlcywgY29udmVyc2F0aW9ucyB3aXRoIGFydGlzdHMgYW5kIGJlaGluZC10aGUtc2NlbmVzIG1vbWVudHMgdGhhdCBicmluZyB0aGUgaW5kdXN0cnkgdG8gbGlmZS4=</desc>
+    <title>Silver Screen</title>
+    <desc>Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="KaumudyTV.in">
-    <title>TGFkaWVzIEhvdXI=</title>
-    <desc>RXhwZXJ0cyBmcm9tIHZhcmlvdXMgZmllbGRzIHNoZWQgbGlnaHQgb24gdGhlIG1hbnkgYXNwZWN0cyBjb25jZXJuaW5nIHdvbWVuIGFuZCBwcm92aWRlIHRpcHMgb24gZmFzaGlvbiwgYmVhdXR5IGFuZCBoZWFsdGgu</desc>
+    <title>Ladies Hour</title>
+    <desc>Experts from various fields shed light on the many aspects concerning women and provide tips on fashion, beauty and health.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909025700 +0000" channel="KaumudyTV.in">
-    <title>RGV2b3Rpb25hbCBTb25n</title>
-    <desc>QSByZWxpZ2lvdXMgbGVhZGVyIGd1aWRlcyBhIGNvbmdyZWdhdGlvbiBvZiBkZXZvdXQgSGluZHVzIGludG8gcHJheWVyZnVsIG1lZGl0YXRpb24gYW5kIHNpbmdzIHNvdWxmdWwgaHltbnMgaW4gcHJhaXNlIG9mIGdvZHMgYW5kIGdvZGRlc3Nlcy4=</desc>
+    <title>Devotional Song</title>
+    <desc>A religious leader guides a congregation of devout Hindus into prayerful meditation and sings soulful hymns in praise of gods and goddesses.</desc>
+  </programme>
+  <programme start="20260909025700 +0000" stop="20260909030000 +0000" channel="KaumudyTV.in">
+    <title>Daivadasakam</title>
+    <desc>Ardent devotees gather in large numbers and sing melodious hymns of praise to God and seek his holy blessings in return.</desc>
   </programme>
   <channel id="KochuTV.in">
     <display-name>MALAYALAM: KOCHU TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KOCHU-TV.jpg" />
   </channel>
-  <programme start="20260909000000 +0000" stop="20260909013000 +0000" channel="KochuTV.in">
-    <title>SGFwcHkgS2lkcw==</title>
-    <desc>SGFwcHkgS2lkLCBhIHlvdW5nIGJveSwgYWxvbmcgd2l0aCBoaXMgdGhyZWUgY2xvc2UgZnJpZW5kcywgTHVheSwgTGFteSBhbmQgWmFpbSwgZXhwZXJpZW5jZXMgdmFyaW91cyBmdW4tZmlsbGVkIGFkdmVudHVyZXMu</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="KochuTV.in">
-    <title>S2FkaGEgS29vdHR1</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Kadha Koottu</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="KochuTV.in">
-    <title>U2hha3RpbWFhbg==</title>
-    <desc>QSB5b3VuZyBjb2xsZWdlIGJveSBkaXNjb3ZlcnMgaGlzIHlvZ2ljIHN1cGVycG93ZXJzIGFuZCB0cmFuc2Zvcm1zIGludG8gYSBzdXBlcmhlcm8gd2hvIHByb3RlY3RzIHRoZSB3b3JsZCBmcm9tIGFuIGV2aWwgdmlsbGFpbi4=</desc>
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
   </programme>
   <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="KochuTV.in">
-    <title>TWFoYSBHYW5lc2hh</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Maha Ganesha</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="KochuTV.in">
+    <title>Shabaas Bhola</title>
+    <desc>Young Bhola, empowered by his unwavering devotion to Lord Mahakal Shiva, emerges as the courageous protector of Kailashpur. He stands firm against the dark forces threatening his town.</desc>
   </programme>
   <channel id="ManoramaNews.in">
     <display-name>MALAYALAM: MANORAMA NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/MANORAMA-NEWS.jpg" />
   </channel>
-  <programme start="20260909005500 +0000" stop="20260909012000 +0000" channel="ManoramaNews.in">
-    <title>RGFpbHkgU3BlY2lhbCBQcm9ncmFt</title>
-    <desc>VGhlIGhvc3QgcHJlc2VudHMgYSBkZXRhaWxlZCBhbmFseXNpcyBvZiB0aGUgbGF0ZXN0IGluZm9ybWF0aW9uIGFuZCBkZXZlbG9wbWVudHMgb24gdmFyaW91cyBpbXBvcnRhbnQgaXNzdWVzIHRoYXQgYWZmZWN0IG1hbnkgbGl2ZXMu</desc>
-  </programme>
   <programme start="20260909012000 +0000" stop="20260909014500 +0000" channel="ManoramaNews.in">
-    <title>S3V0dGFwYXRocmFt</title>
-    <desc>VGhlIGhvc3QgcHJlc2VudHMgdXBkYXRlcyBvbiBzZW5zYXRpb25hbCBjcmltaW5hbCBjYXNlcyBhbmQgdGhlIGludmVzdGlnYXRpdmUgcHJvY2VlZGluZ3MgdG8gYnJpbmcgdGhlIHBlcnBldHJhdG9ycyB0byBqdXN0aWNlLg==</desc>
+    <title>Kuttapathram</title>
+    <desc>The host presents updates on sensational criminal cases and the investigative proceedings to bring the perpetrators to justice.</desc>
   </programme>
   <programme start="20260909014500 +0000" stop="20260909023000 +0000" channel="ManoramaNews.in">
-    <title>Q291bnRlciBQb2ludA==</title>
-    <desc>VGhlIGhvc3QgbW9kZXJhdGVzIGEgZGViYXRlIGJldHdlZW4gYSBwYW5lbCBvZiBleHBlcnRzIGZyb20gZGlmZmVyZW50IGZpZWxkcyBhcyB0aGV5IHNoYXJlIHRoZWlyIHZpZXdzIGFuZCBvcGluaW9ucyBvbiBjZXJ0YWluIHRvcGljcy4=</desc>
+    <title>Counter Point</title>
+    <desc>The host moderates a debate between a panel of experts from different fields as they share their views and opinions on certain topics.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="ManoramaNews.in">
-    <title>NiBBTSBOZXdz</title>
-    <desc>VGhlIGhvc3QgcHJlc2VudHMgdGhlIGxhdGVzdCB1cGRhdGVzIGFuZCBoZWFkbGluZXMgb24gdGhlIHNvY2lhbCwgZWNvbm9taWMgYW5kIHBvbGl0aWNhbCBpc3N1ZXMgYW5kIHNoYXJlcyBpbmZvcm1hdGlvbiBvbiBjdXJyZW50IGV2ZW50cy4=</desc>
+    <title>6 AM News</title>
+    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current events.</desc>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="ManoramaNews.in">
+    <title>Nattu Vartha</title>
+    <desc>The host highlights pressing local matters, showcasing voices from the ground and exploring how regional decisions impact day-to-day lives.</desc>
   </programme>
   <channel id="Mathrubhumi News.in">
     <display-name>MALAYALAM: MATHRUBHUMI NEWS</display-name>
@@ -400,22 +398,22 @@
     <display-name>MALAYALAM: MAZAVIL MANORAMA HD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/MAZAVIL-MANORAMA-HD.jpg" />
   </channel>
-  <programme start="20260909010200 +0000" stop="20260909012400 +0000" channel="MazhavilManorama.in">
-    <title>T3R0YXNoaWtoYXJhbQ==</title>
-    <desc>QSBjb3VwbGUgaGlyZXMgYSBzdXJyb2dhdGUgbW90aGVyIHRvIGhhdmUgdGhlaXIgY2hpbGQsIGJ1dCBjb25mbGljdCBlcnVwdHMgb3ZlciBwYXJlbnRhbCByaWdodHMu</desc>
-  </programme>
   <programme start="20260909012400 +0000" stop="20260909023000 +0000" channel="MazhavilManorama.in">
-    <title>T3J1IENoaXJpIElydSBDaGlyaSBCdW1wZXIgQ2hpcmk=</title>
-    <desc>Q29udGVzdGFudHMgZ2V0IHRvIHdpbiBiaWcgaWYgdGhleSBtYW5hZ2UgdG8gbWFrZSBvdXIgcGFuZWxpc3RzIGxhdWdoOyB3YXRjaCBhbmQgZmluZCBvdXQgd2hldGhlciBpdCBpcyBvbmUgbGF1Z2ggKE9ydSBDaGlyaSksIHR3byBsYXVnaHMgKElydSBDaGlyaSkgb3IgYSBCdW1wZXIgTGF1Z2ggdGhhdCB0aGVpciBoaWxhcmlvdXMgYWN0cyBtYW5hZ2UgdG8gZWxpY2l0IGZyb20gb3VyIHBhbmVsaXN0cyE=</desc>
+    <title>Oru Chiri Iru Chiri Bumper Chiri</title>
+    <desc>Contestants get to win big if they manage to make our panelists laugh; watch and find out whether it is one laugh (Oru Chiri), two laughs (Iru Chiri) or a Bumper Laugh that their hilarious acts manage to elicit from our panelists!</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="MazhavilManorama.in">
-    <title>UnVjaGkgVmlzbWF5YW0=</title>
-    <desc>QSB3ZWVrZGF5IGZvb2Qgc2hvdyBmZWF0dXJpbmcgZ3JlYXQgcmVjaXBlcywgbW91dGgtd2F0ZXJpbmcgZm9vZCwgZ3JlYXQgY2hlZnMgYW5kIG11Y2ggbW9yZS4=</desc>
+    <title>Ruchi Vismayam</title>
+    <desc>A weekday food show featuring great recipes, mouth-watering food, great chefs and much more.</desc>
   </programme>
   <programme start="20260909030000 +0000" stop="20260909040000 +0000" channel="MazhavilManorama.in">
-    <title>VGhlIEdyZWF0IEZhbWlseSBDaGFsbGVuZ2U=</title>
+    <title>The Great Family Challenge</title>
   </programme>
-  <channel id="stream-443042">
+  <programme start="20260909040000 +0000" stop="20260909053000 +0000" channel="MazhavilManorama.in">
+    <title>Oru Chiri Iru Chiri Bumper Chiri</title>
+    <desc>Contestants get to win big if they manage to make our panelists laugh; watch and find out whether it is one laugh (Oru Chiri), two laughs (Iru Chiri) or a Bumper Laugh that their hilarious acts manage to elicit from our panelists!</desc>
+  </programme>
+  <channel id="malayalam-443042">
     <display-name>MALAYALAM: NEWS 18 KERALA</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/news18.png" />
   </channel>
@@ -423,60 +421,60 @@
     <display-name>MALAYALAM: RAJ MUSIC</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/RAJ-MUSIC.jpg" />
   </channel>
-  <programme start="20260908193000 +0000" stop="20260909013000 +0000" channel="RajMusix.in">
-    <title>TWV0cm8gTmlnaHQ=</title>
-    <desc>UHJlc2VudGluZyBhIGNvbGxlY3Rpb24gb2YgVGFtaWwgdHVuZXMu</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="RajMusix.in">
-    <title>RGVpdmVlZ2EgUmFhZ2Ft</title>
+    <title>Deiveega Raagam</title>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="RajMusix.in">
-    <title>V2FrZXVwIFRhbWl6aGE=</title>
+    <title>Wakeup Tamizha</title>
   </programme>
   <programme start="20260909033000 +0000" stop="20260909043100 +0000" channel="RajMusix.in">
-    <title>QnJlYWtmYXN0IFR1bmVz</title>
+    <title>Breakfast Tunes</title>
+  </programme>
+  <programme start="20260909043100 +0000" stop="20260909050000 +0000" channel="RajMusix.in">
+    <title>Breakfree Songs</title>
+    <desc>A comprehensive compilation of songs from Tamil movies, showcasing a diverse range of music to elevate the mood of listeners.</desc>
   </programme>
   <channel id="RajNewsMalayalam.in">
     <display-name>MALAYALAM: RAJ NEWS MALAYALAM</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/RAJ-NEWS-MALAYALAM.jpeg" />
   </channel>
-  <programme start="20260909003000 +0000" stop="20260909013000 +0000" channel="RajNewsMalayalam.in">
-    <title>RGViYXRlIC0gU2FoaW4=</title>
-    <desc>VGhlIGhvc3QgbW9kZXJhdGVzIGEgZGViYXRlIGFtb25nIGV4cGVydHMgd2hvIHNoYXJlIHRoZWlyIHZpZXdzIGFuZCBvcGluaW9ucyBvbiB2YXJpb3VzIHByZXNzaW5nIGlzc3VlcyBjb25jZXJuaW5nIHRoZSBuYXRpb24u</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="RajNewsMalayalam.in">
-    <title>UmVsYXggV2l0aCBNZQ==</title>
-    <desc>QnJpbmdpbmcgdGhlIGJlc3QgaW4gdGVsZXZpc2lvbi4=</desc>
+    <title>Relax With Me</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="RajNewsMalayalam.in">
     <title>QlRT</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHNvbWUgb2YgdGhlIGdyZWF0ZXN0IGhpdHMgYnkgdGhlIHRhbGVudGVkIGFsbC1tYWxlIEstcG9wIGJhbmQgQlRTIHBsYXllZCBpbiBxdWljayBzdWNjZXNzaW9uLg==</desc>
+    <desc>A comprehensive compilation of some of the greatest hits by the talented all-male K-pop band BTS played in quick succession.</desc>
   </programme>
   <programme start="20260909033000 +0000" stop="20260909043000 +0000" channel="RajNewsMalayalam.in">
-    <title>Q2FwdHVyaW5nIEtlcmFsYQ==</title>
-    <desc>VGhlIGhvc3QgZ2l2ZXMgdGhlIGxhdGVzdCB1cGRhdGVzIGFuZCBkZXZlbG9wbWVudHMgcGVydGFpbmluZyB0byBwb2xpdGljcywgZmluYW5jZSwgc3BvcnRzIGFuZCBlbnRlcnRhaW5tZW50IG5ld3MgYWJvdXQgS2VyYWxhLCBJbmRpYS4=</desc>
+    <title>Capturing Kerala</title>
+    <desc>The host gives the latest updates and developments pertaining to politics, finance, sports and entertainment news about Kerala, India.</desc>
+  </programme>
+  <programme start="20260909043000 +0000" stop="20260909050000 +0000" channel="RajNewsMalayalam.in">
+    <title>Time To Talk</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <channel id="SafariTV.in">
     <display-name>MALAYALAM: SAFARI TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/SAFARI-TV.jpeg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="SafariTV.in">
-    <title>QW5pbWFsIEtpbmdkb20=</title>
-    <desc>VGhlIGZpbG1tYWtlciBkb2N1bWVudHMgdGhlIGRhaWx5IGJlaGF2aW91ciBhbmQgbGlmZXN0eWxlcyBvZiBhIHdpZGUgdmFyaWV0eSBvZiB3aWxkIGFuaW1hbHMgZnJvbSB2YXJpb3VzIGxvY2F0aW9ucyBhbmQgaGFiaXRhdHMgYXJvdW5kIHRoZSB3b3JsZC4=</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="SafariTV.in">
-    <title>U21yaXRoaQ==</title>
-    <desc>VGhlIGhvc3Qgc3BlYWtzIGFib3V0IGVtaW5lbnQgcGVyc29uYWxpdGllcyBmcm9tIGRpZmZlcmVudCB3YWxrcyBvZiBsaWZlIGFuZCBoaWdobGlnaHRzIHRoZWlyIGNvbnRyaWJ1dGlvbnMgdG8gdGhlaXIgcmVzcGVjdGl2ZSBmaWVsZHMu</desc>
+    <title>Smrithi</title>
+    <desc>The host speaks about eminent personalities from different walks of life and highlights their contributions to their respective fields.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="SafariTV.in">
-    <title>RmFjZSBUbyBGYWNl</title>
-    <desc>VGhlIGhvc3QgY2hhdHMgd2l0aCBwZXJzb25hbGl0aWVzIGZyb20gdmFyaW91cyBmaWVsZHMgYWJvdXQgdGhlaXIgd29yayBhbmQgY29udHJpYnV0aW9ucyB0byBzb2NpZXR5IGFuZCBob2xkcyBkaXNjdXNzaW9ucyBvbiB2YXJpb3VzIHNvY2lhbCBhbmQgcG9saXRpY2FsIGlzc3Vlcy4=</desc>
+    <title>Face To Face</title>
+    <desc>The host chats with personalities from various fields about their work and contributions to society and holds discussions on various social and political issues.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="SafariTV.in">
-    <title>Q2hhcml0aHJhbSBFbm5pbHVkZQ==</title>
-    <desc>RmFtb3VzIE1hbGF5YWxpcyBmcm9tIGFjcm9zcyB0aGUgd29ybGQgc2hhcmUgdGhlaXIgc3VjY2VzcyBhbmQgZmFpbHVyZSBzdG9yaWVzIGFuZCB0YWxrIGFib3V0IHRoZWlyIHBlcnNvbmFsIGFuZCBwcm9mZXNzaW9uYWwgbGl2ZXMu</desc>
+    <title>Charithram Ennilude</title>
+    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
   </programme>
-  <channel id="stream-443038">
+  <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="SafariTV.in">
+    <title>Sanchariyude Diarikurippukal</title>
+    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
+  </programme>
+  <channel id="malayalam-443038">
     <display-name>MALAYALAM: SHOLAM TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/SHOLAM-TV.png" />
   </channel>
@@ -484,7 +482,7 @@
     <display-name>MALAYALAM: WE TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/WE-TV.jpg" />
   </channel>
-  <channel id="stream-443036">
+  <channel id="malayalam-443036">
     <display-name>MALAYALAM: 24 NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/news24.png" />
   </channel>
@@ -492,47 +490,47 @@
     <display-name>MALAYALAM: GOODNESS TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/GOODNESS-TV.jpg" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="GoodnessTV.in">
-    <title>SmFwYW1hbGE=</title>
-    <desc>UmVsaWdpb3VzIGRldm90ZWVzIGdhdGhlciB0b2dldGhlciBpbiBhIGhvbHkgcGxhY2UgdG8gb2ZmZXIgdGhlaXIgd29yc2hpcCBhbmQgcHJheWVycyB0byB0aGUgQWxtaWdodHkgYnkgYXNraW5nIE1vdGhlciBNYXJ5IHRvIGludGVyY2VkZSBmb3IgdGhlbS4=</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="GoodnessTV.in">
-    <title>SG9seSBNYXNzIExhdGlu</title>
-    <desc>RGV2b3RlZXMgY29tZSB0b2dldGhlciB0byB3b3JzaGlwIGFuZCBwcmF5IGFzIHRoZSBwcmllc3QgY2VsZWJyYXRlcyB0aGUgSG9seSBNYXNzIGFuZCBzZWVrcyB0aGUgYmxlc3NpbmdzIG9mIHRoZSBBbG1pZ2h0eS4=</desc>
+    <title>Holy Mass Latin</title>
+    <desc>Devotees come together to worship and pray as the priest celebrates the Holy Mass and seeks the blessings of the Almighty.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="GoodnessTV.in">
-    <title>VmFjaGFuYSBEZWVwdGhp</title>
-    <desc>QSBwcmllc3QgZGVsaXZlcnMgZGlzY291cnNlcyBvbiBDaHJpc3RpYW5pdHkgZnJvbSB0aGUgSG9seSBCaWJsZSBhbmQgaGVscHMgdGhlIGZhaXRoZnVsIGZvbGxvd2VycyBhbmQgZGV2b3RlZXMgdG8gZ2V0IGNsb3NlciB0byB0aGUgQWxtaWdodHku</desc>
+    <title>Vachana Deepthi</title>
+    <desc>A priest delivers discourses on Christianity from the Holy Bible and helps the faithful followers and devotees to get closer to the Almighty.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="GoodnessTV.in">
-    <title>SG9seSBNYXNzIE1hbGFiYXI=</title>
-    <desc>QSBwcmllc3QgY29uZHVjdHMgdGhlIEhvbHkgTWFzcyBpbiB0aGUgcHJlc2VuY2Ugb2YgYSBjb25ncmVnYXRpb24gb2YgZGV2b3RlZXMsIGNoYW50aW5nIHJlbGlnaW91cyBoeW1ucyBhbmQgc2Vla2luZyBibGVzc2luZ3MgZnJvbSB0aGUgQWxtaWdodHku</desc>
+    <title>Holy Mass Malabar</title>
+    <desc>A priest conducts the Holy Mass in the presence of a congregation of devotees, chanting religious hymns and seeking blessings from the Almighty.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="GoodnessTV.in">
+    <title>Prabhatha Virunnu</title>
+    <desc>A religious leader delivers a discourse based on the teachings of the Holy Bible and encourages devotees to follow the path of spirituality.</desc>
   </programme>
   <channel id="KairaliTV.in">
     <display-name>MALAYALAM: KAIRALI TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KAIRALI-TV.png" />
   </channel>
-  <programme start="20260909010000 +0000" stop="20260909013000 +0000" channel="KairaliTV.in">
-    <title>Q2hpcml5byBDaGlyaQ==</title>
-    <desc>QSBjb21wcmVoZW5zaXZlIGNvbXBpbGF0aW9uIG9mIHRoZSBmdW5uaWVzdCBhbmQgbW9zdCBlbnRlcnRhaW5pbmcgY29tZWR5IHNjZW5lcyBhbmQgdmlkZW9zIGZyb20gdmFyaW91cyBmYW1vdXMgTWFsYXlhbGFtIG1vdmllcy4=</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="KairaliTV.in">
-    <title>U2lydXRoYWk=</title>
-    <desc>Um9ja2V0IFJhamEsIGEgc21hbGwtdGltZSB0aGllZiwgY29tZXMgYWNyb3NzIGEgeW91bmcgZ2lybCB3aG8gY2FsbHMgaGltIGZhdGhlci4gSG93ZXZlciwgd2hlbiBSYWphIGZpbmRzIHRoZSB0cnV0aCBhYm91dCB0aGUgZ2lybCdzIHBhc3QsIGhlIHR1cm5zIGludG8gYSB2aWdpbGFudGUu</desc>
+    <title>Siruthai</title>
+    <desc>Rocket Raja, a small-time thief, comes across a young girl who calls him father. However, when Raja finds the truth about the girl's past, he turns into a vigilante.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909024500 +0000" channel="KairaliTV.in">
-    <title>RG9jdG9yJ3MgVGFsaw==</title>
-    <desc>RHIuIEVlcHBhbiwgdGhlIGhvc3QsIGludGVyYWN0cyBhbmQgZGlzY3Vzc2VzIHZhcmlvdXMgaGVhbHRoIHByb2JsZW1zIHdpdGggZ3Vlc3QgZG9jdG9ycyBhbmQgZ2l2ZXMgcmVtZWRpYWwgdGlwcyBmb3IgdGhlIHZpZXdlcnMu</desc>
+    <title>Doctor's Talk</title>
+    <desc>Dr. Eeppan, the host, interacts and discusses various health problems with guest doctors and gives remedial tips for the viewers.</desc>
   </programme>
   <programme start="20260909024500 +0000" stop="20260909040000 +0000" channel="KairaliTV.in">
-    <title>U2lydXRoYWk=</title>
-    <desc>Um9ja2V0IFJhamEsIGEgc21hbGwtdGltZSB0aGllZiwgY29tZXMgYWNyb3NzIGEgeW91bmcgZ2lybCB3aG8gY2FsbHMgaGltIGZhdGhlci4gSG93ZXZlciwgd2hlbiBSYWphIGZpbmRzIHRoZSB0cnV0aCBhYm91dCB0aGUgZ2lybCdzIHBhc3QsIGhlIHR1cm5zIGludG8gYSB2aWdpbGFudGUu</desc>
+    <title>Siruthai</title>
+    <desc>Rocket Raja, a small-time thief, comes across a young girl who calls him father. However, when Raja finds the truth about the girl's past, he turns into a vigilante.</desc>
   </programme>
-  <channel id="stream-443031">
+  <programme start="20260909040000 +0000" stop="20260909063000 +0000" channel="KairaliTV.in">
+    <title>Mazhai Pidikatha Manithan</title>
+    <desc>A secret agent, obliged to hide his true identity, meets a woman in a financial crisis. Despite his aloofness, he forms a friendship with her and helps her with her problems.</desc>
+  </programme>
+  <channel id="malayalam-443031">
     <display-name>MALAYALAM: MANORAMA INT</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/MANORAMA-NEWS.jpg" />
   </channel>
-  <channel id="stream-443030">
+  <channel id="malayalam-443030">
     <display-name>MALAYALAM: MANORARAMA SD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/MANORARAMA.jpeg" />
   </channel>
@@ -544,55 +542,55 @@
     <display-name>MALAYALAM: SATHIYAM TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/SATHIYAM-TV.jpeg" />
   </channel>
-  <programme start="20260909003000 +0000" stop="20260909013000 +0000" channel="SathiyamTV.in">
-    <title>U2F0aGl5YW0gU2FhdGhpeWFtYWU=</title>
-    <desc>VGhlIGhvc3QgaW52aXRlcyBwcm9taW5lbnQgcGVyc29uYWxpdGllcyBmcm9tIGRpZmZlcmVudCBmaWVsZHMgdG8gc2hhcmUgdGhlaXIgcGVyc3BlY3RpdmVzIG9uIHZhcmlvdXMgcG9saXRpY2FsIGFuZCBzb2NpYWwgaXNzdWVzIGltcGFjdGluZyBtYW55IGxpdmVzLg==</desc>
-  </programme>
   <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="SathiyamTV.in">
-    <title>QXJwYW5pcHBpbiBTaWdhcmFuZ2Fs</title>
-    <desc>VGhlIGxpdmVzIG9mIGdyZWF0IG1pc3Npb25hcmllcyB3aG8gbGVmdCBubyBzdG9uZSB1bnR1cm5lZCBpbiBzcHJlYWRpbmcgdGhlIHRlYWNoaW5ncyBvZiBDaHJpc3RpYW5pdHkgdG8gZGlmZmVyZW50IHBhcnRzIG9mIHRoZSB3b3JsZCBhcmUgc2hvd2Nhc2VkLg==</desc>
+    <title>Arpanippin Sigarangal</title>
+    <desc>The lives of great missionaries who left no stone unturned in spreading the teachings of Christianity to different parts of the world are showcased.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="SathiyamTV.in">
-    <title>Qmxlc3NpbmcgWW91dGggTWlzc2lvbg==</title>
-    <desc>QSByZWxpZ2lvdXMgbGVhZGVyIHNoZWRzIGxpZ2h0IG9uIHRoZSB0ZWFjaGluZ3Mgb2YgdGhlIEFsbWlnaHR5IGFuZCBlbmNvdXJhZ2VzIGZvbGxvd2VycyB0byB0YWtlIHRoZSBwYXRoIG9mIHNwaXJpdHVhbGl0eS4=</desc>
+    <title>Blessing Youth Mission</title>
+    <desc>A religious leader sheds light on the teachings of the Almighty and encourages followers to take the path of spirituality.</desc>
   </programme>
   <programme start="20260909023000 +0000" stop="20260909023500 +0000" channel="SathiyamTV.in">
-    <title>SGVhZGxpbmVz</title>
-    <desc>VGhlIHByZXNlbnRlciByZXBvcnRzIHRoZSBsYXRlc3QgYW5kIG1vc3QgaW1wb3J0YW50IHBvbGl0aWNhbCBhbmQgc29jaW8tZWNvbm9taWMgbmV3cyBoZWFkbGluZXMgZnJvbSBJbmRpYSBhbmQgYXJvdW5kIHRoZSB3b3JsZC4=</desc>
+    <title>Headlines</title>
+    <desc>The presenter reports the latest and most important political and socio-economic news headlines from India and around the world.</desc>
   </programme>
-  <channel id="stream-443027">
+  <programme start="20260909023500 +0000" stop="20260909030000 +0000" channel="SathiyamTV.in">
+    <title>Live: 6 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <channel id="malayalam-443027">
     <display-name>MALAYALAM: KVTV PLUS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KVTV-PLUS.jpeg" />
   </channel>
-  <channel id="stream-443026">
+  <channel id="malayalam-443026">
     <display-name>MALAYALAM: POWER VISION</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/POWER-VISION.jpeg" />
   </channel>
-  <channel id="stream-443025">
+  <channel id="malayalam-443025">
     <display-name>MALAYALAM: KVTV LIVE</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KVTV-LIVE.jpeg" />
   </channel>
-  <channel id="stream-443024">
+  <channel id="malayalam-443024">
     <display-name>MALAYALAM: KVTV NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/KVTV-NEWS.jpeg" />
   </channel>
-  <channel id="stream-443022">
+  <channel id="malayalam-443022">
     <display-name>MALAYALAM: DARSHANA TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/misc/logos/320/8410.jpg?21532" />
   </channel>
-  <channel id="stream-443021">
+  <channel id="malayalam-443021">
     <display-name>MALAYALAM: ASIANET ME</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/misc/logos/320/10844.jpg?1215" />
   </channel>
-  <channel id="stream-443020">
+  <channel id="malayalam-443020">
     <display-name>MALAYALAM: JEEVAN TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/misc/logos/320/3279.jpg?77895" />
   </channel>
-  <channel id="stream-443019">
+  <channel id="malayalam-443019">
     <display-name>MALAYALAM: KERALA VISION</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/misc/logos/320/1864.jpg?39109" />
   </channel>
-  <channel id="stream-443018">
+  <channel id="malayalam-443018">
     <display-name>MALAYALAM: REPORTER</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/misc/logos/320/3759.jpg?43827" />
   </channel>
