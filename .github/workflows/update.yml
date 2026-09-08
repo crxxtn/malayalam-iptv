@@ -1,4 +1,4 @@
-name: Update Malayalam IPTV
+name: Update Malayalam EPG
 
 on:
   workflow_dispatch:
@@ -21,17 +21,20 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate playlist and EPG
+      - name: Generate Malayalam EPG
         env:
           XTREAM_SERVER: ${{ secrets.XTREAM_SERVER }}
           XTREAM_USERNAME: ${{ secrets.XTREAM_USERNAME }}
           XTREAM_PASSWORD: ${{ secrets.XTREAM_PASSWORD }}
-        run: python update_malayalam.py
+        run: |
+          python update_malayalam.py
+          gzip -9 -c malayalam.xml > malayalam.xml.gz
 
-      - name: Commit updated files
+      - name: Commit updated EPG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add malayalam.m3u malayalam.xml
-          git diff --cached --quiet || git commit -m "Update Malayalam playlist and EPG"
+          git add malayalam.xml malayalam.xml.gz
+          git rm --cached --ignore-unmatch malayalam.m3u || true
+          git diff --cached --quiet || git commit -m "Update Malayalam EPG"
           git push
