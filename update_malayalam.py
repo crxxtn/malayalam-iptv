@@ -5,47 +5,97 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+import html
+import re
 
-SERVER = os.environ["XTREAM_SERVER"].rstrip("/")
-USERNAME = os.environ["XTREAM_USERNAME"]
-PASSWORD = os.environ["XTREAM_PASSWORD"]
+SERVER = os.environ["XTREAM_SERVER"].strip().rstrip("/")
+USERNAME = os.environ["XTREAM_USERNAME"].strip()
+PASSWORD = os.environ["XTREAM_PASSWORD"].strip()
 CATEGORY_ID = "255"
 
-def get_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode("utf-8", errors="replace"))
-
-def get_bytes(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return r.read()
+def fetch_json(url, timeout=60):
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0"}
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        raw = response.read()
+    return json.loads(raw.decode("utf-8", errors="replace"))
 
 def api(action, **params):
-    q = {
+    query = {
         "username": USERNAME,
         "password": PASSWORD,
         "action": action,
         **params,
     }
-    return get_json(SERVER + "/player_api.php?" + urllib.parse.urlencode(q))
+    url = SERVER + "/player_api.php?" + urllib.parse.urlencode(query)
+    return fetch_json(url)
 
-# Fetch current category 255 channels directly from the provider.
+def xml_escape(value):
+    if value is None:
+        return ""
+    return html.escape(str(value), quote=False)
+
+def parse_time(value):
+    """Return UTC datetime from common Xtream EPG formats."""
+    if value is None:
+        return None
+
+    # Unix timestamp
+    if isinstance(value, (int, float)):
+        return datetime.fromtimestamp(value, tz=timezone.utc)
+
+    text = str(value).strip()
+    if not text:
+        return None
+
+    if text.isdigit():
+        return datetime.fromtimestamp(int(text), tz=timezone.utc)
+
+    formats = [
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d %H:%M",
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%dT%H:%M:%SZ",
+    ]
+
+    for fmt in formats:
+        try:
+            dt = datetime.strptime(text, fmt)
+            return dt.replace(tzinfo=timezone.utc)
+        except ValueError:
+            pass
+
+    return None
+
+def xmltv_time(dt):
+    return dt.strftime("%Y%m%d%H%M%S +0000")
+
+# 1. Get the current category 255 channels.
 streams = api("get_live_streams", category_id=CATEGORY_ID)
+
 if not isinstance(streams, list):
-    raise RuntimeError(f"Unexpected get_live_streams response: {streams!r}")
+    raise RuntimeError("get_live_streams did not return a channel list.")
 
-streams = [s for s in streams if str(s.get("category_id")) == CATEGORY_ID]
+streams = [
+    s for s in streams
+    if str(s.get("category_id")) == CATEGORY_ID and s.get("stream_id") is not None
+]
+
 if not streams:
-    raise RuntimeError("No category 255 channels were returned.")
+    raise RuntimeError("No channels found in category 255.")
 
-# Build M3U using the provider's EPG channel id where available.
+print(f"Found {len(streams)} category-255 channels.")
+
+# 2. Build the M3U.
 m3u = ["#EXTM3U"]
+
 for s in streams:
-    name = s.get("name", f"Stream {s.get('stream_id')}")
-    sid = s["stream_id"]
-    epg_id = s.get("epg_channel_id") or ""
-    logo = s.get("stream_icon") or ""
+    name = str(s.get("name") or f"Stream {s['stream_id']}")
+    sid = str(s["stream_id"])
+    epg_id = str(s.get("epg_channel_id") or "")
+    logo = str(s.get("stream_icon") or "")
     group = "ASIA | MALAYALAM"
 
     attrs = [
@@ -56,93 +106,121 @@ for s in streams:
     ]
     attrs = " ".join(x for x in attrs if x)
 
-    # Xtream live-stream URL.
     url = (
         SERVER + "/live/" +
         urllib.parse.quote(USERNAME, safe="") + "/" +
         urllib.parse.quote(PASSWORD, safe="") + "/" +
-        str(sid) + ".ts"
+        sid + ".ts"
     )
+
     m3u.append(f"#EXTINF:-1 {attrs},{name}")
     m3u.append(url)
 
-Path("malayalam.m3u").write_text("\n".join(m3u) + "\n", encoding="utf-8")
-
-# Fetch provider XMLTV and keep only the channels used by category 255.
-xml_bytes = get_bytes(
-    SERVER + "/xmltv.php?" + urllib.parse.urlencode({
-        "username": USERNAME,
-        "password": PASSWORD,
-        "prev_days": 1,
-        "next_days": 3,
-    })
+Path("malayalam.m3u").write_text(
+    "\n".join(m3u) + "\n",
+    encoding="utf-8"
 )
 
-root = ET.fromstring(xml_bytes)
+# 3. Build XMLTV from each channel's own EPG.
+tv = ET.Element("tv", {
+    "generator-info-name": "GitHub Malayalam Xtream EPG updater"
+})
 
-wanted = {
-    str(s.get("epg_channel_id"))
-    for s in streams
-    if s.get("epg_channel_id")
-}
+success = 0
+programme_count = 0
 
-# If the provider's XMLTV has no matching IDs, fall back to per-stream short EPG.
-available_ids = {c.get("id") for c in root.findall("channel")}
-matched = wanted & available_ids
+for index, s in enumerate(streams, start=1):
+    sid = str(s["stream_id"])
+    name = str(s.get("name") or f"Stream {sid}")
+    epg_id = str(s.get("epg_channel_id") or f"stream-{sid}")
+    logo = str(s.get("stream_icon") or "")
 
-if not matched:
-    out = ET.Element("tv", {
-        "generator-info-name": "GitHub Malayalam Xtream EPG updater"
-    })
+    channel = ET.SubElement(tv, "channel", {"id": epg_id})
+    ET.SubElement(channel, "display-name").text = name
 
-    for s in streams:
-        epg_id = s.get("epg_channel_id") or f"stream-{s['stream_id']}"
-        ch = ET.SubElement(out, "channel", {"id": epg_id})
-        ET.SubElement(ch, "display-name").text = s.get("name", epg_id)
-        if s.get("stream_icon"):
-            ET.SubElement(ch, "icon", {"src": s["stream_icon"]})
+    if logo:
+        ET.SubElement(channel, "icon", {"src": logo})
 
-        try:
-            data = api(
-                "get_short_epg",
-                stream_id=s["stream_id"],
-                limit=20,
-            )
-            for p in data.get("epg_listings", []):
-                start = p.get("start")
-                end = p.get("end")
-                if not start or not end:
-                    continue
-                try:
-                    st = datetime.strptime(start, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
-                    en = datetime.strptime(end, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
-                    start_xml = st.strftime("%Y%m%d%H%M%S %z").replace("+0000", "+0000")
-                    end_xml = en.strftime("%Y%m%d%H%M%S %z").replace("+0000", "+0000")
-                except ValueError:
-                    continue
+    print(f"[{index}/{len(streams)}] Getting EPG for {name} ({sid})")
 
-                prog = ET.SubElement(out, "programme", {
-                    "start": start_xml,
-                    "stop": end_xml,
+    try:
+        result = api("get_short_epg", stream_id=sid, limit=40)
+
+        if not isinstance(result, dict):
+            print("  No usable EPG response.")
+            continue
+
+        listings = result.get("epg_listings") or []
+
+        # Some providers use a direct list.
+        if not listings and isinstance(result.get("data"), list):
+            listings = result["data"]
+
+        added_here = 0
+
+        for p in listings:
+            start = parse_time(p.get("start"))
+            stop = parse_time(p.get("end"))
+
+            if not start or not stop or stop <= start:
+                continue
+
+            programme = ET.SubElement(
+                tv,
+                "programme",
+                {
+                    "start": xmltv_time(start),
+                    "stop": xmltv_time(stop),
                     "channel": epg_id,
-                })
-                ET.SubElement(prog, "title").text = p.get("title", "")
-                if p.get("description"):
-                    ET.SubElement(prog, "desc").text = p["description"]
-        except Exception as exc:
-            print(f"EPG failed for {s['stream_id']}: {exc}")
+                },
+            )
 
-    root = out
-else:
-    # Remove channels/programmes that are not category 255.
-    for ch in list(root.findall("channel")):
-        if ch.get("id") not in matched:
-            root.remove(ch)
-    for prog in list(root.findall("programme")):
-        if prog.get("channel") not in matched:
-            root.remove(prog)
+            title = (
+                p.get("title")
+                or p.get("name")
+                or p.get("program")
+                or "Unknown programme"
+            )
+            ET.SubElement(programme, "title").text = str(title)
 
-ET.ElementTree(root).write("malayalam.xml", encoding="utf-8", xml_declaration=True)
+            description = (
+                p.get("description")
+                or p.get("desc")
+                or p.get("plot")
+            )
+            if description:
+                ET.SubElement(programme, "desc").text = str(description)
 
-print(f"Updated {len(streams)} Malayalam channels.")
-print(f"Matched {len(matched)} channels from provider XMLTV.")
+            category = p.get("category")
+            if category:
+                ET.SubElement(programme, "category").text = str(category)
+
+            added_here += 1
+
+        if added_here:
+            success += 1
+            programme_count += added_here
+            print(f"  Added {added_here} programmes.")
+        else:
+            print("  No programmes returned.")
+
+    except Exception as exc:
+        print(f"  EPG error: {exc}")
+
+# 4. Write XMLTV.
+ET.indent(tv, space="  ")
+ET.ElementTree(tv).write(
+    "malayalam.xml",
+    encoding="utf-8",
+    xml_declaration=True
+)
+
+print("")
+print(f"Finished. Channels: {len(streams)}")
+print(f"Channels with EPG data: {success}")
+print(f"Programmes written: {programme_count}")
+
+if success == 0:
+    raise RuntimeError(
+        "The provider returned no usable EPG data for any category-255 channel."
+    )
