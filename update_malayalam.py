@@ -6,21 +6,28 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 import html
+import base64
+import binascii
 import re
+
 
 SERVER = os.environ["XTREAM_SERVER"].strip().rstrip("/")
 USERNAME = os.environ["XTREAM_USERNAME"].strip()
 PASSWORD = os.environ["XTREAM_PASSWORD"].strip()
 CATEGORY_ID = "255"
 
+
 def fetch_json(url, timeout=60):
     req = urllib.request.Request(
         url,
         headers={"User-Agent": "Mozilla/5.0"}
     )
+
     with urllib.request.urlopen(req, timeout=timeout) as response:
         raw = response.read()
+
     return json.loads(raw.decode("utf-8", errors="replace"))
+
 
 def api(action, **params):
     query = {
@@ -29,24 +36,67 @@ def api(action, **params):
         "action": action,
         **params,
     }
+
     url = SERVER + "/player_api.php?" + urllib.parse.urlencode(query)
     return fetch_json(url)
 
-def xml_escape(value):
+
+def decode_text(value):
+    """
+    Xtream providers commonly return EPG titles/descriptions
+    as Base64. Decode them when appropriate, otherwise leave
+    the original text unchanged.
+    """
+
     if value is None:
         return ""
-    return html.escape(str(value), quote=False)
+
+    text = str(value).strip()
+
+    if not text:
+        return ""
+
+    # Already looks like normal readable text
+    if not re.fullmatch(r"[A-Za-z0-9+/=\s]+", text):
+        return text
+
+    # Base64 normally has a length divisible by 4
+    if len(text) < 8 or len(text) % 4 != 0:
+        return text
+
+    try:
+        decoded = base64.b64decode(text, validate=True)
+
+        decoded_text = decoded.decode("utf-8")
+
+        # Only use the decoded version if it is mostly printable
+        printable = sum(
+            1 for c in decoded_text
+            if c.isprintable() or c in "\n\r\t"
+        )
+
+        if len(decoded_text) > 0 and printable / len(decoded_text) > 0.90:
+            return decoded_text.strip()
+
+    except (binascii.Error, UnicodeDecodeError, ValueError):
+        pass
+
+    return text
+
 
 def parse_time(value):
-    """Return UTC datetime from common Xtream EPG formats."""
+    """
+    Convert common Xtream EPG date formats into UTC datetime.
+    """
+
     if value is None:
         return None
 
-    # Unix timestamp
     if isinstance(value, (int, float)):
         return datetime.fromtimestamp(value, tz=timezone.utc)
 
     text = str(value).strip()
+
     if not text:
         return None
 
@@ -58,6 +108,7 @@ def parse_time(value):
         "%Y-%m-%d %H:%M",
         "%Y-%m-%dT%H:%M:%S",
         "%Y-%m-%dT%H:%M:%SZ",
+        "%Y-%m-%dT%H:%M:%S.%fZ",
     ]
 
     for fmt in formats:
@@ -69,101 +120,164 @@ def parse_time(value):
 
     return None
 
+
 def xmltv_time(dt):
     return dt.strftime("%Y%m%d%H%M%S +0000")
 
-# 1. Get the current category 255 channels.
-streams = api("get_live_streams", category_id=CATEGORY_ID)
+
+# ---------------------------------------------------------
+# 1. Get current category 255 channels
+# ---------------------------------------------------------
+
+streams = api(
+    "get_live_streams",
+    category_id=CATEGORY_ID
+)
 
 if not isinstance(streams, list):
-    raise RuntimeError("get_live_streams did not return a channel list.")
+    raise RuntimeError(
+        "get_live_streams did not return a channel list."
+    )
+
 
 streams = [
     s for s in streams
-    if str(s.get("category_id")) == CATEGORY_ID and s.get("stream_id") is not None
+    if str(s.get("category_id")) == CATEGORY_ID
+    and s.get("stream_id") is not None
 ]
 
+
 if not streams:
-    raise RuntimeError("No channels found in category 255.")
-
-print(f"Found {len(streams)} category-255 channels.")
-
-# 2. Build the M3U.
-m3u = ["#EXTM3U"]
-
-for s in streams:
-    name = str(s.get("name") or f"Stream {s['stream_id']}")
-    sid = str(s["stream_id"])
-    epg_id = str(s.get("epg_channel_id") or "")
-    logo = str(s.get("stream_icon") or "")
-    group = "ASIA | MALAYALAM"
-
-    attrs = [
-        f'tvg-id="{epg_id}"' if epg_id else "",
-        f'tvg-name="{name}"',
-        f'tvg-logo="{logo}"' if logo else "",
-        f'group-title="{group}"',
-    ]
-    attrs = " ".join(x for x in attrs if x)
-
-    url = (
-        SERVER + "/live/" +
-        urllib.parse.quote(USERNAME, safe="") + "/" +
-        urllib.parse.quote(PASSWORD, safe="") + "/" +
-        sid + ".ts"
+    raise RuntimeError(
+        "No channels found in category 255."
     )
 
-    m3u.append(f"#EXTINF:-1 {attrs},{name}")
-    m3u.append(url)
 
-Path("malayalam.m3u").write_text(
-    "\n".join(m3u) + "\n",
-    encoding="utf-8"
+print(
+    f"Found {len(streams)} category-255 channels."
 )
 
-# 3. Build XMLTV from each channel's own EPG.
-tv = ET.Element("tv", {
-    "generator-info-name": "GitHub Malayalam Xtream EPG updater"
-})
+
+# ---------------------------------------------------------
+# 2. Build XMLTV
+# ---------------------------------------------------------
+
+tv = ET.Element(
+    "tv",
+    {
+        "generator-info-name":
+            "GitHub Malayalam Xtream EPG updater"
+    }
+)
+
 
 success = 0
 programme_count = 0
 
-for index, s in enumerate(streams, start=1):
-    sid = str(s["stream_id"])
-    name = str(s.get("name") or f"Stream {sid}")
-    epg_id = str(s.get("epg_channel_id") or f"stream-{sid}")
-    logo = str(s.get("stream_icon") or "")
 
-    channel = ET.SubElement(tv, "channel", {"id": epg_id})
-    ET.SubElement(channel, "display-name").text = name
+for index, stream in enumerate(streams, start=1):
+
+    stream_id = str(stream["stream_id"])
+
+    channel_name = str(
+        stream.get("name")
+        or f"Stream {stream_id}"
+    ).strip()
+
+    provider_epg_id = str(
+        stream.get("epg_channel_id") or ""
+    ).strip()
+
+    logo = str(
+        stream.get("stream_icon") or ""
+    ).strip()
+
+
+    # Use provider EPG ID when available.
+    # Otherwise use a stable ID based on the stream ID.
+    channel_id = (
+        provider_epg_id
+        if provider_epg_id
+        else f"malayalam-{stream_id}"
+    )
+
+
+    print(
+        f"[{index}/{len(streams)}] "
+        f"Getting EPG for {channel_name} "
+        f"({stream_id})"
+    )
+
+
+    # Create channel
+    channel = ET.SubElement(
+        tv,
+        "channel",
+        {"id": channel_id}
+    )
+
+    ET.SubElement(
+        channel,
+        "display-name"
+    ).text = channel_name
+
 
     if logo:
-        ET.SubElement(channel, "icon", {"src": logo})
+        ET.SubElement(
+            channel,
+            "icon",
+            {"src": logo}
+        )
 
-    print(f"[{index}/{len(streams)}] Getting EPG for {name} ({sid})")
 
     try:
-        result = api("get_short_epg", stream_id=sid, limit=40)
+
+        result = api(
+            "get_short_epg",
+            stream_id=stream_id,
+            limit=40
+        )
+
 
         if not isinstance(result, dict):
             print("  No usable EPG response.")
             continue
 
-        listings = result.get("epg_listings") or []
 
-        # Some providers use a direct list.
-        if not listings and isinstance(result.get("data"), list):
+        listings = result.get(
+            "epg_listings"
+        ) or []
+
+
+        # Some Xtream providers use "data"
+        if (
+            not listings
+            and isinstance(result.get("data"), list)
+        ):
             listings = result["data"]
+
 
         added_here = 0
 
-        for p in listings:
-            start = parse_time(p.get("start"))
-            stop = parse_time(p.get("end"))
 
-            if not start or not stop or stop <= start:
+        for programme_data in listings:
+
+            start = parse_time(
+                programme_data.get("start")
+            )
+
+            stop = parse_time(
+                programme_data.get("end")
+            )
+
+
+            if (
+                not start
+                or not stop
+                or stop <= start
+            ):
                 continue
+
 
             programme = ET.SubElement(
                 tv,
@@ -171,56 +285,119 @@ for index, s in enumerate(streams, start=1):
                 {
                     "start": xmltv_time(start),
                     "stop": xmltv_time(stop),
-                    "channel": epg_id,
+                    "channel": channel_id,
                 },
             )
 
+
+            # Decode Base64 programme title
             title = (
-                p.get("title")
-                or p.get("name")
-                or p.get("program")
+                programme_data.get("title")
+                or programme_data.get("name")
+                or programme_data.get("program")
                 or "Unknown programme"
             )
-            ET.SubElement(programme, "title").text = str(title)
 
+            title = decode_text(title)
+
+
+            ET.SubElement(
+                programme,
+                "title"
+            ).text = title
+
+
+            # Decode description if present
             description = (
-                p.get("description")
-                or p.get("desc")
-                or p.get("plot")
+                programme_data.get("description")
+                or programme_data.get("desc")
+                or programme_data.get("plot")
             )
-            if description:
-                ET.SubElement(programme, "desc").text = str(description)
 
-            category = p.get("category")
+
+            if description:
+                description = decode_text(
+                    description
+                )
+
+                ET.SubElement(
+                    programme,
+                    "desc"
+                ).text = description
+
+
+            category = programme_data.get(
+                "category"
+            )
+
+
             if category:
-                ET.SubElement(programme, "category").text = str(category)
+                category = decode_text(
+                    category
+                )
+
+                ET.SubElement(
+                    programme,
+                    "category"
+                ).text = category
+
 
             added_here += 1
 
+
         if added_here:
+
             success += 1
             programme_count += added_here
-            print(f"  Added {added_here} programmes.")
+
+            print(
+                f"  Added {added_here} programmes."
+            )
+
         else:
-            print("  No programmes returned.")
+            print(
+                "  No programmes returned."
+            )
+
 
     except Exception as exc:
-        print(f"  EPG error: {exc}")
 
-# 4. Write XMLTV.
-ET.indent(tv, space="  ")
+        print(
+            f"  EPG error: {exc}"
+        )
+
+
+# ---------------------------------------------------------
+# 3. Write XMLTV
+# ---------------------------------------------------------
+
+ET.indent(
+    tv,
+    space="  "
+)
+
+
 ET.ElementTree(tv).write(
     "malayalam.xml",
     encoding="utf-8",
     xml_declaration=True
 )
 
+
 print("")
-print(f"Finished. Channels: {len(streams)}")
-print(f"Channels with EPG data: {success}")
-print(f"Programmes written: {programme_count}")
+print(
+    f"Finished. Channels: {len(streams)}"
+)
+print(
+    f"Channels with EPG data: {success}"
+)
+print(
+    f"Programmes written: {programme_count}"
+)
+
 
 if success == 0:
     raise RuntimeError(
-        "The provider returned no usable EPG data for any category-255 channel."
+        "The provider returned no usable EPG "
+        "data for any category-255 channel."
     )
