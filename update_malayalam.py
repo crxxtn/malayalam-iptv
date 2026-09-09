@@ -1,11 +1,10 @@
 import os
 import re
-import gzip
 import urllib.request
 import urllib.parse
-import xml.etree.ElementTree as ET
+import json
+import base64
 from collections import defaultdict
-from datetime import datetime, timezone
 
 
 SERVER = os.environ["XTREAM_SERVER"].rstrip("/")
@@ -14,34 +13,9 @@ PASSWORD = os.environ["XTREAM_PASSWORD"].strip()
 
 CATEGORY_ID = "255"
 
-FULL_XMLTV_URL = (
-    f"{SERVER}/xmltv.php?"
-    f"username={urllib.parse.quote(USERNAME)}&"
-    f"password={urllib.parse.quote(PASSWORD)}&"
-    f"prev_days=0&next_days=3"
-)
-
-SHORT_EPG_LIMIT = 40
-
 OUTPUT_FILE = "malayalam.xml"
 
-
-def decode_base64(value):
-    if not value:
-        return ""
-
-    try:
-        import base64
-
-        value = value.strip()
-
-        # Xtream sometimes returns Base64 without padding
-        value += "=" * (-len(value) % 4)
-
-        decoded = base64.b64decode(value).decode("utf-8", errors="ignore")
-        return decoded.strip()
-    except Exception:
-        return value
+SHORT_EPG_LIMIT = 100
 
 
 def clean_text(value):
@@ -50,25 +24,60 @@ def clean_text(value):
 
     value = str(value)
     value = re.sub(r"\s+", " ", value)
+
     return value.strip()
 
 
+def decode_value(value):
+    if not value:
+        return ""
+
+    value = str(value).strip()
+
+    # Try normal Base64 decoding first
+    try:
+        padded = value + "=" * (-len(value) % 4)
+        decoded = base64.b64decode(
+            padded,
+            validate=False
+        ).decode(
+            "utf-8",
+            errors="ignore"
+        ).strip()
+
+        if decoded:
+            return decoded
+    except Exception:
+        pass
+
+    return value
+
+
 def request_json(url):
-    req = urllib.request.Request(
+    request = urllib.request.Request(
         url,
         headers={
             "User-Agent": "Mozilla/5.0 Malayalam-EPG-Updater"
-        },
+        }
     )
 
-    with urllib.request.urlopen(req, timeout=60) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=60
+    ) as response:
+
         data = response.read()
 
-    import json
-    return json.loads(data.decode("utf-8", errors="ignore"))
+    return json.loads(
+        data.decode(
+            "utf-8",
+            errors="ignore"
+        )
+    )
 
 
 def get_malayalam_channels():
+
     url = (
         f"{SERVER}/player_api.php?"
         f"username={urllib.parse.quote(USERNAME)}&"
@@ -82,24 +91,32 @@ def get_malayalam_channels():
     channels = []
 
     for item in data:
-        stream_id = str(item.get("stream_id", "")).strip()
+
+        stream_id = str(
+            item.get("stream_id", "")
+        ).strip()
 
         if not stream_id:
             continue
 
-        channels.append(
-            {
-                "stream_id": stream_id,
-                "name": clean_text(item.get("name", "")),
-                "epg_id": clean_text(item.get("epg_channel_id", "")),
-                "logo": clean_text(item.get("stream_icon", "")),
-            }
-        )
+        channels.append({
+            "stream_id": stream_id,
+            "name": clean_text(
+                item.get("name", "")
+            ),
+            "epg_id": clean_text(
+                item.get("epg_channel_id", "")
+            ),
+            "logo": clean_text(
+                item.get("stream_icon", "")
+            )
+        })
 
     return channels
 
 
 def get_short_epg(stream_id):
+
     url = (
         f"{SERVER}/player_api.php?"
         f"username={urllib.parse.quote(USERNAME)}&"
@@ -110,157 +127,118 @@ def get_short_epg(stream_id):
     )
 
     try:
+
         data = request_json(url)
 
-        listings = data.get("epg_listings", [])
-
-        programmes = []
-
-        for item in listings:
-            start = item.get("start", "")
-            stop = item.get("end", "")
-
-            title = decode_base64(item.get("title", ""))
-            description = decode_base64(item.get("description", ""))
-
-            if not start or not stop or not title:
-                continue
-
-            programmes.append(
-                {
-                    "start": start,
-                    "stop": stop,
-                    "title": title,
-                    "description": description,
-                }
-            )
-
-        return programmes
+        return data.get(
+            "epg_listings",
+            []
+        )
 
     except Exception as e:
-        print(f"Short EPG failed for {stream_id}: {e}")
+
+        print(
+            f"SHORT EPG ERROR "
+            f"{stream_id}: {e}"
+        )
+
         return []
 
 
-def parse_full_xmltv():
-    """
-    Download Strong8k's full XMLTV feed and extract only programmes
-    belonging to the Malayalam provider EPG IDs.
+def get_simple_data_table(stream_id):
 
-    The feed can occasionally be truncated by the server. We therefore
-    use iterparse so programmes already read can still be retained.
-    """
-
-    wanted_ids = {
-        channel["epg_id"]
-        for channel in CHANNELS
-        if channel["epg_id"]
-    }
-
-    print(f"Provider EPG IDs to search for: {len(wanted_ids)}")
-
-    programmes = defaultdict(list)
-
-    req = urllib.request.Request(
-        FULL_XMLTV_URL,
-        headers={
-            "User-Agent": "Mozilla/5.0 Malayalam-EPG-Updater"
-        },
+    url = (
+        f"{SERVER}/player_api.php?"
+        f"username={urllib.parse.quote(USERNAME)}&"
+        f"password={urllib.parse.quote(PASSWORD)}&"
+        f"action=get_simple_data_table&"
+        f"stream_id={urllib.parse.quote(stream_id)}"
     )
 
-    temp_file = "strong8k.xml"
-
-    print("Downloading Strong8k full XMLTV...")
-
     try:
-        with urllib.request.urlopen(req, timeout=180) as response:
-            with open(temp_file, "wb") as f:
-                while True:
-                    chunk = response.read(1024 * 1024)
 
-                    if not chunk:
-                        break
+        data = request_json(url)
 
-                    f.write(chunk)
+        # Normal Xtream response
+        if isinstance(data, dict):
+
+            listings = data.get(
+                "epg_listings",
+                []
+            )
+
+            if listings:
+                return listings
+
+            # Some providers return the
+            # listings under another key.
+            for key in (
+                "epg",
+                "data",
+                "listings"
+            ):
+
+                if isinstance(
+                    data.get(key),
+                    list
+                ):
+                    return data[key]
+
+        # Some providers return a list directly
+        if isinstance(data, list):
+            return data
+
+        return []
 
     except Exception as e:
-        print(f"Full XMLTV download failed: {e}")
-        return programmes
 
-    print("Parsing Strong8k XMLTV...")
-
-    parsed = 0
-
-    try:
-        context = ET.iterparse(
-            temp_file,
-            events=("end",)
+        print(
+            f"SIMPLE TABLE ERROR "
+            f"{stream_id}: {e}"
         )
 
-        for event, elem in context:
-
-            if elem.tag != "programme":
-                continue
-
-            channel_id = elem.attrib.get("channel", "").strip()
-
-            if channel_id not in wanted_ids:
-                elem.clear()
-                continue
-
-            start = elem.attrib.get("start", "").strip()
-            stop = elem.attrib.get("stop", "").strip()
-
-            title_element = elem.find("title")
-            desc_element = elem.find("desc")
-
-            title = ""
-            description = ""
-
-            if title_element is not None:
-                title = clean_text(title_element.text)
-
-            if desc_element is not None:
-                description = clean_text(desc_element.text)
-
-            if start and stop and title:
-                programmes[channel_id].append(
-                    {
-                        "start": start,
-                        "stop": stop,
-                        "title": title,
-                        "description": description,
-                    }
-                )
-
-                parsed += 1
-
-            elem.clear()
-
-    except ET.ParseError as e:
-        print(f"XMLTV ended unexpectedly: {e}")
-        print("Keeping programmes successfully parsed before the error.")
-
-    except Exception as e:
-        print(f"XMLTV parsing error: {e}")
-
-    print(f"Full XMLTV programmes found: {parsed}")
-
-    return programmes
+        return []
 
 
-def normalise_epg_id(value):
-    value = clean_text(value)
+def normalise_programme(item):
 
-    if not value:
-        return ""
+    start = clean_text(
+        item.get("start")
+        or item.get("start_time")
+        or ""
+    )
 
-    return value.strip()
+    stop = clean_text(
+        item.get("end")
+        or item.get("stop")
+        or item.get("end_time")
+        or ""
+    )
+
+    title = decode_value(
+        item.get("title")
+        or item.get("name")
+        or ""
+    )
+
+    description = decode_value(
+        item.get("description")
+        or item.get("desc")
+        or ""
+    )
+
+    if not start or not stop or not title:
+        return None
+
+    return {
+        "start": start,
+        "stop": stop,
+        "title": clean_text(title),
+        "description": clean_text(description)
+    }
 
 
 def xml_escape(value):
-    if value is None:
-        return ""
 
     return (
         str(value)
@@ -273,133 +251,164 @@ def xml_escape(value):
 
 
 def make_channel_id(channel):
-    """
-    Preserve the provider's EPG ID whenever possible.
 
-    This is important because TiviMate matches the playlist tvg-id
-    against the XMLTV channel id.
-    """
-
-    epg_id = normalise_epg_id(channel["epg_id"])
-
-    if epg_id:
-        return epg_id
+    # Always make the XMLTV ID unique.
+    #
+    # This avoids the previous problem where several
+    # channels were all using IDs such as:
+    # Surya.in
+    # AsianetNews.in
 
     return f"malayalam-{channel['stream_id']}"
 
 
 def add_programmes(
-    programme_store,
+    destination,
     channel_id,
-    programmes,
+    listings
 ):
-    existing = programme_store[channel_id]
 
     seen = {
         (
             p["start"],
             p["stop"],
-            p["title"],
+            p["title"]
         )
-        for p in existing
+        for p in destination[channel_id]
     }
 
-    for programme in programmes:
+    added = 0
+
+    for item in listings:
+
+        programme = normalise_programme(item)
+
+        if not programme:
+            continue
+
         key = (
             programme["start"],
             programme["stop"],
-            programme["title"],
+            programme["title"]
         )
 
-        if key not in seen:
-            existing.append(programme)
-            seen.add(key)
+        if key in seen:
+            continue
+
+        destination[channel_id].append(
+            programme
+        )
+
+        seen.add(key)
+        added += 1
+
+    return added
 
 
-def build_epg():
-    global CHANNELS
+def main():
 
-    CHANNELS = get_malayalam_channels()
+    channels = get_malayalam_channels()
 
-    print(f"Malayalam channels: {len(CHANNELS)}")
+    print(
+        f"Malayalam channels: "
+        f"{len(channels)}"
+    )
 
-    strong8k_channels = [
-        channel for channel in CHANNELS
-        if channel["epg_id"]
-    ]
+    strong8k_epg_channels = sum(
+        1
+        for c in channels
+        if c["epg_id"]
+    )
 
     print(
         f"Strong8k channels with EPG: "
-        f"{len(strong8k_channels)}"
+        f"{strong8k_epg_channels}"
     )
 
-    full_epg = parse_full_xmltv()
+    programmes = defaultdict(list)
 
-    programme_store = defaultdict(list)
+    short_total = 0
+    simple_total = 0
 
-    # ---------------------------------------------------------
-    # 1. FULL XMLTV
-    # ---------------------------------------------------------
+    short_channels = 0
+    simple_channels = 0
 
-    full_matches = 0
-
-    for channel in CHANNELS:
-        epg_id = channel["epg_id"]
-
-        if not epg_id:
-            continue
-
-        programmes = full_epg.get(epg_id, [])
-
-        if programmes:
-            channel_id = make_channel_id(channel)
-
-            add_programmes(
-                programme_store,
-                channel_id,
-                programmes,
-            )
-
-            full_matches += 1
-
+    print()
     print(
-        f"Full XMLTV channels with programmes: "
-        f"{full_matches}"
+        "Querying both EPG endpoints "
+        "for every Malayalam channel..."
     )
+    print()
 
-    # ---------------------------------------------------------
-    # 2. SHORT EPG FALLBACK
-    # ---------------------------------------------------------
+    for number, channel in enumerate(
+        channels,
+        start=1
+    ):
 
-    fallback_channels = 0
-
-    for channel in CHANNELS:
-        channel_id = make_channel_id(channel)
-
-        if programme_store[channel_id]:
-            continue
-
-        programmes = get_short_epg(
-            channel["stream_id"]
+        stream_id = channel["stream_id"]
+        channel_id = make_channel_id(
+            channel
         )
 
-        if programmes:
-            add_programmes(
-                programme_store,
-                channel_id,
-                programmes,
-            )
+        print(
+            f"[{number}/{len(channels)}] "
+            f"{channel['name']} "
+            f"(stream {stream_id})"
+        )
 
-            fallback_channels += 1
+        # ------------------------------------------
+        # SHORT EPG
+        # ------------------------------------------
 
-    print(
-        f"Short EPG fallback channels: "
-        f"{fallback_channels}"
-    )
+        short = get_short_epg(
+            stream_id
+        )
 
-    # ---------------------------------------------------------
+        short_added = add_programmes(
+            programmes,
+            channel_id,
+            short
+        )
+
+        if short_added:
+            short_channels += 1
+
+        short_total += short_added
+
+        print(
+            f"    Short EPG: "
+            f"{len(short)} returned, "
+            f"{short_added} added"
+        )
+
+        # ------------------------------------------
+        # FULL SIMPLE DATA TABLE
+        # ------------------------------------------
+
+        simple = get_simple_data_table(
+            stream_id
+        )
+
+        simple_added = add_programmes(
+            programmes,
+            channel_id,
+            simple
+        )
+
+        if simple_added:
+            simple_channels += 1
+
+        simple_total += simple_added
+
+        print(
+            f"    Simple table: "
+            f"{len(simple)} returned, "
+            f"{simple_added} added"
+        )
+
+    # ----------------------------------------------
     # BUILD XMLTV
-    # ---------------------------------------------------------
+    # ----------------------------------------------
 
     lines = []
 
@@ -408,16 +417,21 @@ def build_epg():
     )
 
     lines.append(
-        '<tv generator-info-name="Malayalam Strong8k EPG updater">'
+        '<tv generator-info-name='
+        '"Malayalam Strong8k EPG updater">'
     )
 
-    # Channels
-    for channel in CHANNELS:
+    # CHANNELS
 
-        channel_id = make_channel_id(channel)
+    for channel in channels:
+
+        channel_id = make_channel_id(
+            channel
+        )
 
         lines.append(
-            f'  <channel id="{xml_escape(channel_id)}">'
+            f'  <channel id="'
+            f'{xml_escape(channel_id)}">'
         )
 
         lines.append(
@@ -427,32 +441,36 @@ def build_epg():
         )
 
         if channel["logo"]:
+
             lines.append(
-                f'    <icon src="{xml_escape(channel["logo"])}"/>'
+                f'    <icon src="'
+                f'{xml_escape(channel["logo"])}"/>'
             )
 
         lines.append(
             "  </channel>"
         )
 
-    # Programmes
+    # PROGRAMMES
+
     total_programmes = 0
 
-    for channel in CHANNELS:
+    for channel in channels:
 
-        channel_id = make_channel_id(channel)
+        channel_id = make_channel_id(
+            channel
+        )
 
-        programmes = programme_store.get(
+        channel_programmes = programmes.get(
             channel_id,
             []
         )
 
-        # Sort chronologically
-        programmes.sort(
+        channel_programmes.sort(
             key=lambda p: p["start"]
         )
 
-        for programme in programmes:
+        for programme in channel_programmes:
 
             lines.append(
                 f'  <programme '
@@ -462,10 +480,13 @@ def build_epg():
             )
 
             lines.append(
-                f'    <title>{xml_escape(programme["title"])}</title>'
+                f'    <title>'
+                f'{xml_escape(programme["title"])}'
+                f'</title>'
             )
 
             if programme["description"]:
+
                 lines.append(
                     f'    <desc>'
                     f'{xml_escape(programme["description"])}'
@@ -478,7 +499,9 @@ def build_epg():
 
             total_programmes += 1
 
-    lines.append("</tv>")
+    lines.append(
+        "</tv>"
+    )
 
     with open(
         OUTPUT_FILE,
@@ -490,29 +513,73 @@ def build_epg():
             "\n".join(lines)
         )
 
+    # ----------------------------------------------
+    # FINAL DIAGNOSTICS
+    # ----------------------------------------------
+
+    channels_with_programmes = sum(
+        1
+        for channel in channels
+        if programmes.get(
+            make_channel_id(channel)
+        )
+    )
+
     print()
-    print("======================================")
-    print("Malayalam EPG generation complete")
-    print("======================================")
-    print(f"Malayalam channels: {len(CHANNELS)}")
+    print(
+        "======================================"
+    )
+    print(
+        "Malayalam EPG generation complete"
+    )
+    print(
+        "======================================"
+    )
+
+    print(
+        f"Malayalam channels: "
+        f"{len(channels)}"
+    )
+
     print(
         f"Strong8k channels with EPG: "
-        f"{len(strong8k_channels)}"
+        f"{strong8k_epg_channels}"
     )
+
     print(
-        f"Full XMLTV channels with programmes: "
-        f"{full_matches}"
+        f"Short EPG channels: "
+        f"{short_channels}"
     )
+
     print(
-        f"Short EPG fallback channels: "
-        f"{fallback_channels}"
+        f"Simple table channels: "
+        f"{simple_channels}"
     )
+
+    print(
+        f"Short EPG programmes added: "
+        f"{short_total}"
+    )
+
+    print(
+        f"Simple table programmes added: "
+        f"{simple_total}"
+    )
+
+    print(
+        f"Channels with any programmes: "
+        f"{channels_with_programmes}"
+    )
+
     print(
         f"Total programmes: "
         f"{total_programmes}"
     )
-    print("======================================")
+
+    print(
+        "======================================"
+    )
 
 
 if __name__ == "__main__":
-    build_epg()
+    main()
