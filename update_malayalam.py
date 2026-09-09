@@ -2,46 +2,49 @@ import os
 import json
 import urllib.parse
 import urllib.request
-import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from pathlib import Path
 import base64
 import binascii
 import gzip
 import io
 import re
-import tempfile
 
 
 SERVER = os.environ["XTREAM_SERVER"].strip().rstrip("/")
 USERNAME = os.environ["XTREAM_USERNAME"].strip()
 PASSWORD = os.environ["XTREAM_PASSWORD"].strip()
+
 CATEGORY_ID = "255"
 
-# Public community EPG used only as a fallback.
 EXTERNAL_EPG_URL = (
-    "https://raw.githubusercontent.com/StrangeDrVN/epg/"
-    "public/output/guide.xml.gz"
+    "https://iptv-org.github.io/epg/guides/en/dishtv.in.xml"
 )
 
 
-def fetch_bytes(url, timeout=90):
-    req = urllib.request.Request(
+def fetch_bytes(url, timeout=120):
+    request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 Malayalam-EPG-Updater"
+            "User-Agent": "Mozilla/5.0 Malayalam-EPG"
         },
     )
 
-    with urllib.request.urlopen(req, timeout=timeout) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=timeout
+    ) as response:
         return response.read()
 
 
 def fetch_json(url, timeout=90):
     raw = fetch_bytes(url, timeout)
+
     return json.loads(
-        raw.decode("utf-8", errors="replace")
+        raw.decode(
+            "utf-8",
+            errors="replace"
+        )
     )
 
 
@@ -63,10 +66,6 @@ def api(action, **params):
 
 
 def decode_text(value):
-    """
-    Decode Base64 text used by some Xtream providers.
-    Leave normal text unchanged.
-    """
 
     if value is None:
         return ""
@@ -82,27 +81,34 @@ def decode_text(value):
     ):
         return text
 
-    if len(text) < 8 or len(text) % 4 != 0:
+    if len(text) < 8:
+        return text
+
+    if len(text) % 4 != 0:
         return text
 
     try:
+
         decoded = base64.b64decode(
             text,
             validate=True
         )
 
-        decoded_text = decoded.decode("utf-8")
+        decoded_text = decoded.decode(
+            "utf-8"
+        )
 
         printable = sum(
             1
-            for c in decoded_text
-            if c.isprintable()
-            or c in "\n\r\t"
+            for char in decoded_text
+            if char.isprintable()
+            or char in "\n\r\t"
         )
 
         if (
             decoded_text
-            and printable / len(decoded_text) > 0.90
+            and printable / len(decoded_text)
+            > 0.90
         ):
             return decoded_text.strip()
 
@@ -117,10 +123,14 @@ def decode_text(value):
 
 
 def parse_time(value):
+
     if value is None:
         return None
 
-    if isinstance(value, (int, float)):
+    if isinstance(
+        value,
+        (int, float)
+    ):
         try:
             return datetime.fromtimestamp(
                 value,
@@ -135,6 +145,7 @@ def parse_time(value):
         return None
 
     if text.isdigit():
+
         try:
             return datetime.fromtimestamp(
                 int(text),
@@ -154,15 +165,22 @@ def parse_time(value):
     ]
 
     for fmt in formats:
+
         try:
-            dt = datetime.strptime(text, fmt)
+
+            dt = datetime.strptime(
+                text,
+                fmt
+            )
 
             if dt.tzinfo is None:
                 dt = dt.replace(
                     tzinfo=timezone.utc
                 )
 
-            return dt.astimezone(timezone.utc)
+            return dt.astimezone(
+                timezone.utc
+            )
 
         except ValueError:
             pass
@@ -171,67 +189,138 @@ def parse_time(value):
 
 
 def xmltv_time(dt):
+
     return dt.strftime(
         "%Y%m%d%H%M%S +0000"
     )
 
 
-def normalise_name(name):
-    """
-    Make channel names easier to compare between
-    Strong8k and external EPG sources.
-    """
+def clean_name(name):
 
     if not name:
         return ""
 
-    text = decode_text(name).upper()
+    text = decode_text(
+        name
+    ).upper()
+
+    text = text.replace(
+        "&",
+        "AND"
+    )
 
     text = re.sub(
-        r"^(MALAYALAM|INDIA|INDIAN)\s*[:\-]\s*",
+        r"^MALAYALAM\s*[:\-]\s*",
         "",
-        text,
+        text
     )
 
     text = re.sub(
         r"\bHD\b",
         "",
-        text,
+        text
     )
 
     text = re.sub(
         r"\bSD\b",
         "",
-        text,
+        text
+    )
+
+    text = re.sub(
+        r"\bTV\b",
+        " TV ",
+        text
     )
 
     text = re.sub(
         r"[^A-Z0-9]+",
         "",
-        text,
+        text
     )
 
     aliases = {
-        "ZEEKERALAM": "ZEEKERALAM",
-        "ZEEKERALAMHD": "ZEEKERALAM",
-        "ASIANET": "ASIANET",
-        "ASIANETHD": "ASIANET",
-        "ASIANETNEWS": "ASIANETNEWS",
-        "FLOWERS": "FLOWERS",
-        "FLOWERSTV": "FLOWERS",
-        "SURYA": "SURYATV",
-        "SURYATV": "SURYATV",
-        "SURYAMOVIES": "SURYAMOVIES",
-        "SURYAMUSIC": "SURYAMUSIC",
-        "KAIRALITV": "KAIRALI",
-        "KAIRALI": "KAIRALI",
-        "KAIRALINEWS": "KAIRALINEWS",
-        "KAIRALIWE": "KAIRALIWE",
-        "REPORTERTV": "REPORTER",
-        "REPORTER": "REPORTER",
-        "RAJMUSIXMALAYALAM": "RAJMUSIXMALAYALAM",
-        "TWENTYFOUR": "TWENTYFOUR",
-        "24NEWS": "TWENTYFOUR",
+
+        "ZEEKERALAM":
+            "ZEEKERALAM",
+
+        "ZEEKERALAMHD":
+            "ZEEKERALAM",
+
+        "SURYATV":
+            "SURYATV",
+
+        "SURYA":
+            "SURYATV",
+
+        "SURYAMOVIES":
+            "SURYAMOVIES",
+
+        "SURYAMUSIC":
+            "SURYAMUSIC",
+
+        "ASIANET":
+            "ASIANET",
+
+        "ASIANETPLUS":
+            "ASIANETPLUS",
+
+        "ASIANETNEWS":
+            "ASIANETNEWS",
+
+        "ASIANETMOVIE":
+            "ASIANETMOVIES",
+
+        "ASIANETMOVIESHD":
+            "ASIANETMOVIES",
+
+        "FLOWERS":
+            "FLOWERS",
+
+        "FLOWERSTV":
+            "FLOWERS",
+
+        "AMRITHATV":
+            "AMRITATV",
+
+        "AMRITATV":
+            "AMRITATV",
+
+        "DDMALAYALAM":
+            "DDMALAYALAM",
+
+        "JAIHINDTV":
+            "JAIHINDTV",
+
+        "JANAMTV":
+            "JANAMTV",
+
+        "KAIRALITV":
+            "KAIRALI",
+
+        "KAIRALI":
+            "KAIRALI",
+
+        "KAIRALINEWS":
+            "KAIRALINEWS",
+
+        "KAIRALIPEOPLETV":
+            "KAIRALIPEOPLE",
+
+        "REPORTER":
+            "REPORTER",
+
+        "REPORTERTV":
+            "REPORTER",
+
+        "RAJMUSIXMALAYALAM":
+            "RAJMUSIXMALAYALAM",
+
+        "TWENTYFOUR":
+            "TWENTYFOUR",
+
+        "24NEWS":
+            "TWENTYFOUR",
     }
 
     return aliases.get(
@@ -240,96 +329,127 @@ def normalise_name(name):
     )
 
 
-def get_provider_programmes(stream_id):
-    """
-    First fallback: Xtream short EPG.
-    """
+def provider_epg(
+    stream_id
+):
 
     try:
+
         result = api(
             "get_short_epg",
             stream_id=stream_id,
-            limit=40,
+            limit=40
         )
 
-        if not isinstance(result, dict):
+        if not isinstance(
+            result,
+            dict
+        ):
             return []
 
         listings = (
-            result.get("epg_listings")
-            or result.get("data")
+            result.get(
+                "epg_listings"
+            )
+            or result.get(
+                "data"
+            )
             or []
         )
 
-        if not isinstance(listings, list):
-            return []
-
-        return listings
-
-    except Exception as exc:
-        print(
-            f"    Short EPG error: {exc}"
-        )
-        return []
-
-
-def get_simple_provider_epg(stream_id):
-    """
-    Some Xtream servers expose EPG through
-    get_simple_data_table instead.
-    """
-
-    try:
-        result = api(
-            "get_simple_data_table",
-            stream_id=stream_id,
-        )
-
-        if isinstance(result, dict):
-            listings = (
-                result.get("epg_listings")
-                or result.get("data")
-                or result.get("epg")
-                or []
-            )
-
-            if isinstance(listings, list):
-                return listings
-
-        if isinstance(result, list):
-            return result
+        if isinstance(
+            listings,
+            list
+        ):
+            return listings
 
     except Exception as exc:
+
         print(
-            f"    Simple EPG error: {exc}"
+            "  Strong8k EPG error:",
+            exc
         )
 
     return []
 
 
-def add_programmes(
+def simple_epg(
+    stream_id
+):
+
+    try:
+
+        result = api(
+            "get_simple_data_table",
+            stream_id=stream_id
+        )
+
+        if isinstance(
+            result,
+            list
+        ):
+            return result
+
+        if isinstance(
+            result,
+            dict
+        ):
+
+            listings = (
+                result.get(
+                    "epg_listings"
+                )
+                or result.get(
+                    "data"
+                )
+                or result.get(
+                    "epg"
+                )
+                or []
+            )
+
+            if isinstance(
+                listings,
+                list
+            ):
+                return listings
+
+    except Exception as exc:
+
+        print(
+            "  Simple EPG error:",
+            exc
+        )
+
+    return []
+
+
+def add_provider_programmes(
     tv,
     channel_id,
-    listings,
+    listings
 ):
+
     count = 0
 
-    for data in listings:
+    for item in listings:
 
-        if not isinstance(data, dict):
+        if not isinstance(
+            item,
+            dict
+        ):
             continue
 
         start = parse_time(
-            data.get("start")
-            or data.get("start_time")
-            or data.get("starttime")
+            item.get(
+                "start"
+            )
         )
 
         stop = parse_time(
-            data.get("end")
-            or data.get("stop")
-            or data.get("end_time")
-            or data.get("endtime")
+            item.get(
+                "end"
+            )
         )
 
         if (
@@ -340,26 +460,33 @@ def add_programmes(
             continue
 
         title = (
-            data.get("title")
-            or data.get("name")
-            or data.get("program")
-            or data.get("programme")
+            item.get(
+                "title"
+            )
+            or item.get(
+                "name"
+            )
+            or item.get(
+                "program"
+            )
             or "Unknown programme"
         )
 
-        title = decode_text(title)
-
-        if not title:
-            title = "Unknown programme"
+        title = decode_text(
+            title
+        )
 
         programme = ET.SubElement(
             tv,
             "programme",
             {
-                "start": xmltv_time(start),
-                "stop": xmltv_time(stop),
-                "channel": channel_id,
-            },
+                "start":
+                    xmltv_time(start),
+                "stop":
+                    xmltv_time(stop),
+                "channel":
+                    channel_id,
+            }
         )
 
         ET.SubElement(
@@ -368,12 +495,19 @@ def add_programmes(
         ).text = title
 
         description = (
-            data.get("description")
-            or data.get("desc")
-            or data.get("plot")
+            item.get(
+                "description"
+            )
+            or item.get(
+                "desc"
+            )
+            or item.get(
+                "plot"
+            )
         )
 
         if description:
+
             ET.SubElement(
                 programme,
                 "desc"
@@ -381,117 +515,111 @@ def add_programmes(
                 description
             )
 
-        category = data.get("category")
-
-        if category:
-            ET.SubElement(
-                programme,
-                "category"
-            ).text = decode_text(
-                category
-            )
-
         count += 1
 
     return count
 
 
-def download_external_epg():
-    """
-    Download the public community guide.
-    """
+def download_external():
 
     print("")
     print(
-        "Downloading external fallback EPG..."
+        "Downloading IPTV-org DishTV EPG..."
     )
 
     try:
+
         raw = fetch_bytes(
-            EXTERNAL_EPG_URL,
-            timeout=120,
+            EXTERNAL_EPG_URL
         )
 
         if raw[:2] == b"\x1f\x8b":
-            raw = gzip.decompress(raw)
+
+            raw = gzip.decompress(
+                raw
+            )
 
         print(
-            f"External EPG downloaded: "
-            f"{len(raw):,} bytes"
+            "External EPG size:",
+            f"{len(raw):,}",
+            "bytes"
         )
 
         return raw
 
     except Exception as exc:
+
         print(
-            f"External EPG unavailable: {exc}"
+            "External EPG failed:",
+            exc
         )
+
         return None
 
 
-def parse_external_epg(raw):
-    """
-    Parse external XMLTV into:
-
-        normalised channel name -> programmes
-
-    Only unique channel-name matches are accepted.
-    """
+def parse_external(
+    raw
+):
 
     if not raw:
         return {}
 
-    source = io.BytesIO(raw)
-
     try:
-        root = ET.parse(source).getroot()
-    except ET.ParseError as exc:
-        print(
-            f"External EPG XML error: {exc}"
+
+        root = ET.fromstring(
+            raw
         )
+
+    except Exception as exc:
+
+        print(
+            "Could not parse external EPG:",
+            exc
+        )
+
         return {}
 
-    channels = {}
+    channel_names = {}
 
-    for channel in root.findall("channel"):
+    for channel in root.findall(
+        "channel"
+    ):
 
         channel_id = (
-            channel.get("id")
+            channel.get(
+                "id"
+            )
             or ""
         )
 
         names = []
 
-        for display in channel.findall(
+        for node in channel.findall(
             "display-name"
         ):
-            if display.text:
+
+            if node.text:
+
                 names.append(
-                    display.text.strip()
+                    node.text.strip()
                 )
 
         if not names:
             continue
 
-        normalised = normalise_name(
-            names[0]
-        )
+        for name in names:
 
-        if not normalised:
-            continue
+            key = clean_name(
+                name
+            )
 
-        channels.setdefault(
-            normalised,
-            []
-        ).append(channel_id)
+            if key:
 
-    # Only keep names which map to one source
-    # channel. This avoids accidental matches.
-    unique_channels = {
-        name: ids[0]
-        for name, ids in channels.items()
-        if len(ids) == 1
-    }
+                channel_names[
+                    channel_id
+                ] = key
+
+                break
 
     programmes = {}
 
@@ -500,28 +628,29 @@ def parse_external_epg(raw):
     ):
 
         source_id = (
-            programme.get("channel")
+            programme.get(
+                "channel"
+            )
             or ""
         )
 
-        source_name = None
+        key = channel_names.get(
+            source_id
+        )
 
-        for name, candidate_id in (
-            unique_channels.items()
-        ):
-            if candidate_id == source_id:
-                source_name = name
-                break
-
-        if not source_name:
+        if not key:
             continue
 
         start = parse_time(
-            programme.get("start")
+            programme.get(
+                "start"
+            )
         )
 
         stop = parse_time(
-            programme.get("stop")
+            programme.get(
+                "stop"
+            )
         )
 
         if (
@@ -531,18 +660,21 @@ def parse_external_epg(raw):
         ):
             continue
 
-        title_node = programme.find("title")
-
-        title = (
-            title_node.text
-            if title_node is not None
-            else ""
+        title_node = (
+            programme.find(
+                "title"
+            )
         )
 
-        title = decode_text(title)
-
-        if not title:
+        if (
+            title_node is None
+            or not title_node.text
+        ):
             continue
+
+        title = decode_text(
+            title_node.text
+        )
 
         item = {
             "start": start,
@@ -550,59 +682,75 @@ def parse_external_epg(raw):
             "title": title,
         }
 
-        desc_node = programme.find("desc")
+        desc_node = (
+            programme.find(
+                "desc"
+            )
+        )
 
         if (
             desc_node is not None
             and desc_node.text
         ):
-            item["description"] = (
-                decode_text(
-                    desc_node.text
-                )
+
+            item[
+                "description"
+            ] = decode_text(
+                desc_node.text
             )
 
         programmes.setdefault(
-            source_name,
+            key,
             []
-        ).append(item)
+        ).append(
+            item
+        )
 
     return programmes
 
 
-def add_external_programmes(
+def add_external(
     tv,
     channel_id,
-    listings,
+    listings
 ):
+
     count = 0
 
-    for data in listings:
+    for item in listings:
 
         programme = ET.SubElement(
             tv,
             "programme",
             {
-                "start": xmltv_time(
-                    data["start"]
-                ),
-                "stop": xmltv_time(
-                    data["stop"]
-                ),
-                "channel": channel_id,
-            },
+                "start":
+                    xmltv_time(
+                        item["start"]
+                    ),
+                "stop":
+                    xmltv_time(
+                        item["stop"]
+                    ),
+                "channel":
+                    channel_id,
+            }
         )
 
         ET.SubElement(
             programme,
             "title"
-        ).text = data["title"]
+        ).text = item[
+            "title"
+        ]
 
-        if data.get("description"):
+        if item.get(
+            "description"
+        ):
+
             ET.SubElement(
                 programme,
                 "desc"
-            ).text = data[
+            ).text = item[
                 "description"
             ]
 
@@ -611,267 +759,336 @@ def add_external_programmes(
     return count
 
 
-# ---------------------------------------------------------
-# 1. Get category 255 channels
-# ---------------------------------------------------------
+# =========================================================
+# GET STRONG8K CHANNELS
+# =========================================================
 
 streams = api(
     "get_live_streams",
-    category_id=CATEGORY_ID,
+    category_id=CATEGORY_ID
 )
 
-if not isinstance(streams, list):
+if not isinstance(
+    streams,
+    list
+):
+
     raise RuntimeError(
-        "get_live_streams did not return a channel list."
+        "Could not retrieve category 255."
     )
+
 
 streams = [
-    s
-    for s in streams
-    if str(s.get("category_id"))
-    == CATEGORY_ID
-    and s.get("stream_id") is not None
+    stream
+    for stream in streams
+    if str(
+        stream.get(
+            "category_id"
+        )
+    ) == CATEGORY_ID
+    and stream.get(
+        "stream_id"
+    ) is not None
 ]
 
+
 if not streams:
+
     raise RuntimeError(
-        "No channels found in category 255."
+        "No Malayalam channels found."
     )
 
+
 print(
-    f"Found {len(streams)} category-255 channels."
+    f"Found {len(streams)} Malayalam channels."
 )
 
 
-# ---------------------------------------------------------
-# 2. Download external fallback before building XML
-# ---------------------------------------------------------
+# =========================================================
+# GET EXTERNAL EPG
+# =========================================================
 
-external_raw = download_external_epg()
+external_raw = download_external()
 
-external_programmes = {}
-
-if external_raw:
-    external_programmes = parse_external_epg(
-        external_raw
-    )
-
-print(
-    f"External channel matches available: "
-    f"{len(external_programmes)}"
+external = parse_external(
+    external_raw
 )
 
 
-# ---------------------------------------------------------
-# 3. Build XMLTV
-# ---------------------------------------------------------
+print(
+    f"External channel mappings: "
+    f"{len(external)}"
+)
+
+
+# =========================================================
+# BUILD XMLTV
+# =========================================================
 
 tv = ET.Element(
     "tv",
     {
         "generator-info-name":
-            "GitHub Malayalam Hybrid EPG updater"
-    },
+            "Malayalam Hybrid EPG"
+    }
 )
 
-provider_channels = 0
-external_channels = 0
-programme_count = 0
+
+provider_count = 0
+external_count = 0
+total_programmes = 0
 
 
 for index, stream in enumerate(
     streams,
-    start=1,
+    start=1
 ):
 
     stream_id = str(
-        stream["stream_id"]
+        stream[
+            "stream_id"
+        ]
     )
 
-    channel_name = str(
-        stream.get("name")
+    name = str(
+        stream.get(
+            "name"
+        )
         or f"Stream {stream_id}"
     ).strip()
 
-    provider_epg_id = str(
-        stream.get("epg_channel_id")
+    provider_id = str(
+        stream.get(
+            "epg_channel_id"
+        )
         or ""
     ).strip()
 
     logo = str(
-        stream.get("stream_icon")
+        stream.get(
+            "stream_icon"
+        )
         or ""
     ).strip()
 
-    channel_id = (
-        provider_epg_id
-        if provider_epg_id
-        else f"malayalam-{stream_id}"
-    )
+
+    # Keep the provider ID when it is unique.
+    # If Strong8k has reused the same ID for another
+    # channel, append the stream ID.
+    existing_ids = {
+        c.get("id")
+        for c in tv.findall(
+            "channel"
+        )
+    }
+
+    channel_id = provider_id
+
+    if (
+        not channel_id
+        or channel_id in existing_ids
+    ):
+
+        channel_id = (
+            "malayalam-"
+            + stream_id
+        )
+
 
     print("")
     print(
-        f"[{index}/{len(streams)}] "
-        f"{channel_name} "
-        f"({stream_id})"
+        f"[{index}/{len(streams)}] {name}"
     )
+
 
     channel = ET.SubElement(
         tv,
         "channel",
-        {"id": channel_id},
+        {
+            "id":
+                channel_id
+        }
     )
 
     ET.SubElement(
         channel,
-        "display-name",
-    ).text = channel_name
+        "display-name"
+    ).text = name
+
 
     if logo:
+
         ET.SubElement(
             channel,
             "icon",
-            {"src": logo},
+            {
+                "src":
+                    logo
+            }
         )
 
+
     # -----------------------------------------------------
-    # Provider EPG
+    # STRONG8K
     # -----------------------------------------------------
 
-    listings = get_provider_programmes(
+    listings = provider_epg(
         stream_id
     )
 
-    added = add_programmes(
+    added = add_provider_programmes(
         tv,
         channel_id,
-        listings,
+        listings
     )
 
-    # Try simple_data_table if short EPG
-    # produced nothing.
+
     if added == 0:
-        simple = get_simple_provider_epg(
+
+        listings = simple_epg(
             stream_id
         )
 
-        if simple:
-            added = add_programmes(
-                tv,
-                channel_id,
-                simple,
-            )
-
-    if added:
-        provider_channels += 1
-        programme_count += added
-
-        print(
-            f"  Strong8k EPG: "
-            f"{added} programmes"
-        )
-
-        # Strong8k data wins.
-        continue
-
-    # -----------------------------------------------------
-    # External fallback
-    # -----------------------------------------------------
-
-    key = normalise_name(
-        channel_name
-    )
-
-    external = (
-        external_programmes.get(key)
-        or []
-    )
-
-    if external:
-
-        added_external = add_external_programmes(
+        added = add_provider_programmes(
             tv,
             channel_id,
-            external,
+            listings
         )
 
-        if added_external:
-            external_channels += 1
-            programme_count += (
-                added_external
-            )
+
+    if added:
+
+        provider_count += 1
+
+        total_programmes += added
+
+        print(
+            f"  Strong8k: {added} programmes"
+        )
+
+        continue
+
+
+    # -----------------------------------------------------
+    # IPTV-ORG / DISHTV
+    # -----------------------------------------------------
+
+    key = clean_name(
+        name
+    )
+
+    matches = external.get(
+        key,
+        []
+    )
+
+
+    if matches:
+
+        added = add_external(
+            tv,
+            channel_id,
+            matches
+        )
+
+        if added:
+
+            external_count += 1
+
+            total_programmes += added
 
             print(
-                f"  External EPG: "
-                f"{added_external} programmes"
+                f"  IPTV-org: {added} programmes"
             )
 
             continue
 
+
     print(
-        "  No EPG found."
+        "  NO EPG FOUND"
     )
 
 
-# ---------------------------------------------------------
-# 4. Sort programmes by channel/start time
-# ---------------------------------------------------------
+# =========================================================
+# SORT PROGRAMMES
+# =========================================================
 
 programmes = list(
-    tv.findall("programme")
+    tv.findall(
+        "programme"
+    )
 )
 
+
 for programme in programmes:
-    tv.remove(programme)
+
+    tv.remove(
+        programme
+    )
+
 
 programmes.sort(
     key=lambda p: (
-        p.get("channel", ""),
-        p.get("start", ""),
+        p.get(
+            "channel",
+            ""
+        ),
+        p.get(
+            "start",
+            ""
+        )
     )
 )
 
+
 for programme in programmes:
-    tv.append(programme)
+
+    tv.append(
+        programme
+    )
 
 
-# ---------------------------------------------------------
-# 5. Write XMLTV
-# ---------------------------------------------------------
+# =========================================================
+# WRITE XML
+# =========================================================
 
 ET.indent(
     tv,
     space="  "
 )
 
-ET.ElementTree(tv).write(
+
+ET.ElementTree(
+    tv
+).write(
     "malayalam.xml",
     encoding="utf-8",
-    xml_declaration=True,
+    xml_declaration=True
 )
 
 
 print("")
-print("=" * 50)
+print("=" * 60)
 print(
-    f"Channels found: {len(streams)}"
+    f"Malayalam channels: {len(streams)}"
 )
 print(
-    f"Channels using Strong8k EPG: "
-    f"{provider_channels}"
+    f"Strong8k channels with EPG: "
+    f"{provider_count}"
 )
 print(
-    f"Channels using external EPG: "
-    f"{external_channels}"
+    f"IPTV-org channels with EPG: "
+    f"{external_count}"
 )
 print(
-    f"Total programmes written: "
-    f"{programme_count}"
+    f"Total programmes: "
+    f"{total_programmes}"
 )
-print("=" * 50)
+print("=" * 60)
 
 
-if programme_count == 0:
+if total_programmes == 0:
+
     raise RuntimeError(
-        "No usable EPG data was found."
+        "ZERO programmes were generated."
     )
