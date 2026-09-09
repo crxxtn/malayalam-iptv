@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="GitHub Malayalam Hybrid EPG updater">
+<tv generator-info-name="Malayalam Hybrid EPG">
   <channel id="malayalam-443068">
     <display-name>MALAYALAM: ZEE KERALAM HD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ZEE-KERALAM.jpeg" />
@@ -20,7 +20,7 @@
     <display-name>MALAYALAM: SURYA MUSIC</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/SURYA-MUSIC.jpg" />
   </channel>
-  <channel id="Surya.in">
+  <channel id="malayalam-443063">
     <display-name>MALAYALAM: SURYA TV</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/surya.png" />
   </channel>
@@ -32,7 +32,7 @@
     <display-name>MALAYALAM: ASIANET NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/FLOWERS-TV.jpg" />
   </channel>
-  <channel id="AsianetNews.in">
+  <channel id="malayalam-443060">
     <display-name>MALAYALAM: ASIANET NEWS</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-NEWS.jpeg" />
   </channel>
@@ -48,7 +48,7 @@
     <display-name>MALAYALAM: ASIANET MOVIES HD</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-MOVIE.jpeg" />
   </channel>
-  <channel id="AsianetMovies.in">
+  <channel id="malayalam-443056">
     <display-name>MALAYALAM: ASIANET MOVIE</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/logos/ASIANET-MOVIE.jpeg" />
   </channel>
@@ -192,9 +192,6 @@
     <display-name>MALAYALAM: REPORTER</display-name>
     <icon src="http://photo-tmdb.com/stalker_portal/misc/logos/320/3759.jpg?43827" />
   </channel>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="AmritaTV.in">
-    <title>Amridotayam</title>
-  </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="AmritaTV.in">
     <title>Sandhya Deepam</title>
     <desc>Religious leaders and scholars deliver a discourse on various aspects of Kerala's rich cultural heritage and spiritual observances.</desc>
@@ -206,8 +203,9 @@
   <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="AmritaTV.in">
     <title>Amridotayam</title>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="Asianet.in">
-    <title>Prabhatavedam / Madhurashtakam</title>
+  <programme start="20260909033000 +0000" stop="20260909043000 +0000" channel="AmritaTV.in">
+    <title>Good Morning Keralam</title>
+    <desc>The host interacts with various eminent personalities, who shed light on their personal life and professional achievements.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909030000 +0000" channel="Asianet.in">
     <title>Suprabhata Vaibhavam</title>
@@ -220,15 +218,11 @@
   <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="Asianet.in">
     <title>Vishnusahasranama Sototram</title>
   </programme>
-  <programme start="20260909010000 +0000" stop="20260909034000 +0000" channel="AsianetMovies.in">
-    <title>Movie</title>
-    <desc>Movie to be announced.</desc>
+  <programme start="20260909040000 +0000" stop="20260909043000 +0000" channel="Asianet.in">
+    <title>Srivarisevalu Samaharam</title>
+    <desc>Priests and devotees perform important traditional rituals in honor of Lord Srinivasa and offer prayer and praise to the deity.</desc>
   </programme>
   <programme start="20260909010000 +0000" stop="20260909034000 +0000" channel="AsianetMovies.in">
-    <title>Movie</title>
-    <desc>Movie to be announced.</desc>
-  </programme>
-  <programme start="20260909034000 +0000" stop="20260909064000 +0000" channel="AsianetMovies.in">
     <title>Movie</title>
     <desc>Movie to be announced.</desc>
   </programme>
@@ -240,31 +234,9 @@
     <title>Movie</title>
     <desc>Movie to be announced.</desc>
   </programme>
-  <programme start="20260909064000 +0000" stop="20260909092000 +0000" channel="AsianetMovies.in">
-    <title>Movie</title>
-    <desc>Movie to be announced.</desc>
-  </programme>
   <programme start="20260909092000 +0000" stop="20260909120000 +0000" channel="AsianetMovies.in">
     <title>Movie</title>
     <desc>Movie to be announced.</desc>
-  </programme>
-  <programme start="20260909092000 +0000" stop="20260909120000 +0000" channel="AsianetMovies.in">
-    <title>Movie</title>
-    <desc>Movie to be announced.</desc>
-  </programme>
-  <programme start="20260909015500 +0000" stop="20260909020000 +0000" channel="AsianetNews.in">
-    <title>Munshi</title>
-    <desc>The sociopolitical canvas of Kerala is given a refreshing look through the eyes of a cartoonist.</desc>
-  </programme>
-  <programme start="20260909015500 +0000" stop="20260909020000 +0000" channel="AsianetNews.in">
-    <title>Munshi</title>
-    <desc>The sociopolitical canvas of Kerala is given a refreshing look through the eyes of a cartoonist.</desc>
-  </programme>
-  <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="AsianetNews.in">
-    <title>Smart Drive</title>
-  </programme>
-  <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="AsianetNews.in">
-    <title>New Jen Uthsavam</title>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="AsianetNews.in">
     <title>Smart Drive</title>
@@ -276,8 +248,8 @@
     <title>News Hour</title>
     <desc>Stay informed with the latest breaking news and headlines.</desc>
   </programme>
-  <programme start="20260909022500 +0000" stop="20260909031000 +0000" channel="AsianetNews.in">
-    <title>News Hour</title>
+  <programme start="20260909022500 +0000" stop="20260909031500 +0000" channel="AsianetNews.in">
+    <title>News Hour Recorded</title>
     <desc>Stay informed with the latest breaking news and headlines.</desc>
   </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="AsianetPlus.in">
@@ -312,10 +284,6 @@
     <title>Sanskrit News</title>
     <desc>The host presents the latest updates pertaining to various important current affairs, religious and cultural events in Sanskrit.</desc>
   </programme>
-  <programme start="20260909010000 +0000" stop="20260909020000 +0000" channel="Flowers.in">
-    <title>Flowers Comedy Ith Item Vere</title>
-    <desc>Comedians take the stage and perform hilarious skits, showcasing their talent and attempting to impress the judges, in order to win the competition.</desc>
-  </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="Flowers.in">
     <title>Susu</title>
     <desc>The conflicting perspectives of daughter-in-law and mother-in-law create tensions that lead to frequent arguments and family discord.</desc>
@@ -328,9 +296,9 @@
     <title>Student Start Up</title>
     <desc>The host provides a look into the different innovative start-up ideas developed by students, shedding light on their implementation and significance.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="GoodnessTV.in">
-    <title>Holy Mass Latin</title>
-    <desc>Devotees come together to worship and pray as the priest celebrates the Holy Mass and seeks the blessings of the Almighty.</desc>
+  <programme start="20260909033000 +0000" stop="20260909063000 +0000" channel="Flowers.in">
+    <title>Uppum Mulakum</title>
+    <desc>Balachandran and Neelima, who face many challenges to earn a living, aim to successfully fulfil their wish of going to a foreign country.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="GoodnessTV.in">
     <title>Vachana Deepthi</title>
@@ -344,13 +312,9 @@
     <title>Prabhatha Virunnu</title>
     <desc>A religious leader delivers a discourse based on the teachings of the Holy Bible and encourages devotees to follow the path of spirituality.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="JaihindTV.in">
-    <title>Comedy Punch</title>
-    <desc>A comprehensive compilation of hilarious scenes and comical snippets, played consecutively, in order to entertain the audience.</desc>
-  </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="JaihindTV.in">
-    <title>Big News</title>
-    <desc>The host presents numerous top stories, latest happenings and significant updates from the national and international front.</desc>
+  <programme start="20260909040000 +0000" stop="20260909043000 +0000" channel="GoodnessTV.in">
+    <title>Vachana Sakthi</title>
+    <desc>An eminent religious leader provides a comprehensive and detailed insight into the teachings of the Bible, and guides people on the right path.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="JaihindTV.in">
     <title>Power Point</title>
@@ -360,9 +324,13 @@
     <title>Big News</title>
     <desc>The host presents numerous top stories, latest happenings and significant updates from the national and international front.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="JanamTV.in">
-    <title>Polichezhuthu</title>
-    <desc>The host analyses the latest state political updates, offering insights and observations of the impact on everyday citizens.</desc>
+  <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="JaihindTV.in">
+    <title>Bollywood Beats</title>
+    <desc>A comprehensive compilation of popular songs from famous Bollywood movies featuring renowned actors and actresses is played back to back.</desc>
+  </programme>
+  <programme start="20260909023000 +0000" stop="20260909030000 +0000" channel="JaihindTV.in">
+    <title>World Focus</title>
+    <desc>The host presents a round-up of some of the latest and most important news stories and updates taking place all over the world.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="JanamTV.in">
     <title>Nattu Varambu</title>
@@ -375,6 +343,10 @@
   <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="JanamTV.in">
     <title>Natuvishesham</title>
     <desc>The host collates and presents the latest and the most important news updates and developments from across the state and the nation.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909043000 +0000" channel="JanamTV.in">
+    <title>Live: Live News</title>
+    <desc>The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live.</desc>
   </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="KairaliTV.in">
     <title>Siruthai</title>
@@ -408,10 +380,6 @@
     <title>Rise And Shine</title>
     <desc>A comprehensive compilation of popular songs from the latest blockbuster movies across various film industries is played back-to-back.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="KaumudyTV.in">
-    <title>Silver Screen</title>
-    <desc>Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life.</desc>
-  </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="KaumudyTV.in">
     <title>Ladies Hour</title>
     <desc>Experts from various fields shed light on the many aspects concerning women and provide tips on fashion, beauty and health.</desc>
@@ -423,6 +391,10 @@
   <programme start="20260909025700 +0000" stop="20260909030000 +0000" channel="KaumudyTV.in">
     <title>Daivadasakam</title>
     <desc>Ardent devotees gather in large numbers and sing melodious hymns of praise to God and seek his holy blessings in return.</desc>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="KaumudyTV.in">
+    <title>Devamarthum</title>
+    <desc>The host interacts with an astrologer, who provides valuable guidance regarding astrological problems and offers solutions for the same.</desc>
   </programme>
   <programme start="20260909013000 +0000" stop="20260909023000 +0000" channel="KochuTV.in">
     <title>Kadha Koottu</title>
@@ -500,10 +472,6 @@
     <title>Time To Talk</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="SafariTV.in">
-    <title>Smrithi</title>
-    <desc>The host speaks about eminent personalities from different walks of life and highlights their contributions to their respective fields.</desc>
-  </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="SafariTV.in">
     <title>Face To Face</title>
     <desc>The host chats with personalities from various fields about their work and contributions to society and holds discussions on various social and political issues.</desc>
@@ -516,9 +484,9 @@
     <title>Sanchariyude Diarikurippukal</title>
     <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="SathiyamTV.in">
-    <title>Arpanippin Sigarangal</title>
-    <desc>The lives of great missionaries who left no stone unturned in spreading the teachings of Christianity to different parts of the world are showcased.</desc>
+  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="SafariTV.in">
+    <title>Palestine</title>
+    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="SathiyamTV.in">
     <title>Blessing Youth Mission</title>
@@ -532,17 +500,9 @@
     <title>Live: 6 Mani Seithigal</title>
     <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
   </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="Surya.in">
-    <title>Anju Sundarikal</title>
-    <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
-  </programme>
-  <programme start="20260909013000 +0000" stop="20260909020000 +0000" channel="Surya.in">
-    <title>Anju Sundarikal</title>
-    <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
-  </programme>
-  <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="Surya.in">
-    <title>Peythozhiyathe</title>
-    <desc>Despite her warmth and courage, Charulatha yearns for love to escape her estranged father and cruel stepmother in a tumultuous household.</desc>
+  <programme start="20260909030000 +0000" stop="20260909033000 +0000" channel="SathiyamTV.in">
+    <title>Jr Commercial Slot</title>
+    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="Surya.in">
     <title>Peythozhiyathe</title>
@@ -552,17 +512,13 @@
     <title>Surya Sangeetham</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="Surya.in">
-    <title>Surya Sangeetham</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="Surya.in">
     <title>Amme Mookambike</title>
     <desc>After being abandoned at the temple as a child, Sauparnika is raised by Surendran as a florist. However, her reputation for answered prayers shifts when Sandeep enters her life.</desc>
   </programme>
-  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="Surya.in">
-    <title>Amme Mookambike</title>
-    <desc>After being abandoned at the temple as a child, Sauparnika is raised by Surendran as a florist. However, her reputation for answered prayers shifts when Sandeep enters her life.</desc>
+  <programme start="20260909040000 +0000" stop="20260909043000 +0000" channel="Surya.in">
+    <title>Anju Sundarikal</title>
+    <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
   </programme>
   <programme start="20260909000000 +0000" stop="20260909023000 +0000" channel="SuryaMovies.in">
     <title>Pravaasam</title>
@@ -580,9 +536,6 @@
     <title>Sayanna Varthakal</title>
     <desc>Upon falling prey to the malpractices of the government's dark side, Ravi Kumar reveals his plight to the world. However, his actions soon invite trouble in his life.</desc>
   </programme>
-  <programme start="20260909010000 +0000" stop="20260909020000 +0000" channel="SuryaMusic.in">
-    <title>Inbox</title>
-  </programme>
   <programme start="20260909020000 +0000" stop="20260909030000 +0000" channel="SuryaMusic.in">
     <title>Kuthu Reloaded</title>
   </programme>
@@ -593,5 +546,54 @@
   <programme start="20260909040000 +0000" stop="20260909050000 +0000" channel="SuryaMusic.in">
     <title>Istam Pole Pattu</title>
     <desc>A comprehensive compilation of some of the most acclaimed songs from renowned Malayalam films played back to back to enthrall the audience.</desc>
+  </programme>
+  <programme start="20260909050000 +0000" stop="20260909060000 +0000" channel="SuryaMusic.in">
+    <title>Nostalgia</title>
+  </programme>
+  <programme start="20260909010000 +0000" stop="20260909034000 +0000" channel="malayalam-443056">
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
+  </programme>
+  <programme start="20260909034000 +0000" stop="20260909064000 +0000" channel="malayalam-443056">
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
+  </programme>
+  <programme start="20260909064000 +0000" stop="20260909092000 +0000" channel="malayalam-443056">
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
+  </programme>
+  <programme start="20260909092000 +0000" stop="20260909120000 +0000" channel="malayalam-443056">
+    <title>Movie</title>
+    <desc>Movie to be announced.</desc>
+  </programme>
+  <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="malayalam-443060">
+    <title>Smart Drive</title>
+  </programme>
+  <programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="malayalam-443060">
+    <title>New Jen Uthsavam</title>
+  </programme>
+  <programme start="20260909022500 +0000" stop="20260909031000 +0000" channel="malayalam-443060">
+    <title>News Hour</title>
+    <desc>Stay informed with the latest breaking news and headlines.</desc>
+  </programme>
+  <programme start="20260909022500 +0000" stop="20260909031500 +0000" channel="malayalam-443060">
+    <title>News Hour Recorded</title>
+    <desc>Stay informed with the latest breaking news and headlines.</desc>
+  </programme>
+  <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="malayalam-443063">
+    <title>Peythozhiyathe</title>
+    <desc>Despite her warmth and courage, Charulatha yearns for love to escape her estranged father and cruel stepmother in a tumultuous household.</desc>
+  </programme>
+  <programme start="20260909023000 +0000" stop="20260909033000 +0000" channel="malayalam-443063">
+    <title>Surya Sangeetham</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="20260909033000 +0000" stop="20260909040000 +0000" channel="malayalam-443063">
+    <title>Amme Mookambike</title>
+    <desc>After being abandoned at the temple as a child, Sauparnika is raised by Surendran as a florist. However, her reputation for answered prayers shifts when Sandeep enters her life.</desc>
+  </programme>
+  <programme start="20260909040000 +0000" stop="20260909043000 +0000" channel="malayalam-443063">
+    <title>Anju Sundarikal</title>
+    <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
   </programme>
 </tv>
