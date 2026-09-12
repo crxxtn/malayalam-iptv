@@ -9659,20 +9659,20 @@
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-12 11:30:00" stop="2026-09-12 14:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-09-12 11:30:00" stop="2026-09-12 14:30:00" channel="malayalam-443059">
     <title>Nagarangalil Chennu Raparkam</title>
     <desc>Conflicts arise between the heir to a wealthy rural family and his overprotective father. However, hilarity ensues after the heir runs away to the city and gets involved in a series of mishaps.</desc>
   </programme>
-  <programme start="2026-09-12 14:30:00" stop="2026-09-12 17:30:00" channel="malayalam-443059">
+  <programme start="2026-09-12 11:30:00" stop="2026-09-12 14:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-12 14:30:00" stop="2026-09-12 15:00:00" channel="malayalam-443059">
     <title>Malikappuram</title>
     <desc>When Unnimol, a young girl child, faces dismissal from all her relatives and community, Lord Ayyappan takes the form of a school student to help her overcome obstacles.</desc>
+  </programme>
+  <programme start="2026-09-12 14:30:00" stop="2026-09-12 17:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-12 15:00:00" stop="2026-09-12 15:30:00" channel="malayalam-443059">
     <title>Eatho Janma Kalpanayil</title>
@@ -22704,12 +22704,12 @@
     <title>5 PM News</title>
     <desc>The host talks about the latest and most important socio-economic and political news, updates and developments making headlines.</desc>
   </programme>
+  <programme start="2026-09-12 14:00:00" stop="2026-09-12 14:15:00" channel="malayalam-443045">
+    <title>Fin Talk</title>
+  </programme>
   <programme start="2026-09-12 14:00:00" stop="2026-09-12 14:30:00" channel="malayalam-443045">
     <title>News Update</title>
     <desc>A reporter provides informative updates on the latest events, developments, inventions, discoveries and happenings around the world.</desc>
-  </programme>
-  <programme start="2026-09-12 14:00:00" stop="2026-09-12 14:15:00" channel="malayalam-443045">
-    <title>Fin Talk</title>
   </programme>
   <programme start="2026-09-12 14:15:00" stop="2026-09-12 14:30:00" channel="malayalam-443045">
     <title>News Update</title>
