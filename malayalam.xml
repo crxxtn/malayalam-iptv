@@ -7930,13 +7930,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-09-15 11:30:00" stop="2026-09-15 14:30:00" channel="malayalam-443059">
-    <title>The Car</title>
-    <desc>A car that Mahadevan wins in a contest brings him bad luck, and he soon gets involved in a murder. As he tries to find a car with the same license number as his, he unravels a shocking truth.</desc>
-  </programme>
   <programme start="2026-09-15 11:30:00" stop="2026-09-15 12:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-09-15 11:30:00" stop="2026-09-15 14:30:00" channel="malayalam-443059">
+    <title>The Car</title>
+    <desc>A car that Mahadevan wins in a contest brings him bad luck, and he soon gets involved in a murder. As he tries to find a car with the same license number as his, he unravels a shocking truth.</desc>
   </programme>
   <programme start="2026-09-15 12:30:00" stop="2026-09-15 13:30:00" channel="malayalam-443059">
     <title>Movie</title>
