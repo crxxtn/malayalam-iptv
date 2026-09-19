@@ -10754,20 +10754,20 @@
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-19 11:30:00" stop="2026-09-19 14:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-09-19 11:30:00" stop="2026-09-19 14:30:00" channel="malayalam-443059">
     <title>Thanmathra</title>
     <desc>A family has to deal with the fact that the father, who is also the one that holds the family together, has developed Alzheimer&apos;s disease.</desc>
   </programme>
-  <programme start="2026-09-19 14:30:00" stop="2026-09-19 17:30:00" channel="malayalam-443059">
+  <programme start="2026-09-19 11:30:00" stop="2026-09-19 14:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-19 14:30:00" stop="2026-09-19 15:00:00" channel="malayalam-443059">
     <title>Malikappuram</title>
     <desc>The villagers show gratitude to Unnimol, Giridevan and Vava for saving them from a curse.</desc>
+  </programme>
+  <programme start="2026-09-19 14:30:00" stop="2026-09-19 17:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-19 15:00:00" stop="2026-09-19 15:30:00" channel="malayalam-443059">
     <title>Eatho Janma Kalpanayil</title>
@@ -10789,13 +10789,13 @@
     <title>To Be Announced</title>
     <desc>Programming to be announced.</desc>
   </programme>
-  <programme start="2026-09-19 17:30:00" stop="2026-09-19 18:00:00" channel="malayalam-443059">
-    <title>To Be Announced</title>
-    <desc>Programming to be announced.</desc>
-  </programme>
   <programme start="2026-09-19 17:30:00" stop="2026-09-19 20:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-09-19 17:30:00" stop="2026-09-19 18:00:00" channel="malayalam-443059">
+    <title>To Be Announced</title>
+    <desc>Programming to be announced.</desc>
   </programme>
   <programme start="2026-09-19 18:00:00" stop="2026-09-19 18:30:00" channel="malayalam-443059">
     <title>To Be Announced</title>
@@ -14591,13 +14591,13 @@
     <title>Enswaram</title>
     <desc>Popular and talented playback singers pay tribute to their teachers by singing some of their most favourite Malayalam songs.</desc>
   </programme>
-  <programme start="2026-09-19 13:30:00" stop="2026-09-19 13:40:00" channel="malayalam-443054">
-    <title>Varthakal</title>
-    <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
-  </programme>
   <programme start="2026-09-19 13:30:00" stop="2026-09-19 14:00:00" channel="malayalam-443054">
     <title>Walk The Talk</title>
     <desc>The host engages with influential leaders and thinkers, exploring their views on business, policy, leadership and the decisions shaping industries.</desc>
+  </programme>
+  <programme start="2026-09-19 13:30:00" stop="2026-09-19 13:40:00" channel="malayalam-443054">
+    <title>Varthakal</title>
+    <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
   <programme start="2026-09-19 13:40:00" stop="2026-09-19 14:05:00" channel="malayalam-443054">
     <title>Arthavathinte Kalayum Kaalavum</title>
