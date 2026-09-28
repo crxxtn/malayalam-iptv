@@ -948,13 +948,13 @@
     <title>Anju Sundarikal</title>
     <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
   </programme>
-  <programme start="2026-09-28 04:30:00" stop="2026-09-28 07:30:00" channel="malayalam-443066">
-    <title>Sadanandante Samayam</title>
-    <desc>Sadanandan, a teacher who believes in astrology, is distraught when an astrologer tells him that he is going to die soon. Thereafter, he does everything to secure his family.</desc>
-  </programme>
   <programme start="2026-09-28 04:30:00" stop="2026-09-28 05:00:00" channel="malayalam-443066">
     <title>Ramayanam</title>
     <desc>A religious leader delivers a discourse on the Hindu mythology &apos;Ramayana&apos; and guides his followers on the path of spirituality.</desc>
+  </programme>
+  <programme start="2026-09-28 04:30:00" stop="2026-09-28 07:30:00" channel="malayalam-443066">
+    <title>Sadanandante Samayam</title>
+    <desc>Sadanandan, a teacher who believes in astrology, is distraught when an astrologer tells him that he is going to die soon. Thereafter, he does everything to secure his family.</desc>
   </programme>
   <programme start="2026-09-28 05:00:00" stop="2026-09-28 08:00:00" channel="malayalam-443066">
     <title>Movie</title>
@@ -4194,13 +4194,13 @@
     <title>Anju Sundarikal</title>
     <desc>Five friends settle into a strict hostel, unaware of its grim past. Their mischievous plan to shelter a mysterious guest backfires, unleashing a series of strange incidents.</desc>
   </programme>
-  <programme start="2026-09-28 04:30:00" stop="2026-09-28 07:30:00" channel="malayalam-443063">
-    <title>Sadanandante Samayam</title>
-    <desc>Sadanandan, a teacher who believes in astrology, is distraught when an astrologer tells him that he is going to die soon. Thereafter, he does everything to secure his family.</desc>
-  </programme>
   <programme start="2026-09-28 04:30:00" stop="2026-09-28 05:00:00" channel="malayalam-443063">
     <title>Ramayanam</title>
     <desc>A religious leader delivers a discourse on the Hindu mythology &apos;Ramayana&apos; and guides his followers on the path of spirituality.</desc>
+  </programme>
+  <programme start="2026-09-28 04:30:00" stop="2026-09-28 07:30:00" channel="malayalam-443063">
+    <title>Sadanandante Samayam</title>
+    <desc>Sadanandan, a teacher who believes in astrology, is distraught when an astrologer tells him that he is going to die soon. Thereafter, he does everything to secure his family.</desc>
   </programme>
   <programme start="2026-09-28 05:00:00" stop="2026-09-28 08:00:00" channel="malayalam-443063">
     <title>Movie</title>
@@ -8026,17 +8026,17 @@
     <desc>Stay informed with the latest breaking news and headlines.</desc>
   </programme>
   <programme start="2026-09-28 07:00:00" stop="2026-09-28 07:30:00" channel="malayalam-443061">
-    <title>America E Aazcha</title>
+    <title>News 10</title>
   </programme>
   <programme start="2026-09-28 07:00:00" stop="2026-09-28 07:30:00" channel="malayalam-443061">
-    <title>News 10</title>
+    <title>America E Aazcha</title>
+  </programme>
+  <programme start="2026-09-28 07:30:00" stop="2026-09-28 07:55:00" channel="malayalam-443061">
+    <title>Amrica Ee Aazcha</title>
   </programme>
   <programme start="2026-09-28 07:30:00" stop="2026-09-28 08:00:00" channel="malayalam-443061">
     <title>Nerkkuner</title>
     <desc>Issues facing the state.</desc>
-  </programme>
-  <programme start="2026-09-28 07:30:00" stop="2026-09-28 07:55:00" channel="malayalam-443061">
-    <title>Amrica Ee Aazcha</title>
   </programme>
   <programme start="2026-09-28 07:55:00" stop="2026-09-28 08:00:00" channel="malayalam-443061">
     <title>Munshi</title>
@@ -8161,11 +8161,11 @@
   <programme start="2026-09-28 15:00:00" stop="2026-09-28 15:30:00" channel="malayalam-443061">
     <title>News @ 13</title>
   </programme>
-  <programme start="2026-09-28 15:30:00" stop="2026-09-28 15:55:00" channel="malayalam-443061">
-    <title>Chuttuvattom</title>
-  </programme>
   <programme start="2026-09-28 15:30:00" stop="2026-09-28 16:00:00" channel="malayalam-443061">
     <title>News @ 13</title>
+  </programme>
+  <programme start="2026-09-28 15:30:00" stop="2026-09-28 15:55:00" channel="malayalam-443061">
+    <title>Chuttuvattom</title>
   </programme>
   <programme start="2026-09-28 15:55:00" stop="2026-09-28 16:00:00" channel="malayalam-443061">
     <title>Dr. Aster</title>
@@ -10575,17 +10575,17 @@
     <desc>Stay informed with the latest breaking news and headlines.</desc>
   </programme>
   <programme start="2026-09-28 07:00:00" stop="2026-09-28 07:30:00" channel="malayalam-443060">
-    <title>America E Aazcha</title>
+    <title>News 10</title>
   </programme>
   <programme start="2026-09-28 07:00:00" stop="2026-09-28 07:30:00" channel="malayalam-443060">
-    <title>News 10</title>
+    <title>America E Aazcha</title>
+  </programme>
+  <programme start="2026-09-28 07:30:00" stop="2026-09-28 07:55:00" channel="malayalam-443060">
+    <title>Amrica Ee Aazcha</title>
   </programme>
   <programme start="2026-09-28 07:30:00" stop="2026-09-28 08:00:00" channel="malayalam-443060">
     <title>Nerkkuner</title>
     <desc>Issues facing the state.</desc>
-  </programme>
-  <programme start="2026-09-28 07:30:00" stop="2026-09-28 07:55:00" channel="malayalam-443060">
-    <title>Amrica Ee Aazcha</title>
   </programme>
   <programme start="2026-09-28 07:55:00" stop="2026-09-28 08:00:00" channel="malayalam-443060">
     <title>Munshi</title>
@@ -10710,11 +10710,11 @@
   <programme start="2026-09-28 15:00:00" stop="2026-09-28 15:30:00" channel="malayalam-443060">
     <title>News @ 13</title>
   </programme>
-  <programme start="2026-09-28 15:30:00" stop="2026-09-28 15:55:00" channel="malayalam-443060">
-    <title>Chuttuvattom</title>
-  </programme>
   <programme start="2026-09-28 15:30:00" stop="2026-09-28 16:00:00" channel="malayalam-443060">
     <title>News @ 13</title>
+  </programme>
+  <programme start="2026-09-28 15:30:00" stop="2026-09-28 15:55:00" channel="malayalam-443060">
+    <title>Chuttuvattom</title>
   </programme>
   <programme start="2026-09-28 15:55:00" stop="2026-09-28 16:00:00" channel="malayalam-443060">
     <title>Dr. Aster</title>
@@ -12607,13 +12607,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-09-28 08:30:00" stop="2026-09-28 09:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-09-28 08:30:00" stop="2026-09-28 11:30:00" channel="malayalam-443059">
     <title>Innale</title>
     <desc>A victim of an accident forgets her past and is not able to recall her identity. She falls in love with a man who provides her security and helps her start her life afresh.</desc>
+  </programme>
+  <programme start="2026-09-28 08:30:00" stop="2026-09-28 09:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-28 09:30:00" stop="2026-09-28 10:30:00" channel="malayalam-443059">
     <title>Movie</title>
@@ -32694,12 +32694,12 @@
     <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
   </programme>
   <programme start="2026-09-28 08:30:00" stop="2026-09-28 09:00:00" channel="malayalam-443039">
-    <title>Palestine</title>
-    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
-  </programme>
-  <programme start="2026-09-28 08:30:00" stop="2026-09-28 09:00:00" channel="malayalam-443039">
     <title>Sahasam</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-09-28 08:30:00" stop="2026-09-28 09:00:00" channel="malayalam-443039">
+    <title>Palestine</title>
+    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
   </programme>
   <programme start="2026-09-28 09:00:00" stop="2026-09-28 09:30:00" channel="malayalam-443039">
     <title>Sancharam</title>
