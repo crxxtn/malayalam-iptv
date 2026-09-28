@@ -8161,11 +8161,11 @@
   <programme start="2026-09-28 15:00:00" stop="2026-09-28 15:30:00" channel="malayalam-443061">
     <title>News @ 13</title>
   </programme>
-  <programme start="2026-09-28 15:30:00" stop="2026-09-28 16:00:00" channel="malayalam-443061">
-    <title>News @ 13</title>
-  </programme>
   <programme start="2026-09-28 15:30:00" stop="2026-09-28 15:55:00" channel="malayalam-443061">
     <title>Chuttuvattom</title>
+  </programme>
+  <programme start="2026-09-28 15:30:00" stop="2026-09-28 16:00:00" channel="malayalam-443061">
+    <title>News @ 13</title>
   </programme>
   <programme start="2026-09-28 15:55:00" stop="2026-09-28 16:00:00" channel="malayalam-443061">
     <title>Dr. Aster</title>
@@ -10710,11 +10710,11 @@
   <programme start="2026-09-28 15:00:00" stop="2026-09-28 15:30:00" channel="malayalam-443060">
     <title>News @ 13</title>
   </programme>
-  <programme start="2026-09-28 15:30:00" stop="2026-09-28 16:00:00" channel="malayalam-443060">
-    <title>News @ 13</title>
-  </programme>
   <programme start="2026-09-28 15:30:00" stop="2026-09-28 15:55:00" channel="malayalam-443060">
     <title>Chuttuvattom</title>
+  </programme>
+  <programme start="2026-09-28 15:30:00" stop="2026-09-28 16:00:00" channel="malayalam-443060">
+    <title>News @ 13</title>
   </programme>
   <programme start="2026-09-28 15:55:00" stop="2026-09-28 16:00:00" channel="malayalam-443060">
     <title>Dr. Aster</title>
@@ -12727,25 +12727,25 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-09-29 00:30:00" stop="2026-09-29 02:30:00" channel="malayalam-443059">
-    <title>Susanna</title>
-    <desc>Susanna, a sex worker, earns money by being with five different men at the same time. Fortunately, the people around her do not judge her actions and find solace in her presence.</desc>
-  </programme>
   <programme start="2026-09-29 00:30:00" stop="2026-09-29 01:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-09-29 00:30:00" stop="2026-09-29 02:30:00" channel="malayalam-443059">
+    <title>Susanna</title>
+    <desc>Susanna, a sex worker, earns money by being with five different men at the same time. Fortunately, the people around her do not judge her actions and find solace in her presence.</desc>
+  </programme>
   <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-09-29 02:30:00" stop="2026-09-29 03:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-29 02:30:00" stop="2026-09-29 05:00:00" channel="malayalam-443059">
     <title>Winter</title>
     <desc>Fed up with the fast-paced city life, Ramdas and his wife decide to move to a quiet bungalow on the outskirts of the city. However, some strange happenings in the surrounding put their lives at risk.</desc>
-  </programme>
-  <programme start="2026-09-29 02:30:00" stop="2026-09-29 03:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-09-29 03:30:00" stop="2026-09-29 04:30:00" channel="malayalam-443059">
     <title>Movie</title>
@@ -17507,20 +17507,20 @@
     <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
   </programme>
   <programme start="2026-09-29 01:00:00" stop="2026-09-29 01:30:00" channel="malayalam-443054">
-    <title>Kathakali</title>
-    <desc>The host invites various Kathakali artists to perform a series of classical dance routines that retell stories from Hindu scriptures through exquisite theatrical expression.</desc>
-  </programme>
-  <programme start="2026-09-29 01:00:00" stop="2026-09-29 01:30:00" channel="malayalam-443054">
     <title>Krishi Darshan</title>
     <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
   </programme>
-  <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:30:00" channel="malayalam-443054">
-    <title>Chembai Music Festival</title>
-    <desc>Highlights of the famous Chembai Music Festival, held in tribute to honour the late Carnatic musician Chembai Vaidyanatha Bhagavathar.</desc>
+  <programme start="2026-09-29 01:00:00" stop="2026-09-29 01:30:00" channel="malayalam-443054">
+    <title>Kathakali</title>
+    <desc>The host invites various Kathakali artists to perform a series of classical dance routines that retell stories from Hindu scriptures through exquisite theatrical expression.</desc>
   </programme>
   <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:30:00" channel="malayalam-443054">
     <title>Chembai Sangeetholsavam</title>
     <desc>The host sheds light on the unique Carnatic music festival called Chembai Sangeetholsavam, which is celebrated in Guruvayur, Kerala, India, to honour Chembai Vaidyanatha Bhagavatar.</desc>
+  </programme>
+  <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:30:00" channel="malayalam-443054">
+    <title>Chembai Music Festival</title>
+    <desc>Highlights of the famous Chembai Music Festival, held in tribute to honour the late Carnatic musician Chembai Vaidyanatha Bhagavathar.</desc>
   </programme>
   <programme start="2026-09-29 02:30:00" stop="2026-09-29 03:00:00" channel="malayalam-443054">
     <title>Devotional Song</title>
@@ -19446,20 +19446,20 @@
     <desc>The host invites renowned celebrities to discuss major milestones in their personal and professional lives, and also interacts with the guest&apos;s relatives and friends.</desc>
   </programme>
   <programme start="2026-09-29 01:00:00" stop="2026-09-29 01:30:00" channel="malayalam-443053">
-    <title>Sports Time</title>
-    <desc>The host presents the latest news updates from the world of sports and sheds light on some of the best moments from various events.</desc>
-  </programme>
-  <programme start="2026-09-29 01:00:00" stop="2026-09-29 01:30:00" channel="malayalam-443053">
     <title>Al-bayan</title>
     <desc>An Islamic scholar delivers a religious discourse and recites verses from the Quran while explaining various significant tenets of Islam.</desc>
   </programme>
-  <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:00:00" channel="malayalam-443053">
-    <title>Big News</title>
-    <desc>The host presents numerous top stories, latest happenings and significant updates from the national and international front.</desc>
+  <programme start="2026-09-29 01:00:00" stop="2026-09-29 01:30:00" channel="malayalam-443053">
+    <title>Sports Time</title>
+    <desc>The host presents the latest news updates from the world of sports and sheds light on some of the best moments from various events.</desc>
   </programme>
   <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:30:00" channel="malayalam-443053">
     <title>Tamil Tube</title>
     <desc>A comprehensive compilation of some of the most popular songs from various Tamil movies performed by various artists, played back to back.</desc>
+  </programme>
+  <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:00:00" channel="malayalam-443053">
+    <title>Big News</title>
+    <desc>The host presents numerous top stories, latest happenings and significant updates from the national and international front.</desc>
   </programme>
   <programme start="2026-09-29 02:00:00" stop="2026-09-29 02:30:00" channel="malayalam-443053">
     <title>Big News</title>
@@ -37035,20 +37035,20 @@
     <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
   </programme>
   <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:00:00" channel="malayalam-443028">
-    <title>Kathullavan Ketkakadavan</title>
-    <desc>A religious leader delivers a discourse on the life of Jesus Christ and explains sacred verses from the Holy Bible to Christians.</desc>
-  </programme>
-  <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:00:00" channel="malayalam-443028">
     <title>Arpanippin Sigarangal</title>
     <desc>The lives of great missionaries who left no stone unturned in spreading the teachings of Christianity to different parts of the world are showcased.</desc>
   </programme>
-  <programme start="2026-09-29 02:00:00" stop="2026-09-29 02:30:00" channel="malayalam-443028">
-    <title>Vishwavani</title>
-    <desc>Various Christian missionaries deliver devotional discourses on spirituality and help in spreading the Word of God to devotees.</desc>
+  <programme start="2026-09-29 01:30:00" stop="2026-09-29 02:00:00" channel="malayalam-443028">
+    <title>Kathullavan Ketkakadavan</title>
+    <desc>A religious leader delivers a discourse on the life of Jesus Christ and explains sacred verses from the Holy Bible to Christians.</desc>
   </programme>
   <programme start="2026-09-29 02:00:00" stop="2026-09-29 02:30:00" channel="malayalam-443028">
     <title>Blessing Youth Mission</title>
     <desc>A religious leader sheds light on the teachings of the Almighty and encourages followers to take the path of spirituality.</desc>
+  </programme>
+  <programme start="2026-09-29 02:00:00" stop="2026-09-29 02:30:00" channel="malayalam-443028">
+    <title>Vishwavani</title>
+    <desc>Various Christian missionaries deliver devotional discourses on spirituality and help in spreading the Word of God to devotees.</desc>
   </programme>
   <programme start="2026-09-29 02:30:00" stop="2026-09-29 02:35:00" channel="malayalam-443028">
     <title>Headlines</title>
