@@ -17722,13 +17722,13 @@
     <title>Siet</title>
     <desc>A subject-matter expert provides a comprehensive overview of various course-related topics in an easy-to-understand manner, using relevant examples.</desc>
   </programme>
-  <programme start="2026-09-29 14:30:00" stop="2026-09-29 14:40:00" channel="malayalam-443054">
-    <title>Varthakal</title>
-    <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
-  </programme>
   <programme start="2026-09-29 14:30:00" stop="2026-09-29 15:00:00" channel="malayalam-443054">
     <title>Krishi Darshan</title>
     <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
+  </programme>
+  <programme start="2026-09-29 14:30:00" stop="2026-09-29 14:40:00" channel="malayalam-443054">
+    <title>Varthakal</title>
+    <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
   <programme start="2026-09-29 14:40:00" stop="2026-09-29 15:05:00" channel="malayalam-443054">
     <title>Krishi Darshan</title>
