@@ -4784,20 +4784,20 @@
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-01 00:00:00" stop="2026-10-01 00:30:00" channel="malayalam-443063">
-    <title>Constable Manju</title>
-    <desc>Once martyred in the line of duty, a constable&apos;s position is inherited by his incorruptible daughter. However, soon, she encounters the benevolent enforcer of a notorious criminal.</desc>
-  </programme>
-  <programme start="2026-10-01 00:00:00" stop="2026-10-01 00:30:00" channel="malayalam-443063">
     <title>Kanyadanam</title>
     <desc>Anandan lovingly raises his five daughters following his wife&apos;s passing. Meanwhile, the principled man provides unwavering affection after their weddings.</desc>
   </programme>
-  <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:00:00" channel="malayalam-443063">
-    <title>Kanyadanam</title>
-    <desc>A father&apos;s world revolves around his five daughters as he raises them with a lot of love. However, he wonders if they will receive the same care when they get married and move in with their in-laws.</desc>
+  <programme start="2026-10-01 00:00:00" stop="2026-10-01 00:30:00" channel="malayalam-443063">
+    <title>Constable Manju</title>
+    <desc>Once martyred in the line of duty, a constable&apos;s position is inherited by his incorruptible daughter. However, soon, she encounters the benevolent enforcer of a notorious criminal.</desc>
   </programme>
   <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:00:00" channel="malayalam-443063">
     <title>Thenmavin Kombath</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:00:00" channel="malayalam-443063">
+    <title>Kanyadanam</title>
+    <desc>A father&apos;s world revolves around his five daughters as he raises them with a lot of love. However, he wonders if they will receive the same care when they get married and move in with their in-laws.</desc>
   </programme>
   <programme start="2026-10-01 01:00:00" stop="2026-10-01 01:30:00" channel="malayalam-443063">
     <title>Swayamvarapanthal</title>
@@ -13120,13 +13120,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-10-01 00:30:00" stop="2026-10-01 02:30:00" channel="malayalam-443059">
     <title>Out of Syllabus</title>
     <desc>When village boy Gopikrishnan goes to study in a city college, he is bullied by his classmates. Namitha supports him through his difficult phase and they develop a close bond.</desc>
+  </programme>
+  <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-01 01:30:00" stop="2026-10-01 02:30:00" channel="malayalam-443059">
     <title>Movie</title>
@@ -18154,25 +18154,25 @@
   <programme start="2026-09-30 23:30:00" stop="2026-10-01 00:00:00" channel="malayalam-443054">
     <title>Padma Award</title>
   </programme>
-  <programme start="2026-10-01 00:00:00" stop="2026-10-01 01:00:00" channel="malayalam-443054">
-    <title>Doctors Speak</title>
-    <desc>The host teams up with doctors to shed light on the coronavirus disease (COVID-19), its symptoms, precautionary measures and when to get tested.</desc>
-  </programme>
   <programme start="2026-10-01 00:00:00" stop="2026-10-01 00:30:00" channel="malayalam-443054">
     <title>DD Grooves</title>
     <desc>A comprehensive compilation of the latest and most popular songs sung by famous bands and artists from around the world.</desc>
+  </programme>
+  <programme start="2026-10-01 00:00:00" stop="2026-10-01 01:00:00" channel="malayalam-443054">
+    <title>Doctors Speak</title>
+    <desc>The host teams up with doctors to shed light on the coronavirus disease (COVID-19), its symptoms, precautionary measures and when to get tested.</desc>
   </programme>
   <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:00:00" channel="malayalam-443054">
     <title>Krishi Darshan</title>
     <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
   </programme>
   <programme start="2026-10-01 01:00:00" stop="2026-10-01 01:30:00" channel="malayalam-443054">
-    <title>Krishi Darshan</title>
-    <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
-  </programme>
-  <programme start="2026-10-01 01:00:00" stop="2026-10-01 01:30:00" channel="malayalam-443054">
     <title>Kathakali</title>
     <desc>The host invites various Kathakali artists to perform a series of classical dance routines that retell stories from Hindu scriptures through exquisite theatrical expression.</desc>
+  </programme>
+  <programme start="2026-10-01 01:00:00" stop="2026-10-01 01:30:00" channel="malayalam-443054">
+    <title>Krishi Darshan</title>
+    <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
   </programme>
   <programme start="2026-10-01 01:30:00" stop="2026-10-01 02:30:00" channel="malayalam-443054">
     <title>Chembai Music Festival</title>
@@ -18242,13 +18242,13 @@
     <title>Doctors Speak</title>
     <desc>The host teams up with doctors to shed light on the coronavirus disease (COVID-19), its symptoms, precautionary measures and when to get tested.</desc>
   </programme>
-  <programme start="2026-10-01 07:30:00" stop="2026-10-01 07:40:00" channel="malayalam-443054">
-    <title>News Headlines</title>
-    <desc>The host presents the latest updates and headlines about social, economic and political issues around the world, offering an overview of global affairs.</desc>
-  </programme>
   <programme start="2026-10-01 07:30:00" stop="2026-10-01 08:00:00" channel="malayalam-443054">
     <title>Varthakal</title>
     <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
+  </programme>
+  <programme start="2026-10-01 07:30:00" stop="2026-10-01 07:40:00" channel="malayalam-443054">
+    <title>News Headlines</title>
+    <desc>The host presents the latest updates and headlines about social, economic and political issues around the world, offering an overview of global affairs.</desc>
   </programme>
   <programme start="2026-10-01 07:40:00" stop="2026-10-01 08:05:00" channel="malayalam-443054">
     <title>Aksharajalakam</title>
@@ -20531,20 +20531,20 @@
     <desc>A compilation of the greatest foot-tapping hits from Mollywood is played back to back in order to entertain the audience.</desc>
   </programme>
   <programme start="2026-10-01 00:00:00" stop="2026-10-01 00:30:00" channel="malayalam-443053">
-    <title>Sports Time</title>
-    <desc>The host presents the latest news updates from the world of sports and sheds light on some of the best moments from various events.</desc>
-  </programme>
-  <programme start="2026-10-01 00:00:00" stop="2026-10-01 00:30:00" channel="malayalam-443053">
     <title>Big News</title>
     <desc>The host presents numerous top stories, latest happenings and significant updates from the national and international front.</desc>
   </programme>
-  <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:00:00" channel="malayalam-443053">
-    <title>Movie CafÉ</title>
-    <desc>The host presents the latest updates on forthcoming films, star-studded events, box office collections and sensational celebrity gossip.</desc>
+  <programme start="2026-10-01 00:00:00" stop="2026-10-01 00:30:00" channel="malayalam-443053">
+    <title>Sports Time</title>
+    <desc>The host presents the latest news updates from the world of sports and sheds light on some of the best moments from various events.</desc>
   </programme>
   <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:00:00" channel="malayalam-443053">
     <title>The View</title>
     <desc>The host invites prominent personalities from different fields and interviews them about their lives, works and plans for the future.</desc>
+  </programme>
+  <programme start="2026-10-01 00:30:00" stop="2026-10-01 01:00:00" channel="malayalam-443053">
+    <title>Movie CafÉ</title>
+    <desc>The host presents the latest updates on forthcoming films, star-studded events, box office collections and sensational celebrity gossip.</desc>
   </programme>
   <programme start="2026-10-01 01:00:00" stop="2026-10-01 01:30:00" channel="malayalam-443053">
     <title>India In</title>
@@ -30143,12 +30143,12 @@
     <title>Othiri Othiri Swapnangal</title>
     <desc>Varsha, a young woman with a heart full of dreams, is burdened by societal stigma and mental health challenges; her life intertwines with Shivananda, a fearless journalist who fights against corruption.</desc>
   </programme>
+  <programme start="2026-10-01 07:00:00" stop="2026-10-01 08:00:00" channel="malayalam-443043">
+    <title>The Great Family Challenge</title>
+  </programme>
   <programme start="2026-10-01 07:00:00" stop="2026-10-01 07:30:00" channel="malayalam-443043">
     <title>Ennum Sammatham</title>
     <desc>The love story of Midhun and Lekshmi undergoes various trials and tribulations when the people whom they consider their well-wishers turn against them.</desc>
-  </programme>
-  <programme start="2026-10-01 07:00:00" stop="2026-10-01 08:00:00" channel="malayalam-443043">
-    <title>The Great Family Challenge</title>
   </programme>
   <programme start="2026-10-01 07:30:00" stop="2026-10-01 08:00:00" channel="malayalam-443043">
     <title>Swayamvaram</title>
@@ -36991,13 +36991,13 @@
     <title>Doctor&apos;s Talk</title>
     <desc>Dr. Eeppan, the host, interacts and discusses various health problems with guest doctors and gives remedial tips for the viewers.</desc>
   </programme>
-  <programme start="2026-10-01 02:45:00" stop="2026-10-01 04:00:00" channel="malayalam-443032">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-10-01 02:45:00" stop="2026-10-01 04:30:00" channel="malayalam-443032">
     <title>Ee Pattanathil Bhootham</title>
     <desc>An evil magician releases a friendly spirit and orders him to make money through crime. However, the spirit falls into the hands of circus children after the sorcerer loses him in an accident.</desc>
+  </programme>
+  <programme start="2026-10-01 02:45:00" stop="2026-10-01 04:00:00" channel="malayalam-443032">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-01 04:00:00" stop="2026-10-01 06:30:00" channel="malayalam-443032">
     <title>Movie</title>
