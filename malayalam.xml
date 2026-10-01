@@ -13200,13 +13200,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-01 14:30:00" stop="2026-10-01 15:00:00" channel="malayalam-443059">
-    <title>Malikappuram</title>
-    <desc>When Unnimol, a young girl child, faces dismissal from all her relatives and community, Lord Ayyappan takes the form of a school student to help her overcome obstacles.</desc>
-  </programme>
   <programme start="2026-10-01 14:30:00" stop="2026-10-01 15:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-10-01 14:30:00" stop="2026-10-01 15:00:00" channel="malayalam-443059">
+    <title>Malikappuram</title>
+    <desc>When Unnimol, a young girl child, faces dismissal from all her relatives and community, Lord Ayyappan takes the form of a school student to help her overcome obstacles.</desc>
   </programme>
   <programme start="2026-10-01 15:00:00" stop="2026-10-01 15:30:00" channel="malayalam-443059">
     <title>Eatho Janma Kalpanayil</title>
@@ -18242,13 +18242,13 @@
     <title>Doctors Speak</title>
     <desc>The host teams up with doctors to shed light on the coronavirus disease (COVID-19), its symptoms, precautionary measures and when to get tested.</desc>
   </programme>
-  <programme start="2026-10-01 07:30:00" stop="2026-10-01 08:00:00" channel="malayalam-443054">
-    <title>Varthakal</title>
-    <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
-  </programme>
   <programme start="2026-10-01 07:30:00" stop="2026-10-01 07:40:00" channel="malayalam-443054">
     <title>News Headlines</title>
     <desc>The host presents the latest updates and headlines about social, economic and political issues around the world, offering an overview of global affairs.</desc>
+  </programme>
+  <programme start="2026-10-01 07:30:00" stop="2026-10-01 08:00:00" channel="malayalam-443054">
+    <title>Varthakal</title>
+    <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
   <programme start="2026-10-01 07:40:00" stop="2026-10-01 08:05:00" channel="malayalam-443054">
     <title>Aksharajalakam</title>
@@ -30143,12 +30143,12 @@
     <title>Othiri Othiri Swapnangal</title>
     <desc>Varsha, a young woman with a heart full of dreams, is burdened by societal stigma and mental health challenges; her life intertwines with Shivananda, a fearless journalist who fights against corruption.</desc>
   </programme>
-  <programme start="2026-10-01 07:00:00" stop="2026-10-01 08:00:00" channel="malayalam-443043">
-    <title>The Great Family Challenge</title>
-  </programme>
   <programme start="2026-10-01 07:00:00" stop="2026-10-01 07:30:00" channel="malayalam-443043">
     <title>Ennum Sammatham</title>
     <desc>The love story of Midhun and Lekshmi undergoes various trials and tribulations when the people whom they consider their well-wishers turn against them.</desc>
+  </programme>
+  <programme start="2026-10-01 07:00:00" stop="2026-10-01 08:00:00" channel="malayalam-443043">
+    <title>The Great Family Challenge</title>
   </programme>
   <programme start="2026-10-01 07:30:00" stop="2026-10-01 08:00:00" channel="malayalam-443043">
     <title>Swayamvaram</title>
