@@ -1188,13 +1188,13 @@
     <title>Nandhini</title>
     <desc>A young housemaid religiously worships a snake mound. However, she is unaware that it is actually a cobra that is waiting to unleash its fury on the members of the household and exact revenge.</desc>
   </programme>
-  <programme start="2026-10-03 20:00:00" stop="2026-10-03 20:30:00" channel="malayalam-443066">
-    <title>Kanyadanam</title>
-    <desc>Anandan lovingly raises his five daughters following his wife&apos;s passing. Meanwhile, the principled man provides unwavering affection after their weddings.</desc>
-  </programme>
   <programme start="2026-10-03 20:00:00" stop="2026-10-04 03:30:00" channel="malayalam-443066">
     <title>Athira</title>
     <desc>A kind young woman who loves helping others meets a man who only cares about making money. They have very different views on life, which creates an interesting mix of ideas when they talk.</desc>
+  </programme>
+  <programme start="2026-10-03 20:00:00" stop="2026-10-03 20:30:00" channel="malayalam-443066">
+    <title>Kanyadanam</title>
+    <desc>Anandan lovingly raises his five daughters following his wife&apos;s passing. Meanwhile, the principled man provides unwavering affection after their weddings.</desc>
   </programme>
   <programme start="2026-10-03 20:30:00" stop="2026-10-03 21:00:00" channel="malayalam-443066">
     <title>Chattambi Paaru</title>
@@ -4400,13 +4400,13 @@
     <title>Nandhini</title>
     <desc>A young housemaid religiously worships a snake mound. However, she is unaware that it is actually a cobra that is waiting to unleash its fury on the members of the household and exact revenge.</desc>
   </programme>
-  <programme start="2026-10-03 20:00:00" stop="2026-10-03 20:30:00" channel="malayalam-443063">
-    <title>Kanyadanam</title>
-    <desc>Anandan lovingly raises his five daughters following his wife&apos;s passing. Meanwhile, the principled man provides unwavering affection after their weddings.</desc>
-  </programme>
   <programme start="2026-10-03 20:00:00" stop="2026-10-04 03:30:00" channel="malayalam-443063">
     <title>Athira</title>
     <desc>A kind young woman who loves helping others meets a man who only cares about making money. They have very different views on life, which creates an interesting mix of ideas when they talk.</desc>
+  </programme>
+  <programme start="2026-10-03 20:00:00" stop="2026-10-03 20:30:00" channel="malayalam-443063">
+    <title>Kanyadanam</title>
+    <desc>Anandan lovingly raises his five daughters following his wife&apos;s passing. Meanwhile, the principled man provides unwavering affection after their weddings.</desc>
   </programme>
   <programme start="2026-10-03 20:30:00" stop="2026-10-03 21:00:00" channel="malayalam-443063">
     <title>Chattambi Paaru</title>
@@ -6325,13 +6325,13 @@
     <title>Panchagni</title>
     <desc>A restaurant named Pancharatnam is run by five sisters, while their stepmother tries different tactics to close their business.</desc>
   </programme>
-  <programme start="2026-10-03 18:00:00" stop="2026-10-03 19:00:00" channel="malayalam-443062">
-    <title>Flowers Comedy Ith Item Vere</title>
-    <desc>Comedians take the stage and perform hilarious skits, showcasing their talent and attempting to impress the judges, in order to win the competition.</desc>
-  </programme>
   <programme start="2026-10-03 18:00:00" stop="2026-10-03 18:30:00" channel="malayalam-443062">
     <title>Dance Dhamaka</title>
     <desc>Celebrity contestants team up with professional dancers to showcase their talent, impress an expert judging panel, and win the coveted prize.</desc>
+  </programme>
+  <programme start="2026-10-03 18:00:00" stop="2026-10-03 19:00:00" channel="malayalam-443062">
+    <title>Flowers Comedy Ith Item Vere</title>
+    <desc>Comedians take the stage and perform hilarious skits, showcasing their talent and attempting to impress the judges, in order to win the competition.</desc>
   </programme>
   <programme start="2026-10-03 18:30:00" stop="2026-10-03 19:00:00" channel="malayalam-443062">
     <title>Dance Dhamaka</title>
@@ -6379,13 +6379,13 @@
     <title>Uppum Mulakum</title>
     <desc>Balachandran and Neelima, who face many challenges to earn a living, aim to successfully fulfil their wish of going to a foreign country.</desc>
   </programme>
-  <programme start="2026-10-03 22:30:00" stop="2026-10-03 23:00:00" channel="malayalam-443062">
-    <title>Mahalakshmi</title>
-    <desc>Mahalakshmi faces the consequences of her stepfather&apos;s actions with strength, while Kannan, who survives an unexpected tragedy, becomes her unexpected support in a journey of survival.</desc>
-  </programme>
   <programme start="2026-10-03 22:30:00" stop="2026-10-04 00:00:00" channel="malayalam-443062">
     <title>Flowers Top Singer</title>
     <desc>Talented young singers compete against each other as they perform on stage in front of a panel of judges to emerge victorious and win the title.</desc>
+  </programme>
+  <programme start="2026-10-03 22:30:00" stop="2026-10-03 23:00:00" channel="malayalam-443062">
+    <title>Mahalakshmi</title>
+    <desc>Mahalakshmi faces the consequences of her stepfather&apos;s actions with strength, while Kannan, who survives an unexpected tragedy, becomes her unexpected support in a journey of survival.</desc>
   </programme>
   <programme start="2026-10-03 23:00:00" stop="2026-10-03 23:30:00" channel="malayalam-443062">
     <title>Sukhamo Devi</title>
@@ -28864,12 +28864,12 @@
     <desc>The host provides insights into the top 10 news stories and developments pertaining to a variety of topics of public concern.</desc>
   </programme>
   <programme start="2026-10-03 18:00:00" stop="2026-10-03 18:30:00" channel="malayalam-443045">
-    <title>Parayathe Vayya</title>
-    <desc>The host presents the pressing social and political issues and sheds light on the lesser known facts of important topics.</desc>
-  </programme>
-  <programme start="2026-10-03 18:00:00" stop="2026-10-03 18:30:00" channel="malayalam-443045">
     <title>Daily Special Program</title>
     <desc>The host presents a detailed analysis of the latest information and developments on various important issues that affect many lives.</desc>
+  </programme>
+  <programme start="2026-10-03 18:00:00" stop="2026-10-03 18:30:00" channel="malayalam-443045">
+    <title>Parayathe Vayya</title>
+    <desc>The host presents the pressing social and political issues and sheds light on the lesser known facts of important topics.</desc>
   </programme>
   <programme start="2026-10-03 18:30:00" stop="2026-10-03 19:00:00" channel="malayalam-443045">
     <title>Kuttapathram</title>
