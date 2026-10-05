@@ -6116,13 +6116,13 @@
     <title>Uppum Mulakum</title>
     <desc>Balachandran and Neelima, who face many challenges to earn a living, aim to successfully fulfil their wish of going to a foreign country.</desc>
   </programme>
-  <programme start="2026-10-04 22:30:00" stop="2026-10-05 00:00:00" channel="malayalam-443062">
-    <title>Flowers Top Singer</title>
-    <desc>Talented young singers compete against each other as they perform on stage in front of a panel of judges to emerge victorious and win the title.</desc>
-  </programme>
   <programme start="2026-10-04 22:30:00" stop="2026-10-04 23:00:00" channel="malayalam-443062">
     <title>Mahalakshmi</title>
     <desc>Mahalakshmi faces the consequences of her stepfather&apos;s actions with strength, while Kannan, who survives an unexpected tragedy, becomes her unexpected support in a journey of survival.</desc>
+  </programme>
+  <programme start="2026-10-04 22:30:00" stop="2026-10-05 00:00:00" channel="malayalam-443062">
+    <title>Flowers Top Singer</title>
+    <desc>Talented young singers compete against each other as they perform on stage in front of a panel of judges to emerge victorious and win the title.</desc>
   </programme>
   <programme start="2026-10-04 23:00:00" stop="2026-10-04 23:30:00" channel="malayalam-443062">
     <title>Dance Dhamaka</title>
@@ -6133,12 +6133,12 @@
     <desc>Celebrity contestants team up with professional dancers to showcase their talent, impress an expert judging panel, and win the coveted prize.</desc>
   </programme>
   <programme start="2026-10-05 00:00:00" stop="2026-10-05 00:30:00" channel="malayalam-443062">
-    <title>Sukhamo Devi</title>
-    <desc>Devika is in love with Nandagopan, but Karthikeyan forces her to marry him. She elopes with Nandagopan only to get abandoned by him at the temple, which leads her to marry his friend.</desc>
-  </programme>
-  <programme start="2026-10-05 00:00:00" stop="2026-10-05 00:30:00" channel="malayalam-443062">
     <title>Aavani Poovarangu</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-10-05 00:00:00" stop="2026-10-05 00:30:00" channel="malayalam-443062">
+    <title>Sukhamo Devi</title>
+    <desc>Devika is in love with Nandagopan, but Karthikeyan forces her to marry him. She elopes with Nandagopan only to get abandoned by him at the temple, which leads her to marry his friend.</desc>
   </programme>
   <programme start="2026-10-05 00:30:00" stop="2026-10-05 01:00:00" channel="malayalam-443062">
     <title>Aavani Poovarangu</title>
@@ -12820,25 +12820,25 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-04 22:30:00" stop="2026-10-04 23:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-10-04 22:30:00" stop="2026-10-05 00:30:00" channel="malayalam-443059">
     <title>Malayali</title>
     <desc>Madhavan is loved and respected by everyone in the village except his brothers who hate him. Matters get worse after his brothers try to falsely implicate him in an acquaintance&apos;s murder case.</desc>
   </programme>
-  <programme start="2026-10-04 23:30:00" stop="2026-10-05 00:30:00" channel="malayalam-443059">
+  <programme start="2026-10-04 22:30:00" stop="2026-10-04 23:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-05 00:30:00" stop="2026-10-05 01:30:00" channel="malayalam-443059">
+  <programme start="2026-10-04 23:30:00" stop="2026-10-05 00:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-05 00:30:00" stop="2026-10-05 02:30:00" channel="malayalam-443059">
     <title>Deepangal Sakshi</title>
     <desc>Rishi is a diligent collector who works honestly for the good of people. However, things take a turn after he draws the attention of corrupt politicians and businessmen who want to cause trouble.</desc>
+  </programme>
+  <programme start="2026-10-05 00:30:00" stop="2026-10-05 01:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-05 01:30:00" stop="2026-10-05 02:30:00" channel="malayalam-443059">
     <title>Movie</title>
@@ -12859,13 +12859,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-05 05:30:00" stop="2026-10-05 06:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-10-05 05:30:00" stop="2026-10-05 08:30:00" channel="malayalam-443059">
     <title>Samastha keralam P O</title>
     <desc>Prabhakaran, a Gandhian panchayat member, fights corruption in Thonnurkara village. However, his crusade for people&apos;s welfare angers corrupt politicians.</desc>
+  </programme>
+  <programme start="2026-10-05 05:30:00" stop="2026-10-05 06:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-05 06:30:00" stop="2026-10-05 07:30:00" channel="malayalam-443059">
     <title>Movie</title>
@@ -18268,12 +18268,12 @@
     <desc>A subject-matter expert provides a comprehensive overview of various course-related topics in an easy-to-understand manner, using relevant examples.</desc>
   </programme>
   <programme start="2026-10-04 23:00:00" stop="2026-10-04 23:30:00" channel="malayalam-443054">
-    <title>IFFK - Report</title>
-    <desc>The host presents latest updates and key developments pertaining to the International Film Festival of Kerala, a platform to celebrate cinematic excellence.</desc>
-  </programme>
-  <programme start="2026-10-04 23:00:00" stop="2026-10-04 23:30:00" channel="malayalam-443054">
     <title>World This Week</title>
     <desc>The host presents some of the latest news, updates and developments pertaining to various events and incidents from around the world.</desc>
+  </programme>
+  <programme start="2026-10-04 23:00:00" stop="2026-10-04 23:30:00" channel="malayalam-443054">
+    <title>IFFK - Report</title>
+    <desc>The host presents latest updates and key developments pertaining to the International Film Festival of Kerala, a platform to celebrate cinematic excellence.</desc>
   </programme>
   <programme start="2026-10-04 23:30:00" stop="2026-10-05 00:30:00" channel="malayalam-443054">
     <title>Kilivathil</title>
