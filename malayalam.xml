@@ -14207,13 +14207,13 @@
     <title>Rajamma &amp; Party</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-16 12:30:00" stop="2026-10-16 13:30:00" channel="malayalam-443054">
-    <title>Samakalikam</title>
-    <desc>The host sheds light on the latest political, sports, entertainment and socio-economic updates from across the country and the world.</desc>
-  </programme>
   <programme start="2026-10-16 12:30:00" stop="2026-10-16 12:40:00" channel="malayalam-443054">
     <title>Varthakal</title>
     <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
+  </programme>
+  <programme start="2026-10-16 12:30:00" stop="2026-10-16 13:30:00" channel="malayalam-443054">
+    <title>Samakalikam</title>
+    <desc>The host sheds light on the latest political, sports, entertainment and socio-economic updates from across the country and the world.</desc>
   </programme>
   <programme start="2026-10-16 12:40:00" stop="2026-10-16 13:30:00" channel="malayalam-443054">
     <title>Koottinoru Pattu</title>
