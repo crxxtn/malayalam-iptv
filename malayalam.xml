@@ -14329,13 +14329,13 @@
   <programme start="2026-10-16 22:00:00" stop="2026-10-16 22:30:00" channel="malayalam-443054">
     <title>Movie Room</title>
   </programme>
-  <programme start="2026-10-16 22:30:00" stop="2026-10-16 23:00:00" channel="malayalam-443054">
-    <title>Siet</title>
-    <desc>A subject-matter expert provides a comprehensive overview of various course-related topics in an easy-to-understand manner, using relevant examples.</desc>
-  </programme>
   <programme start="2026-10-16 22:30:00" stop="2026-10-16 23:30:00" channel="malayalam-443054">
     <title>Samakalikam</title>
     <desc>The host sheds light on the latest political, sports, entertainment and socio-economic updates from across the country and the world.</desc>
+  </programme>
+  <programme start="2026-10-16 22:30:00" stop="2026-10-16 23:00:00" channel="malayalam-443054">
+    <title>Siet</title>
+    <desc>A subject-matter expert provides a comprehensive overview of various course-related topics in an easy-to-understand manner, using relevant examples.</desc>
   </programme>
   <programme start="2026-10-16 23:00:00" stop="2026-10-17 00:00:00" channel="malayalam-443054">
     <title>Koottinoru Pattu</title>
