@@ -13247,13 +13247,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-19 05:30:00" stop="2026-10-19 06:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-10-19 05:30:00" stop="2026-10-19 08:30:00" channel="malayalam-443059">
     <title>Payyans</title>
     <desc>Josy is an unemployed young man who never acts responsibly. His life changes when his beloved mother dies in a fatal accident and his long-lost father returns home.</desc>
+  </programme>
+  <programme start="2026-10-19 05:30:00" stop="2026-10-19 06:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-19 06:30:00" stop="2026-10-19 07:30:00" channel="malayalam-443059">
     <title>Movie</title>
