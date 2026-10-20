@@ -13214,13 +13214,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-20 11:30:00" stop="2026-10-20 14:30:00" channel="malayalam-443059">
-    <title>Adayalam</title>
-    <desc>Raji calls Latha and demands INR 5 lacs as a payoff for not revealing her father&apos;s secrets. A scared Latha employs the services of Hariharan, whose investigation throws up some startling revelations.</desc>
-  </programme>
   <programme start="2026-10-20 11:30:00" stop="2026-10-20 12:30:00" channel="malayalam-443059">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-10-20 11:30:00" stop="2026-10-20 14:30:00" channel="malayalam-443059">
+    <title>Adayalam</title>
+    <desc>Raji calls Latha and demands INR 5 lacs as a payoff for not revealing her father&apos;s secrets. A scared Latha employs the services of Hariharan, whose investigation throws up some startling revelations.</desc>
   </programme>
   <programme start="2026-10-20 12:30:00" stop="2026-10-20 13:30:00" channel="malayalam-443059">
     <title>Movie</title>
@@ -13246,13 +13246,13 @@
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-20 17:30:00" stop="2026-10-20 18:30:00" channel="malayalam-443059">
-    <title>Movie</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-10-20 17:30:00" stop="2026-10-20 20:30:00" channel="malayalam-443059">
     <title>Mukham</title>
     <desc>An honest police officer tries to stop a serial killer who has murdered three people already and intends to claim one more life.</desc>
+  </programme>
+  <programme start="2026-10-20 17:30:00" stop="2026-10-20 18:30:00" channel="malayalam-443059">
+    <title>Movie</title>
+    <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-10-20 18:30:00" stop="2026-10-20 19:30:00" channel="malayalam-443059">
     <title>Movie</title>
