@@ -15718,13 +15718,13 @@
     <title>Heritage Bites</title>
     <desc>The host explores the rich heritage, monuments and history of the region, while highlighting the glorious traditions and customs of the people.</desc>
   </programme>
-  <programme start="2026-10-28 13:30:00" stop="2026-10-28 14:00:00" channel="malayalam-443054">
-    <title>Krishi Darshan</title>
-    <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
-  </programme>
   <programme start="2026-10-28 13:30:00" stop="2026-10-28 13:40:00" channel="malayalam-443054">
     <title>Varthakal</title>
     <desc>The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
+  </programme>
+  <programme start="2026-10-28 13:30:00" stop="2026-10-28 14:00:00" channel="malayalam-443054">
+    <title>Krishi Darshan</title>
+    <desc>The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers.</desc>
   </programme>
   <programme start="2026-10-28 13:40:00" stop="2026-10-28 14:15:00" channel="malayalam-443054">
     <title>Krishidarshan &amp; Farm News</title>
@@ -18077,20 +18077,20 @@
     <desc>The host presents the latest news and developments surrounding various political issues and provides updates on current events.</desc>
   </programme>
   <programme start="2026-10-28 13:30:00" stop="2026-10-28 14:00:00" channel="malayalam-443053">
-    <title>Live: Big News Live</title>
-    <desc>The host presents a roundup of all the important social, political and economic news updates and developments from the country and around the world, live.</desc>
-  </programme>
-  <programme start="2026-10-28 13:30:00" stop="2026-10-28 14:00:00" channel="malayalam-443053">
     <title>News 360</title>
     <desc>The host provides a comprehensive and detailed insight, elucidating on the latest news and developments from across the region.</desc>
   </programme>
-  <programme start="2026-10-28 14:00:00" stop="2026-10-28 14:30:00" channel="malayalam-443053">
-    <title>Power Point</title>
-    <desc>The host invites experts from various fields and moderates a debate between them on socio-political issues and current events of the nation.</desc>
+  <programme start="2026-10-28 13:30:00" stop="2026-10-28 14:00:00" channel="malayalam-443053">
+    <title>Live: Big News Live</title>
+    <desc>The host presents a roundup of all the important social, political and economic news updates and developments from the country and around the world, live.</desc>
   </programme>
   <programme start="2026-10-28 14:00:00" stop="2026-10-28 14:30:00" channel="malayalam-443053">
     <title>Ningade Sabdam</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-10-28 14:00:00" stop="2026-10-28 14:30:00" channel="malayalam-443053">
+    <title>Power Point</title>
+    <desc>The host invites experts from various fields and moderates a debate between them on socio-political issues and current events of the nation.</desc>
   </programme>
   <programme start="2026-10-28 14:30:00" stop="2026-10-28 15:00:00" channel="malayalam-443053">
     <title>Big News</title>
