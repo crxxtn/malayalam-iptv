@@ -5155,13 +5155,13 @@
     <title>Flowers Top Singer</title>
     <desc>Talented young singers compete against each other as they perform on stage in front of a panel of judges to emerge victorious and win the title.</desc>
   </programme>
-  <programme start="2026-10-29 05:30:00" stop="2026-10-29 06:00:00" channel="malayalam-443062">
-    <title>Flowers Top Singer</title>
-    <desc>Talented young singers compete against each other as they perform on stage in front of a panel of judges to emerge victorious and win the title.</desc>
-  </programme>
   <programme start="2026-10-29 05:30:00" stop="2026-10-29 08:30:00" channel="malayalam-443062">
     <title>Movie</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-10-29 05:30:00" stop="2026-10-29 06:00:00" channel="malayalam-443062">
+    <title>Flowers Top Singer</title>
+    <desc>Talented young singers compete against each other as they perform on stage in front of a panel of judges to emerge victorious and win the title.</desc>
   </programme>
   <programme start="2026-10-29 06:00:00" stop="2026-10-29 06:30:00" channel="malayalam-443062">
     <title>Sukhamo Devi</title>
@@ -7542,23 +7542,23 @@
     <title>News 22</title>
     <desc>Stay informed with the breaking news and headlines.</desc>
   </programme>
+  <programme start="2026-10-29 06:30:00" stop="2026-10-29 07:00:00" channel="malayalam-443061">
+    <title>Churam</title>
+  </programme>
   <programme start="2026-10-29 06:30:00" stop="2026-10-29 06:55:00" channel="malayalam-443061">
     <title>Nerkkuner</title>
     <desc>Issues facing the state.</desc>
-  </programme>
-  <programme start="2026-10-29 06:30:00" stop="2026-10-29 07:00:00" channel="malayalam-443061">
-    <title>Churam</title>
   </programme>
   <programme start="2026-10-29 06:55:00" stop="2026-10-29 07:00:00" channel="malayalam-443061">
     <title>Munshi</title>
     <desc>The sociopolitical canvas of Kerala is given a refreshing look through the eyes of a cartoonist.</desc>
   </programme>
   <programme start="2026-10-29 07:00:00" stop="2026-10-29 07:25:00" channel="malayalam-443061">
-    <title>Asianet Varthakal</title>
-  </programme>
-  <programme start="2026-10-29 07:00:00" stop="2026-10-29 07:25:00" channel="malayalam-443061">
     <title>Asianet News</title>
     <desc>Comprehensive coverage of news across the state of Kerala, India and the world.</desc>
+  </programme>
+  <programme start="2026-10-29 07:00:00" stop="2026-10-29 07:25:00" channel="malayalam-443061">
+    <title>Asianet Varthakal</title>
   </programme>
   <programme start="2026-10-29 07:25:00" stop="2026-10-29 07:30:00" channel="malayalam-443061">
     <title>Bodyguard</title>
@@ -10288,23 +10288,23 @@
     <title>News 22</title>
     <desc>Stay informed with the breaking news and headlines.</desc>
   </programme>
+  <programme start="2026-10-29 06:30:00" stop="2026-10-29 07:00:00" channel="malayalam-443060">
+    <title>Churam</title>
+  </programme>
   <programme start="2026-10-29 06:30:00" stop="2026-10-29 06:55:00" channel="malayalam-443060">
     <title>Nerkkuner</title>
     <desc>Issues facing the state.</desc>
-  </programme>
-  <programme start="2026-10-29 06:30:00" stop="2026-10-29 07:00:00" channel="malayalam-443060">
-    <title>Churam</title>
   </programme>
   <programme start="2026-10-29 06:55:00" stop="2026-10-29 07:00:00" channel="malayalam-443060">
     <title>Munshi</title>
     <desc>The sociopolitical canvas of Kerala is given a refreshing look through the eyes of a cartoonist.</desc>
   </programme>
   <programme start="2026-10-29 07:00:00" stop="2026-10-29 07:25:00" channel="malayalam-443060">
-    <title>Asianet Varthakal</title>
-  </programme>
-  <programme start="2026-10-29 07:00:00" stop="2026-10-29 07:25:00" channel="malayalam-443060">
     <title>Asianet News</title>
     <desc>Comprehensive coverage of news across the state of Kerala, India and the world.</desc>
+  </programme>
+  <programme start="2026-10-29 07:00:00" stop="2026-10-29 07:25:00" channel="malayalam-443060">
+    <title>Asianet Varthakal</title>
   </programme>
   <programme start="2026-10-29 07:25:00" stop="2026-10-29 07:30:00" channel="malayalam-443060">
     <title>Bodyguard</title>
