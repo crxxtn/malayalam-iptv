@@ -11350,13 +11350,13 @@
     <title>Akkidippuram Panchayath</title>
     <desc>Bringing the best in television.</desc>
   </programme>
-  <programme start="2026-10-31 22:00:00" stop="2026-10-31 22:30:00" channel="malayalam-443054">
-    <title>Amrutha Bharatham</title>
-    <desc>The host sheds light on numerous top stories, including updates about significant developments taking place in the country.</desc>
-  </programme>
   <programme start="2026-10-31 22:00:00" stop="2026-10-31 23:00:00" channel="malayalam-443054">
     <title>DD Talks Podcast</title>
     <desc>Prominent Malayali leaders analyse Kerala&apos;s socio-political landscape, exploring everything from its culture to contemporary issues.</desc>
+  </programme>
+  <programme start="2026-10-31 22:00:00" stop="2026-10-31 22:30:00" channel="malayalam-443054">
+    <title>Amrutha Bharatham</title>
+    <desc>The host sheds light on numerous top stories, including updates about significant developments taking place in the country.</desc>
   </programme>
   <programme start="2026-10-31 22:30:00" stop="2026-10-31 23:00:00" channel="malayalam-443054">
     <title>Folk Programme</title>
