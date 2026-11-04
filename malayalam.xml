@@ -12374,13 +12374,13 @@
   <programme start="2026-11-03 21:30:00" stop="2026-11-03 22:00:00" channel="malayalam-443055">
     <title>Nila</title>
   </programme>
-  <programme start="2026-11-03 22:00:00" stop="2026-11-04 00:30:00" channel="malayalam-443055">
-    <title>Kushi</title>
-    <desc>A young man raised in an agnostic household falls in love with a woman from a devout Hindu family. However, a bitter rivalry between their fathers threatens to pull them apart.</desc>
-  </programme>
   <programme start="2026-11-03 22:00:00" stop="2026-11-03 23:00:00" channel="malayalam-443055">
     <title>Superstar</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-11-03 22:00:00" stop="2026-11-04 00:30:00" channel="malayalam-443055">
+    <title>Kushi</title>
+    <desc>A young man raised in an agnostic household falls in love with a woman from a devout Hindu family. However, a bitter rivalry between their fathers threatens to pull them apart.</desc>
   </programme>
   <programme start="2026-11-03 23:00:00" stop="2026-11-04 00:00:00" channel="malayalam-443055">
     <title>Comedy Master&apos;s Life</title>
