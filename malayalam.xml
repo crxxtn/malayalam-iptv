@@ -11972,12 +11972,12 @@
   <programme start="2026-11-27 09:15:00" stop="2026-11-27 09:30:00" channel="malayalam-443060">
     <title>Sports News</title>
   </programme>
+  <programme start="2026-11-27 09:30:00" stop="2026-11-27 09:55:00" channel="malayalam-443060">
+    <title>Chuttuvattom</title>
+  </programme>
   <programme start="2026-11-27 09:30:00" stop="2026-11-27 09:59:00" channel="malayalam-443060">
     <title>Namasthe Keralam</title>
     <desc>What else can be a better way to kick-start a day with a wish from our loved one? Share your wishes with your favorite person and make their day more special through Namaste Keralam Live.</desc>
-  </programme>
-  <programme start="2026-11-27 09:30:00" stop="2026-11-27 09:55:00" channel="malayalam-443060">
-    <title>Chuttuvattom</title>
   </programme>
   <programme start="2026-11-27 09:55:00" stop="2026-11-27 10:00:00" channel="malayalam-443060">
     <title>Munshi</title>
@@ -15761,108 +15761,6 @@
     <title>Movie</title>
     <desc>Movie to be announced.</desc>
   </programme>
-  <programme start="2026-11-22 08:00:00" stop="2026-11-22 08:30:00" channel="malayalam-443055">
-    <title>Annie&apos;s Kitchen</title>
-    <desc>The host prepares tasty and simple dishes from different cuisines and provides easy to follow recipes for everyone to follow along.</desc>
-  </programme>
-  <programme start="2026-11-22 08:00:00" stop="2026-11-22 08:30:00" channel="malayalam-443055">
-    <title>Ramante sabdham ..snehapoorvam Sarath Das</title>
-  </programme>
-  <programme start="2026-11-22 08:30:00" stop="2026-11-22 09:00:00" channel="malayalam-443055">
-    <title>Ucha Vartha</title>
-    <desc>The host talks about some of the latest news stories about political, economic, social and cultural topics from all around the region.</desc>
-  </programme>
-  <programme start="2026-11-22 09:00:00" stop="2026-11-22 12:00:00" channel="malayalam-443055">
-    <title>Commissioner</title>
-    <desc>Bharathchandran, an honest police officer, uncovers the illegal activities carried out by a businessman all over the country along with high-profile accomplices.</desc>
-  </programme>
-  <programme start="2026-11-22 12:00:00" stop="2026-11-22 13:30:00" channel="malayalam-443055">
-    <title>Super Star Senior Weekend Special</title>
-    <desc>Talented singers and artists from all over the country take the stage and compete with each other to emerge victorious at the Super Star Senior singing contest.</desc>
-  </programme>
-  <programme start="2026-11-22 13:30:00" stop="2026-11-22 14:00:00" channel="malayalam-443055">
-    <title>Amrita Sangeetham</title>
-  </programme>
-  <programme start="2026-11-22 14:00:00" stop="2026-11-22 14:15:00" channel="malayalam-443055">
-    <title>Sandhya Deepam</title>
-    <desc>Religious leaders and scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage and spiritual observances.</desc>
-  </programme>
-  <programme start="2026-11-22 14:15:00" stop="2026-11-22 17:00:00" channel="malayalam-443055">
-    <title>Arayannangalude Veedu</title>
-    <desc>Raveendranath leaves home as a teenage boy following a bitter quarrel. He returns 18 years later, only to find out that things are not how he expected them to be.</desc>
-  </programme>
-  <programme start="2026-11-22 17:00:00" stop="2026-11-22 17:30:00" channel="malayalam-443055">
-    <title>Amritavarsham</title>
-    <desc>Devotees gather to offer prayers and seek blessings in honor of the birthday of Mata Amritanandamayi, an Indian spiritual leader, at Amritapuri Ashram.</desc>
-  </programme>
-  <programme start="2026-11-22 17:30:00" stop="2026-11-22 18:30:00" channel="malayalam-443055">
-    <title>Top 10 at Ten</title>
-    <desc>The host presents a summary of ten of the most important news updates and developments from the nation and around the world.</desc>
-  </programme>
-  <programme start="2026-11-22 18:30:00" stop="2026-11-22 19:30:00" channel="malayalam-443055">
-    <title>Comedy Master Weekend SPL</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-22 19:30:00" stop="2026-11-22 20:00:00" channel="malayalam-443055">
-    <title>Amrita News Middle East</title>
-  </programme>
-  <programme start="2026-11-22 20:00:00" stop="2026-11-22 20:30:00" channel="malayalam-443055">
-    <title>Vakku Maruvakku</title>
-    <desc>The host interviews prominent politicians from different political parties in Kerala about their ideologies and the current situation in the country.</desc>
-  </programme>
-  <programme start="2026-11-22 20:30:00" stop="2026-11-22 21:30:00" channel="malayalam-443055">
-    <title>Annie&apos;s Kitchen</title>
-    <desc>The host prepares tasty and simple dishes from different cuisines and provides easy to follow recipes for everyone to follow along.</desc>
-  </programme>
-  <programme start="2026-11-22 21:30:00" stop="2026-11-22 23:00:00" channel="malayalam-443055">
-    <title>Super Star Senior Weekend Special</title>
-    <desc>Talented singers and artists from all over the country take the stage and compete with each other to emerge victorious at the Super Star Senior singing contest.</desc>
-  </programme>
-  <programme start="2026-11-22 23:00:00" stop="2026-11-22 23:30:00" channel="malayalam-443055">
-    <title>Amrita Sangeetham</title>
-  </programme>
-  <programme start="2026-11-22 23:30:00" stop="2026-11-23 00:00:00" channel="malayalam-443055">
-    <title>Ammayodoppam</title>
-    <desc>Mata Amritanandamayi, a religious leader, delivers discourses and inspires devotees to follow a spiritually balanced and righteous life.</desc>
-  </programme>
-  <programme start="2026-11-23 00:00:00" stop="2026-11-23 00:30:00" channel="malayalam-443055">
-    <title>Jyothir Darshanam</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-23 00:30:00" stop="2026-11-23 01:00:00" channel="malayalam-443055">
-    <title>Amritavarsham</title>
-    <desc>Devotees gather to offer prayers and seek blessings in honor of the birthday of Mata Amritanandamayi, an Indian spiritual leader, at Amritapuri Ashram.</desc>
-  </programme>
-  <programme start="2026-11-23 01:00:00" stop="2026-11-23 01:30:00" channel="malayalam-443055">
-    <title>Sandhya Deepam</title>
-    <desc>Religious leaders and scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage and spiritual observances.</desc>
-  </programme>
-  <programme start="2026-11-23 01:30:00" stop="2026-11-23 02:00:00" channel="malayalam-443055">
-    <title>Swararchana</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-23 02:00:00" stop="2026-11-23 02:30:00" channel="malayalam-443055">
-    <title>Amritodayam</title>
-  </programme>
-  <programme start="2026-11-23 02:30:00" stop="2026-11-23 03:30:00" channel="malayalam-443055">
-    <title>Good Morning Keralam</title>
-    <desc>The host interacts with various eminent personalities, who shed light on their personal life and professional achievements.</desc>
-  </programme>
-  <programme start="2026-11-23 03:30:00" stop="2026-11-23 04:30:00" channel="malayalam-443055">
-    <title>Super Star Senior</title>
-    <desc>Several people take the centre stage to showcase their talents of singing and other aspects to a panel of judges and audiences.</desc>
-  </programme>
-  <programme start="2026-11-23 04:30:00" stop="2026-11-23 05:00:00" channel="malayalam-443055">
-    <title>Dhe Pinneem</title>
-    <desc>Life with Prakashan Paappadi and his family is lively, with simple daily events often creating humorous situations. Soon, arguments and misunderstandings result in stronger emotional bonds.</desc>
-  </programme>
-  <programme start="2026-11-23 05:00:00" stop="2026-11-23 05:30:00" channel="malayalam-443055">
-    <title>Nila</title>
-  </programme>
-  <programme start="2026-11-23 05:30:00" stop="2026-11-23 08:30:00" channel="malayalam-443055">
-    <title>Thodari</title>
-    <desc>Love blossoms between a pantry boy and a makeup artist aboard a train bound for Chennai. However, their journey becomes dangerous when the train is hijacked.</desc>
-  </programme>
   <programme start="2026-11-23 08:30:00" stop="2026-11-23 09:00:00" channel="malayalam-443055">
     <title>Ucha Vartha</title>
     <desc>The host talks about some of the latest news stories about political, economic, social and cultural topics from all around the region.</desc>
@@ -16665,6 +16563,98 @@
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-12-01 23:00:00" stop="2026-12-02 00:00:00" channel="malayalam-443055">
+    <title>Comedy Master&apos;s Life</title>
+    <desc>Talented comedians and mimicry artists entertain the audience with humorous sketches, punchy dialogues, dubbing, and impressions, as judges evaluate their performances.</desc>
+  </programme>
+  <programme start="2026-12-02 00:00:00" stop="2026-12-02 01:00:00" channel="malayalam-443055">
+    <title>Movie</title>
+    <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-12-02 01:00:00" stop="2026-12-02 01:30:00" channel="malayalam-443055">
+    <title>Sandhya Deepam</title>
+    <desc>Religious leaders and scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage and spiritual observances.</desc>
+  </programme>
+  <programme start="2026-12-02 01:30:00" stop="2026-12-02 02:30:00" channel="malayalam-443055">
+    <title>Comedy Master&apos;s Life</title>
+    <desc>Talented comedians and mimicry artists entertain the audience with humorous sketches, punchy dialogues, dubbing, and impressions, as judges evaluate their performances.</desc>
+  </programme>
+  <programme start="2026-12-02 02:30:00" stop="2026-12-02 03:00:00" channel="malayalam-443055">
+    <title>Good Morning Keralam</title>
+    <desc>The host interacts with various eminent personalities, who shed light on their personal life and professional achievements.</desc>
+  </programme>
+  <programme start="2026-12-02 03:00:00" stop="2026-12-02 03:30:00" channel="malayalam-443055">
+    <title>Meera</title>
+    <desc>After a hostile encounter tears them apart, a couple grapples with the profound effect the situation is having on their children.</desc>
+  </programme>
+  <programme start="2026-12-02 03:30:00" stop="2026-12-02 06:00:00" channel="malayalam-443055">
+    <title>Movie</title>
+    <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-12-02 06:00:00" stop="2026-12-02 08:30:00" channel="malayalam-443055">
+    <title>Movie</title>
+    <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-12-02 08:30:00" stop="2026-12-02 09:00:00" channel="malayalam-443055">
+    <title>Ucha Vartha</title>
+    <desc>The host talks about some of the latest news stories about political, economic, social and cultural topics from all around the region.</desc>
+  </programme>
+  <programme start="2026-12-02 09:00:00" stop="2026-12-02 11:30:00" channel="malayalam-443055">
+    <title>Movie</title>
+    <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-12-02 11:30:00" stop="2026-12-02 14:00:00" channel="malayalam-443055">
+    <title>Movie</title>
+    <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-12-02 14:00:00" stop="2026-12-02 14:30:00" channel="malayalam-443055">
+    <title>Sandhya Deepam</title>
+    <desc>Religious leaders and scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage and spiritual observances.</desc>
+  </programme>
+  <programme start="2026-12-02 14:30:00" stop="2026-12-02 15:00:00" channel="malayalam-443055">
+    <title>Sathyam Shivam Sundaram</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-02 15:00:00" stop="2026-12-02 15:30:00" channel="malayalam-443055">
+    <title>Meera</title>
+    <desc>After a hostile encounter tears them apart, a couple grapples with the profound effect the situation is having on their children.</desc>
+  </programme>
+  <programme start="2026-12-02 15:30:00" stop="2026-12-02 16:30:00" channel="malayalam-443055">
+    <title>Superstar</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-02 16:30:00" stop="2026-12-02 17:30:00" channel="malayalam-443055">
+    <title>Comedy Master&apos;s Life</title>
+    <desc>Talented comedians and mimicry artists entertain the audience with humorous sketches, punchy dialogues, dubbing, and impressions, as judges evaluate their performances.</desc>
+  </programme>
+  <programme start="2026-12-02 17:30:00" stop="2026-12-02 18:30:00" channel="malayalam-443055">
+    <title>Top 10 at Ten</title>
+    <desc>The host presents a summary of ten of the most important news updates and developments from the nation and around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 18:30:00" stop="2026-12-02 19:30:00" channel="malayalam-443055">
+    <title>Superstar</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-02 19:30:00" stop="2026-12-02 20:00:00" channel="malayalam-443055">
+    <title>Gulf News</title>
+    <desc>The host presents a round-up of the latest social, political and economic news updates and developments from the Middle East.</desc>
+  </programme>
+  <programme start="2026-12-02 20:00:00" stop="2026-12-02 21:00:00" channel="malayalam-443055">
+    <title>Comedy Master&apos;s Life</title>
+    <desc>Talented comedians and mimicry artists entertain the audience with humorous sketches, punchy dialogues, dubbing, and impressions, as judges evaluate their performances.</desc>
+  </programme>
+  <programme start="2026-12-02 21:00:00" stop="2026-12-02 21:30:00" channel="malayalam-443055">
+    <title>Meera</title>
+    <desc>After a hostile encounter tears them apart, a couple grapples with the profound effect the situation is having on their children.</desc>
+  </programme>
+  <programme start="2026-12-02 21:30:00" stop="2026-12-02 22:00:00" channel="malayalam-443055">
+    <title>Sathyam Shivam Sundaram</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-02 22:00:00" stop="2026-12-02 23:00:00" channel="malayalam-443055">
+    <title>Superstar</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-02 23:00:00" stop="2026-12-03 00:00:00" channel="malayalam-443055">
     <title>Comedy Master&apos;s Life</title>
     <desc>Talented comedians and mimicry artists entertain the audience with humorous sketches, punchy dialogues, dubbing, and impressions, as judges evaluate their performances.</desc>
   </programme>
@@ -26878,86 +26868,6 @@
     <title>Straight Line</title>
     <desc>The host invites prominent business leaders and celebrities to discuss a wide range of important topics and share their opinions on the same.</desc>
   </programme>
-  <programme start="2026-11-22 11:30:00" stop="2026-11-22 11:33:00" channel="malayalam-443046">
-    <title>Happy Birthday</title>
-    <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
-  </programme>
-  <programme start="2026-11-22 11:33:00" stop="2026-11-22 12:30:00" channel="malayalam-443046">
-    <title>Akira And Mowgli</title>
-  </programme>
-  <programme start="2026-11-22 12:30:00" stop="2026-11-22 13:30:00" channel="malayalam-443046">
-    <title>Super Singhoo</title>
-  </programme>
-  <programme start="2026-11-22 13:30:00" stop="2026-11-22 14:30:00" channel="malayalam-443046">
-    <title>Little Hakka</title>
-    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
-  </programme>
-  <programme start="2026-11-22 14:30:00" stop="2026-11-22 15:30:00" channel="malayalam-443046">
-    <title>Panda and Rooster</title>
-    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
-  </programme>
-  <programme start="2026-11-22 15:30:00" stop="2026-11-22 17:30:00" channel="malayalam-443046">
-    <title>Heidi</title>
-    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
-  </programme>
-  <programme start="2026-11-22 17:30:00" stop="2026-11-22 18:00:00" channel="malayalam-443046">
-    <title>Little Krishna</title>
-    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
-  </programme>
-  <programme start="2026-11-22 18:00:00" stop="2026-11-22 19:00:00" channel="malayalam-443046">
-    <title>Shaktimaan</title>
-    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
-  </programme>
-  <programme start="2026-11-22 19:00:00" stop="2026-11-22 22:00:00" channel="malayalam-443046">
-    <title>Happy Kids</title>
-    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
-  </programme>
-  <programme start="2026-11-22 22:00:00" stop="2026-11-22 23:00:00" channel="malayalam-443046">
-    <title>Singoo Fan Fest</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-22 23:00:00" stop="2026-11-23 00:30:00" channel="malayalam-443046">
-    <title>Happy Kids</title>
-    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
-  </programme>
-  <programme start="2026-11-23 00:30:00" stop="2026-11-23 01:30:00" channel="malayalam-443046">
-    <title>Little Krishna</title>
-    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
-  </programme>
-  <programme start="2026-11-23 01:30:00" stop="2026-11-23 02:00:00" channel="malayalam-443046">
-    <title>Kadha Koottu</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-23 02:00:00" stop="2026-11-23 02:30:00" channel="malayalam-443046">
-    <title>Shaktimaan</title>
-    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
-  </programme>
-  <programme start="2026-11-23 02:30:00" stop="2026-11-23 03:00:00" channel="malayalam-443046">
-    <title>Maha Ganesha</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-23 03:00:00" stop="2026-11-23 03:30:00" channel="malayalam-443046">
-    <title>Shabaas Bhola</title>
-    <desc>Young Bhola, empowered by his unwavering devotion to Lord Mahakal Shiva, emerges as the courageous protector of Kailashpur. He stands firm against the dark forces threatening his town.</desc>
-  </programme>
-  <programme start="2026-11-23 03:30:00" stop="2026-11-23 03:33:00" channel="malayalam-443046">
-    <title>Happy Birthday</title>
-    <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
-  </programme>
-  <programme start="2026-11-23 03:33:00" stop="2026-11-23 04:30:00" channel="malayalam-443046">
-    <title>Super Singhoo</title>
-  </programme>
-  <programme start="2026-11-23 04:30:00" stop="2026-11-23 05:30:00" channel="malayalam-443046">
-    <title>Akira And Mowgli</title>
-  </programme>
-  <programme start="2026-11-23 05:30:00" stop="2026-11-23 07:30:00" channel="malayalam-443046">
-    <title>Heidi</title>
-    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
-  </programme>
-  <programme start="2026-11-23 07:30:00" stop="2026-11-23 08:30:00" channel="malayalam-443046">
-    <title>Panda and Rooster</title>
-    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
-  </programme>
   <programme start="2026-11-23 08:30:00" stop="2026-11-23 09:30:00" channel="malayalam-443046">
     <title>Little Hakka</title>
     <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
@@ -27408,9 +27318,21 @@
     <title>Gloria&apos;s House</title>
     <desc>Gloria has a messy house, but it is more fun than any other house in Chillsville. Her daily life is full of adventures as she deals with her siblings and her neighbours.</desc>
   </programme>
+  <programme start="2026-11-28 01:30:00" stop="2026-11-28 02:00:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
   <programme start="2026-11-28 02:00:00" stop="2026-11-28 03:00:00" channel="malayalam-443046">
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-11-28 02:00:00" stop="2026-11-28 02:30:00" channel="malayalam-443046">
+    <title>Maha Ganesha</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-11-28 02:30:00" stop="2026-11-28 03:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
   </programme>
   <programme start="2026-11-28 03:00:00" stop="2026-11-28 03:30:00" channel="malayalam-443046">
     <title>Dorayude Prayanam</title>
@@ -27420,13 +27342,23 @@
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
   </programme>
+  <programme start="2026-11-28 03:33:00" stop="2026-11-28 04:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
   <programme start="2026-11-28 03:35:00" stop="2026-11-28 05:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-11-28 04:30:00" stop="2026-11-28 05:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
+  </programme>
   <programme start="2026-11-28 05:30:00" stop="2026-11-28 06:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
     <desc>Ballu is taken to a fairyland where he is blessed with special powers by six fairies, each having her own unique traits. He uses his powers to help good and honest children, including his friends.</desc>
+  </programme>
+  <programme start="2026-11-28 05:30:00" stop="2026-11-28 11:00:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
   </programme>
   <programme start="2026-11-28 06:00:00" stop="2026-11-28 08:30:00" channel="malayalam-443046">
     <title>Movie</title>
@@ -27440,9 +27372,15 @@
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
   </programme>
+  <programme start="2026-11-28 11:00:00" stop="2026-11-28 11:30:00" channel="malayalam-443046">
+    <title>Fun Fiesta</title>
+  </programme>
   <programme start="2026-11-28 11:30:00" stop="2026-11-28 11:35:00" channel="malayalam-443046">
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
+  </programme>
+  <programme start="2026-11-28 11:33:00" stop="2026-11-28 12:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
   </programme>
   <programme start="2026-11-28 11:35:00" stop="2026-11-28 12:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
@@ -27452,17 +27390,47 @@
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
   </programme>
+  <programme start="2026-11-28 12:30:00" stop="2026-11-28 13:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
+  <programme start="2026-11-28 13:30:00" stop="2026-11-28 14:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
+  <programme start="2026-11-28 14:30:00" stop="2026-11-28 15:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
+  </programme>
   <programme start="2026-11-28 15:30:00" stop="2026-11-28 16:30:00" channel="malayalam-443046">
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-11-28 15:30:00" stop="2026-11-28 16:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
   </programme>
   <programme start="2026-11-28 16:30:00" stop="2026-11-28 18:30:00" channel="malayalam-443046">
     <title>Pinnochio</title>
     <desc>Pinocchio and his friends live in a magical village filled with fairytale characters and go on many interesting adventures.</desc>
   </programme>
+  <programme start="2026-11-28 16:30:00" stop="2026-11-28 17:00:00" channel="malayalam-443046">
+    <title>Fun Fiesta</title>
+  </programme>
+  <programme start="2026-11-28 17:00:00" stop="2026-11-28 18:00:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
+  <programme start="2026-11-28 18:00:00" stop="2026-11-28 19:00:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
   <programme start="2026-11-28 18:30:00" stop="2026-11-28 19:30:00" channel="malayalam-443046">
     <title>Little Krishna</title>
     <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
+  <programme start="2026-11-28 19:00:00" stop="2026-11-28 22:00:00" channel="malayalam-443046">
+    <title>Happy Kids</title>
+    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
   </programme>
   <programme start="2026-11-28 19:30:00" stop="2026-11-28 20:00:00" channel="malayalam-443046">
     <title>Jackie Chan</title>
@@ -27488,13 +27456,29 @@
     <title>Kadha Koottu</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-11-29 00:30:00" stop="2026-11-29 01:30:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
   <programme start="2026-11-29 01:30:00" stop="2026-11-29 02:00:00" channel="malayalam-443046">
     <title>Gloria&apos;s House</title>
     <desc>Gloria has a messy house, but it is more fun than any other house in Chillsville. Her daily life is full of adventures as she deals with her siblings and her neighbours.</desc>
   </programme>
+  <programme start="2026-11-29 01:30:00" stop="2026-11-29 02:00:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
   <programme start="2026-11-29 02:00:00" stop="2026-11-29 03:00:00" channel="malayalam-443046">
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-11-29 02:00:00" stop="2026-11-29 02:30:00" channel="malayalam-443046">
+    <title>Maha Ganesha</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-11-29 02:30:00" stop="2026-11-29 03:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
   </programme>
   <programme start="2026-11-29 03:00:00" stop="2026-11-29 03:30:00" channel="malayalam-443046">
     <title>Dorayude Prayanam</title>
@@ -27504,13 +27488,23 @@
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
   </programme>
+  <programme start="2026-11-29 03:33:00" stop="2026-11-29 04:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
   <programme start="2026-11-29 03:35:00" stop="2026-11-29 05:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-11-29 04:30:00" stop="2026-11-29 05:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
+  </programme>
   <programme start="2026-11-29 05:30:00" stop="2026-11-29 06:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
     <desc>Ballu is taken to a fairyland where he is blessed with special powers by six fairies, each having her own unique traits. He uses his powers to help good and honest children, including his friends.</desc>
+  </programme>
+  <programme start="2026-11-29 05:30:00" stop="2026-11-29 11:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
   </programme>
   <programme start="2026-11-29 06:00:00" stop="2026-11-29 08:30:00" channel="malayalam-443046">
     <title>Movie</title>
@@ -27532,6 +27526,9 @@
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
   </programme>
+  <programme start="2026-11-29 11:33:00" stop="2026-11-29 12:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
+  </programme>
   <programme start="2026-11-29 11:35:00" stop="2026-11-29 12:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
     <desc>Ballu is taken to a fairyland where he is blessed with special powers by six fairies, each having her own unique traits. He uses his powers to help good and honest children, including his friends.</desc>
@@ -27540,9 +27537,24 @@
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
   </programme>
+  <programme start="2026-11-29 12:30:00" stop="2026-11-29 13:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
+  <programme start="2026-11-29 13:30:00" stop="2026-11-29 14:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
+  <programme start="2026-11-29 14:30:00" stop="2026-11-29 15:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
+  </programme>
   <programme start="2026-11-29 15:30:00" stop="2026-11-29 16:30:00" channel="malayalam-443046">
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-11-29 15:30:00" stop="2026-11-29 17:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
   </programme>
   <programme start="2026-11-29 16:30:00" stop="2026-11-29 17:30:00" channel="malayalam-443046">
     <title>Little Krishna</title>
@@ -27552,6 +27564,14 @@
     <title>Christmas &amp; New Year Carnival 2024/25</title>
     <desc>Children come together to participate in various fun activities and indulge in entertaining games at the Christmas New Year Carnival 2024/25.</desc>
   </programme>
+  <programme start="2026-11-29 17:30:00" stop="2026-11-29 18:00:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
+  <programme start="2026-11-29 18:00:00" stop="2026-11-29 19:00:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
   <programme start="2026-11-29 18:30:00" stop="2026-11-29 19:00:00" channel="malayalam-443046">
     <title>Growing up with Tiantian</title>
     <desc>Tiantian moves with her family to a countryside village. They gradually adjust to rural life and grow to love their natural surroundings.</desc>
@@ -27559,6 +27579,10 @@
   <programme start="2026-11-29 19:00:00" stop="2026-11-29 19:30:00" channel="malayalam-443046">
     <title>A B C B Adventures</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-11-29 19:00:00" stop="2026-11-29 22:00:00" channel="malayalam-443046">
+    <title>Happy Kids</title>
+    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
   </programme>
   <programme start="2026-11-29 19:30:00" stop="2026-11-29 20:00:00" channel="malayalam-443046">
     <title>Jackie Chan</title>
@@ -27584,45 +27608,98 @@
     <title>Kadha Koottu</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-11-30 00:30:00" stop="2026-11-30 01:30:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
   <programme start="2026-11-30 01:30:00" stop="2026-11-30 02:00:00" channel="malayalam-443046">
     <title>Gloria&apos;s House</title>
     <desc>Gloria has a messy house, but it is more fun than any other house in Chillsville. Her daily life is full of adventures as she deals with her siblings and her neighbours.</desc>
+  </programme>
+  <programme start="2026-11-30 01:30:00" stop="2026-11-30 02:00:00" channel="malayalam-443046">
+    <title>Danger Mouse</title>
+    <desc>Danger Mouse, a talented secret agent, and his faithful sidekick, Ernest Penfold, do all they can to thwart the evil plans of Baron Silas von Greenback.</desc>
   </programme>
   <programme start="2026-11-30 02:00:00" stop="2026-11-30 03:00:00" channel="malayalam-443046">
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
   </programme>
+  <programme start="2026-11-30 02:00:00" stop="2026-11-30 02:30:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
+  <programme start="2026-11-30 02:30:00" stop="2026-11-30 03:00:00" channel="malayalam-443046">
+    <title>Maha Ganesha</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
   <programme start="2026-11-30 03:00:00" stop="2026-11-30 03:30:00" channel="malayalam-443046">
     <title>Dorayude Prayanam</title>
     <desc>Dora, a brave young explorer, embarks on adventures with her friends to various locations. They face challenges and solve puzzles to overcome obstacles on their journeys.</desc>
+  </programme>
+  <programme start="2026-11-30 03:00:00" stop="2026-11-30 03:30:00" channel="malayalam-443046">
+    <title>Shabaas Bhola</title>
+    <desc>Young Bhola, empowered by his unwavering devotion to Lord Mahakal Shiva, emerges as the courageous protector of Kailashpur. He stands firm against the dark forces threatening his town.</desc>
   </programme>
   <programme start="2026-11-30 03:30:00" stop="2026-11-30 03:35:00" channel="malayalam-443046">
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
   </programme>
+  <programme start="2026-11-30 03:33:00" stop="2026-11-30 04:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
   <programme start="2026-11-30 03:35:00" stop="2026-11-30 05:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-11-30 04:30:00" stop="2026-11-30 05:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
   </programme>
   <programme start="2026-11-30 05:30:00" stop="2026-11-30 06:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
     <desc>Ballu is taken to a fairyland where he is blessed with special powers by six fairies, each having her own unique traits. He uses his powers to help good and honest children, including his friends.</desc>
   </programme>
+  <programme start="2026-11-30 05:30:00" stop="2026-11-30 07:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
+  </programme>
   <programme start="2026-11-30 06:00:00" stop="2026-11-30 08:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-11-30 07:30:00" stop="2026-11-30 08:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
   </programme>
   <programme start="2026-11-30 08:30:00" stop="2026-11-30 09:00:00" channel="malayalam-443046">
     <title>Dorayude Prayanam</title>
     <desc>Dora, a brave young explorer, embarks on adventures with her friends to various locations. They face challenges and solve puzzles to overcome obstacles on their journeys.</desc>
   </programme>
+  <programme start="2026-11-30 08:30:00" stop="2026-11-30 09:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
   <programme start="2026-11-30 09:00:00" stop="2026-11-30 11:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-11-30 09:30:00" stop="2026-11-30 10:30:00" channel="malayalam-443046">
+    <title>Dorayude Prayanam</title>
+    <desc>Dora, a brave young explorer, embarks on adventures with her friends to various locations. They face challenges and solve puzzles to overcome obstacles on their journeys.</desc>
+  </programme>
+  <programme start="2026-11-30 10:30:00" stop="2026-11-30 11:00:00" channel="malayalam-443046">
+    <title>Danger Mouse</title>
+    <desc>Danger Mouse, a talented secret agent, and his faithful sidekick, Ernest Penfold, do all they can to thwart the evil plans of Baron Silas von Greenback.</desc>
+  </programme>
+  <programme start="2026-11-30 11:00:00" stop="2026-11-30 11:30:00" channel="malayalam-443046">
+    <title>Gloria&apos;s House</title>
+    <desc>Gloria has a messy house, but it is more fun than any other house in Chillsville. Her daily life is full of adventures as she deals with her siblings and her neighbours.</desc>
+  </programme>
   <programme start="2026-11-30 11:30:00" stop="2026-11-30 11:35:00" channel="malayalam-443046">
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
+  </programme>
+  <programme start="2026-11-30 11:33:00" stop="2026-11-30 12:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
   </programme>
   <programme start="2026-11-30 11:35:00" stop="2026-11-30 12:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
@@ -27632,9 +27709,24 @@
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-11-30 12:30:00" stop="2026-11-30 13:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
+  <programme start="2026-11-30 13:30:00" stop="2026-11-30 14:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
+  <programme start="2026-11-30 14:30:00" stop="2026-11-30 15:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
+  </programme>
   <programme start="2026-11-30 15:30:00" stop="2026-11-30 16:30:00" channel="malayalam-443046">
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
+  </programme>
+  <programme start="2026-11-30 15:30:00" stop="2026-11-30 17:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
   </programme>
   <programme start="2026-11-30 16:30:00" stop="2026-11-30 17:30:00" channel="malayalam-443046">
     <title>Little Krishna</title>
@@ -27644,9 +27736,17 @@
     <title>Growing up with Tiantian</title>
     <desc>Tiantian moves with her family to a countryside village. They gradually adjust to rural life and grow to love their natural surroundings.</desc>
   </programme>
+  <programme start="2026-11-30 17:30:00" stop="2026-11-30 18:00:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
   <programme start="2026-11-30 18:00:00" stop="2026-11-30 18:30:00" channel="malayalam-443046">
     <title>Anniyan Bava Chettan Bava Kutties</title>
     <desc>A logger tries desperately to collect timber from the majestic forest for his personal gains, but his plan is foiled by the actions of two bears.</desc>
+  </programme>
+  <programme start="2026-11-30 18:00:00" stop="2026-11-30 19:00:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
   </programme>
   <programme start="2026-11-30 18:30:00" stop="2026-11-30 19:00:00" channel="malayalam-443046">
     <title>A B C B Monster Plan</title>
@@ -27655,6 +27755,10 @@
   <programme start="2026-11-30 19:00:00" stop="2026-11-30 19:30:00" channel="malayalam-443046">
     <title>A B C B Adventures</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-11-30 19:00:00" stop="2026-11-30 22:00:00" channel="malayalam-443046">
+    <title>Happy Kids</title>
+    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
   </programme>
   <programme start="2026-11-30 19:30:00" stop="2026-11-30 20:00:00" channel="malayalam-443046">
     <title>Jackie Chan</title>
@@ -27680,45 +27784,98 @@
     <title>Kadha Koottu</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-12-01 00:30:00" stop="2026-12-01 01:30:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
   <programme start="2026-12-01 01:30:00" stop="2026-12-01 02:00:00" channel="malayalam-443046">
     <title>Gloria&apos;s House</title>
     <desc>Gloria has a messy house, but it is more fun than any other house in Chillsville. Her daily life is full of adventures as she deals with her siblings and her neighbours.</desc>
+  </programme>
+  <programme start="2026-12-01 01:30:00" stop="2026-12-01 02:00:00" channel="malayalam-443046">
+    <title>Danger Mouse</title>
+    <desc>Danger Mouse, a talented secret agent, and his faithful sidekick, Ernest Penfold, do all they can to thwart the evil plans of Baron Silas von Greenback.</desc>
   </programme>
   <programme start="2026-12-01 02:00:00" stop="2026-12-01 03:00:00" channel="malayalam-443046">
     <title>Movie</title>
     <desc>Bringing the best in cinema.</desc>
   </programme>
+  <programme start="2026-12-01 02:00:00" stop="2026-12-01 02:30:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
+  <programme start="2026-12-01 02:30:00" stop="2026-12-01 03:00:00" channel="malayalam-443046">
+    <title>Maha Ganesha</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
   <programme start="2026-12-01 03:00:00" stop="2026-12-01 03:30:00" channel="malayalam-443046">
     <title>Dorayude Prayanam</title>
     <desc>Dora, a brave young explorer, embarks on adventures with her friends to various locations. They face challenges and solve puzzles to overcome obstacles on their journeys.</desc>
+  </programme>
+  <programme start="2026-12-01 03:00:00" stop="2026-12-01 03:30:00" channel="malayalam-443046">
+    <title>Shabaas Bhola</title>
+    <desc>Young Bhola, empowered by his unwavering devotion to Lord Mahakal Shiva, emerges as the courageous protector of Kailashpur. He stands firm against the dark forces threatening his town.</desc>
   </programme>
   <programme start="2026-12-01 03:30:00" stop="2026-12-01 03:35:00" channel="malayalam-443046">
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
   </programme>
+  <programme start="2026-12-01 03:33:00" stop="2026-12-01 04:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
   <programme start="2026-12-01 03:35:00" stop="2026-12-01 05:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-01 04:30:00" stop="2026-12-01 05:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
   </programme>
   <programme start="2026-12-01 05:30:00" stop="2026-12-01 06:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
     <desc>Ballu is taken to a fairyland where he is blessed with special powers by six fairies, each having her own unique traits. He uses his powers to help good and honest children, including his friends.</desc>
   </programme>
+  <programme start="2026-12-01 05:30:00" stop="2026-12-01 07:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
+  </programme>
   <programme start="2026-12-01 06:00:00" stop="2026-12-01 08:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-01 07:30:00" stop="2026-12-01 08:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
   </programme>
   <programme start="2026-12-01 08:30:00" stop="2026-12-01 09:00:00" channel="malayalam-443046">
     <title>Dorayude Prayanam</title>
     <desc>Dora, a brave young explorer, embarks on adventures with her friends to various locations. They face challenges and solve puzzles to overcome obstacles on their journeys.</desc>
   </programme>
+  <programme start="2026-12-01 08:30:00" stop="2026-12-01 09:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
   <programme start="2026-12-01 09:00:00" stop="2026-12-01 11:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
   </programme>
+  <programme start="2026-12-01 09:30:00" stop="2026-12-01 10:30:00" channel="malayalam-443046">
+    <title>Dorayude Prayanam</title>
+    <desc>Dora, a brave young explorer, embarks on adventures with her friends to various locations. They face challenges and solve puzzles to overcome obstacles on their journeys.</desc>
+  </programme>
+  <programme start="2026-12-01 10:30:00" stop="2026-12-01 11:00:00" channel="malayalam-443046">
+    <title>Danger Mouse</title>
+    <desc>Danger Mouse, a talented secret agent, and his faithful sidekick, Ernest Penfold, do all they can to thwart the evil plans of Baron Silas von Greenback.</desc>
+  </programme>
+  <programme start="2026-12-01 11:00:00" stop="2026-12-01 11:30:00" channel="malayalam-443046">
+    <title>Gloria&apos;s House</title>
+    <desc>Gloria has a messy house, but it is more fun than any other house in Chillsville. Her daily life is full of adventures as she deals with her siblings and her neighbours.</desc>
+  </programme>
   <programme start="2026-12-01 11:30:00" stop="2026-12-01 11:35:00" channel="malayalam-443046">
     <title>Happy Birthday</title>
     <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
+  </programme>
+  <programme start="2026-12-01 11:33:00" stop="2026-12-01 12:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
   </programme>
   <programme start="2026-12-01 11:35:00" stop="2026-12-01 12:00:00" channel="malayalam-443046">
     <title>Baal Veer</title>
@@ -27727,6 +27884,21 @@
   <programme start="2026-12-01 12:00:00" stop="2026-12-01 15:30:00" channel="malayalam-443046">
     <title>Kochu Blast</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-01 12:30:00" stop="2026-12-01 13:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
+  <programme start="2026-12-01 13:30:00" stop="2026-12-01 14:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
+  <programme start="2026-12-01 14:30:00" stop="2026-12-01 15:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
+  </programme>
+  <programme start="2026-12-01 15:30:00" stop="2026-12-01 17:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
   </programme>
   <programme start="2026-12-01 15:30:00" stop="2026-12-01 16:30:00" channel="malayalam-443046">
     <title>Movie</title>
@@ -27737,8 +27909,16 @@
     <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
   </programme>
   <programme start="2026-12-01 17:30:00" stop="2026-12-01 18:00:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
+  <programme start="2026-12-01 17:30:00" stop="2026-12-01 18:00:00" channel="malayalam-443046">
     <title>Growing up with Tiantian</title>
     <desc>Tiantian moves with her family to a countryside village. They gradually adjust to rural life and grow to love their natural surroundings.</desc>
+  </programme>
+  <programme start="2026-12-01 18:00:00" stop="2026-12-01 19:00:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
   </programme>
   <programme start="2026-12-01 18:00:00" stop="2026-12-01 18:30:00" channel="malayalam-443046">
     <title>Anniyan Bava Chettan Bava Kutties</title>
@@ -27747,6 +27927,10 @@
   <programme start="2026-12-01 18:30:00" stop="2026-12-01 19:00:00" channel="malayalam-443046">
     <title>A B C B Monster Plan</title>
     <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-01 19:00:00" stop="2026-12-01 22:00:00" channel="malayalam-443046">
+    <title>Happy Kids</title>
+    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
   </programme>
   <programme start="2026-12-01 19:00:00" stop="2026-12-01 19:30:00" channel="malayalam-443046">
     <title>A B C B Adventures</title>
@@ -27769,6 +27953,102 @@
     <desc>Bringing the best in television.</desc>
   </programme>
   <programme start="2026-12-01 23:00:00" stop="2026-12-02 00:30:00" channel="malayalam-443046">
+    <title>Happy Kids</title>
+    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
+  </programme>
+  <programme start="2026-12-02 00:30:00" stop="2026-12-02 01:30:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
+  <programme start="2026-12-02 01:30:00" stop="2026-12-02 02:00:00" channel="malayalam-443046">
+    <title>Danger Mouse</title>
+    <desc>Danger Mouse, a talented secret agent, and his faithful sidekick, Ernest Penfold, do all they can to thwart the evil plans of Baron Silas von Greenback.</desc>
+  </programme>
+  <programme start="2026-12-02 02:00:00" stop="2026-12-02 02:30:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
+  <programme start="2026-12-02 02:30:00" stop="2026-12-02 03:00:00" channel="malayalam-443046">
+    <title>Maha Ganesha</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-02 03:00:00" stop="2026-12-02 03:30:00" channel="malayalam-443046">
+    <title>Shabaas Bhola</title>
+    <desc>Young Bhola, empowered by his unwavering devotion to Lord Mahakal Shiva, emerges as the courageous protector of Kailashpur. He stands firm against the dark forces threatening his town.</desc>
+  </programme>
+  <programme start="2026-12-02 03:30:00" stop="2026-12-02 03:33:00" channel="malayalam-443046">
+    <title>Happy Birthday</title>
+    <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
+  </programme>
+  <programme start="2026-12-02 03:33:00" stop="2026-12-02 04:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
+  <programme start="2026-12-02 04:30:00" stop="2026-12-02 05:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
+  </programme>
+  <programme start="2026-12-02 05:30:00" stop="2026-12-02 07:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
+  </programme>
+  <programme start="2026-12-02 07:30:00" stop="2026-12-02 08:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
+  </programme>
+  <programme start="2026-12-02 08:30:00" stop="2026-12-02 09:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
+  <programme start="2026-12-02 09:30:00" stop="2026-12-02 10:30:00" channel="malayalam-443046">
+    <title>Dorayude Prayanam</title>
+    <desc>Dora, a brave young explorer, embarks on adventures with her friends to various locations. They face challenges and solve puzzles to overcome obstacles on their journeys.</desc>
+  </programme>
+  <programme start="2026-12-02 10:30:00" stop="2026-12-02 11:00:00" channel="malayalam-443046">
+    <title>Danger Mouse</title>
+    <desc>Danger Mouse, a talented secret agent, and his faithful sidekick, Ernest Penfold, do all they can to thwart the evil plans of Baron Silas von Greenback.</desc>
+  </programme>
+  <programme start="2026-12-02 11:00:00" stop="2026-12-02 11:30:00" channel="malayalam-443046">
+    <title>Gloria&apos;s House</title>
+    <desc>Gloria has a messy house, but it is more fun than any other house in Chillsville. Her daily life is full of adventures as she deals with her siblings and her neighbours.</desc>
+  </programme>
+  <programme start="2026-12-02 11:30:00" stop="2026-12-02 11:33:00" channel="malayalam-443046">
+    <title>Happy Birthday</title>
+    <desc>Children celebrate their birthdays with a heart-touching note from their loved ones on the occasion of the special memorable day.</desc>
+  </programme>
+  <programme start="2026-12-02 11:33:00" stop="2026-12-02 12:30:00" channel="malayalam-443046">
+    <title>Akira And Mowgli</title>
+  </programme>
+  <programme start="2026-12-02 12:30:00" stop="2026-12-02 13:30:00" channel="malayalam-443046">
+    <title>Super Singhoo</title>
+  </programme>
+  <programme start="2026-12-02 13:30:00" stop="2026-12-02 14:30:00" channel="malayalam-443046">
+    <title>Little Hakka</title>
+    <desc>Little Hakka uses her magical &apos;Hakka Hat&apos; to fight evil forces threatening nature in an animated children&apos;s adventure story.</desc>
+  </programme>
+  <programme start="2026-12-02 14:30:00" stop="2026-12-02 15:30:00" channel="malayalam-443046">
+    <title>Panda and Rooster</title>
+    <desc>A rooster decides to explore the vast landscapes of China. Later, he meets a panda and the two friends begin a journey together.</desc>
+  </programme>
+  <programme start="2026-12-02 15:30:00" stop="2026-12-02 17:30:00" channel="malayalam-443046">
+    <title>Heidi</title>
+    <desc>Heidi lives in Frankfurt and has a friend, Clara. However, after spending time at her grandfather&apos;s place in the countryside, she yearns to go back and spend time in the open mountain pasture.</desc>
+  </programme>
+  <programme start="2026-12-02 17:30:00" stop="2026-12-02 18:00:00" channel="malayalam-443046">
+    <title>Little Krishna</title>
+    <desc>Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.</desc>
+  </programme>
+  <programme start="2026-12-02 18:00:00" stop="2026-12-02 19:00:00" channel="malayalam-443046">
+    <title>Shaktimaan</title>
+    <desc>A young college boy discovers his yogic superpowers and transforms into a superhero who protects the world from an evil villain.</desc>
+  </programme>
+  <programme start="2026-12-02 19:00:00" stop="2026-12-02 22:00:00" channel="malayalam-443046">
+    <title>Happy Kids</title>
+    <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
+  </programme>
+  <programme start="2026-12-02 22:00:00" stop="2026-12-02 23:00:00" channel="malayalam-443046">
+    <title>Singoo Fan Fest</title>
+    <desc>Bringing the best in television.</desc>
+  </programme>
+  <programme start="2026-12-02 23:00:00" stop="2026-12-03 00:30:00" channel="malayalam-443046">
     <title>Happy Kids</title>
     <desc>Happy Kid, a young boy, along with his three close friends, Luay, Lamy and Zaim, experiences various fun-filled adventures.</desc>
   </programme>
@@ -32605,206 +32885,6 @@
     <title>Debate - Sahin</title>
     <desc>The host moderates a debate among experts who share their views and opinions on various pressing issues concerning the nation.</desc>
   </programme>
-  <programme start="2026-11-22 08:00:00" stop="2026-11-22 08:30:00" channel="malayalam-443039">
-    <title>City Tour</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-22 08:30:00" stop="2026-11-22 09:00:00" channel="malayalam-443039">
-    <title>Sanchariyude Diarikurippukal</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-22 09:00:00" stop="2026-11-22 09:30:00" channel="malayalam-443039">
-    <title>Opera House</title>
-    <desc>Talented artists from all around the globe come together and entertain the audience with their mesmerising performances.</desc>
-  </programme>
-  <programme start="2026-11-22 09:30:00" stop="2026-11-22 10:00:00" channel="malayalam-443039">
-    <title>Charithram Ennilude</title>
-    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
-  </programme>
-  <programme start="2026-11-22 10:00:00" stop="2026-11-22 10:30:00" channel="malayalam-443039">
-    <title>History Of Cinema</title>
-    <desc>The host delves into the evolution of cinema, exploring landmark films, influential directors and pivotal moments that shaped the art form from its inception to modern times.</desc>
-  </programme>
-  <programme start="2026-11-22 10:30:00" stop="2026-11-22 11:00:00" channel="malayalam-443039">
-    <title>Animal Kingdom</title>
-    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
-  </programme>
-  <programme start="2026-11-22 11:00:00" stop="2026-11-22 11:30:00" channel="malayalam-443039">
-    <title>Aa Yathrayil</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-22 11:30:00" stop="2026-11-22 12:00:00" channel="malayalam-443039">
-    <title>HisStory</title>
-    <desc>The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world.</desc>
-  </programme>
-  <programme start="2026-11-22 12:00:00" stop="2026-11-22 12:30:00" channel="malayalam-443039">
-    <title>City Tour</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-22 12:30:00" stop="2026-11-22 13:00:00" channel="malayalam-443039">
-    <title>Sanchariyude Diarikurippukal</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-22 13:00:00" stop="2026-11-22 13:30:00" channel="malayalam-443039">
-    <title>Opera House</title>
-    <desc>Talented artists from all around the globe come together and entertain the audience with their mesmerising performances.</desc>
-  </programme>
-  <programme start="2026-11-22 13:30:00" stop="2026-11-22 14:00:00" channel="malayalam-443039">
-    <title>Charithram Ennilude</title>
-    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
-  </programme>
-  <programme start="2026-11-22 14:00:00" stop="2026-11-22 14:30:00" channel="malayalam-443039">
-    <title>History Of Cinema</title>
-    <desc>The host delves into the evolution of cinema, exploring landmark films, influential directors and pivotal moments that shaped the art form from its inception to modern times.</desc>
-  </programme>
-  <programme start="2026-11-22 14:30:00" stop="2026-11-22 15:00:00" channel="malayalam-443039">
-    <title>Sanchariyude Diarikurippukal</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-22 15:00:00" stop="2026-11-22 15:30:00" channel="malayalam-443039">
-    <title>Around The World In 30 Mins</title>
-    <desc>The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance.</desc>
-  </programme>
-  <programme start="2026-11-22 15:30:00" stop="2026-11-22 16:00:00" channel="malayalam-443039">
-    <title>Location Hunt</title>
-    <desc>Filmmakers share their experiences regarding the search for ideal locations for their movies and the various challenges they face.</desc>
-  </programme>
-  <programme start="2026-11-22 16:00:00" stop="2026-11-22 16:30:00" channel="malayalam-443039">
-    <title>Smrithi</title>
-    <desc>The host speaks about eminent personalities from different walks of life and highlights their contributions to their respective fields.</desc>
-  </programme>
-  <programme start="2026-11-22 16:30:00" stop="2026-11-22 17:00:00" channel="malayalam-443039">
-    <title>HisStory</title>
-    <desc>The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world.</desc>
-  </programme>
-  <programme start="2026-11-22 17:00:00" stop="2026-11-22 17:30:00" channel="malayalam-443039">
-    <title>Movie Classic</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-22 17:30:00" stop="2026-11-22 18:00:00" channel="malayalam-443039">
-    <title>Movies On The Road</title>
-    <desc>The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip.</desc>
-  </programme>
-  <programme start="2026-11-22 18:00:00" stop="2026-11-22 18:30:00" channel="malayalam-443039">
-    <title>Animal Kingdom</title>
-    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
-  </programme>
-  <programme start="2026-11-22 18:30:00" stop="2026-11-22 19:00:00" channel="malayalam-443039">
-    <title>Charithram Ennilude</title>
-    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
-  </programme>
-  <programme start="2026-11-22 19:00:00" stop="2026-11-23 01:30:00" channel="malayalam-443039">
-    <title>History Of Cinema</title>
-    <desc>The host delves into the evolution of cinema, exploring landmark films, influential directors and pivotal moments that shaped the art form from its inception to modern times.</desc>
-  </programme>
-  <programme start="2026-11-22 19:30:00" stop="2026-11-22 20:00:00" channel="malayalam-443039">
-    <title>Location Hunt</title>
-    <desc>Filmmakers share their experiences regarding the search for ideal locations for their movies and the various challenges they face.</desc>
-  </programme>
-  <programme start="2026-11-22 20:00:00" stop="2026-11-22 20:30:00" channel="malayalam-443039">
-    <title>Animal Kingdom</title>
-    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
-  </programme>
-  <programme start="2026-11-22 20:30:00" stop="2026-11-22 21:00:00" channel="malayalam-443039">
-    <title>Around The World In 30 Mins</title>
-    <desc>The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance.</desc>
-  </programme>
-  <programme start="2026-11-22 21:00:00" stop="2026-11-22 21:30:00" channel="malayalam-443039">
-    <title>Aa Yathrayil</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-22 21:30:00" stop="2026-11-22 22:00:00" channel="malayalam-443039">
-    <title>Sahasam</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-22 22:00:00" stop="2026-11-22 22:30:00" channel="malayalam-443039">
-    <title>Sancharam</title>
-    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
-  </programme>
-  <programme start="2026-11-22 22:30:00" stop="2026-11-22 23:00:00" channel="malayalam-443039">
-    <title>Sancharam</title>
-    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
-  </programme>
-  <programme start="2026-11-22 23:00:00" stop="2026-11-22 23:30:00" channel="malayalam-443039">
-    <title>Charithram Ennilude</title>
-    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
-  </programme>
-  <programme start="2026-11-22 23:30:00" stop="2026-11-23 00:00:00" channel="malayalam-443039">
-    <title>Sanchariyude Diarikurippukal</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-23 00:00:00" stop="2026-11-23 00:30:00" channel="malayalam-443039">
-    <title>Movies On The Road</title>
-    <desc>The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip.</desc>
-  </programme>
-  <programme start="2026-11-23 00:30:00" stop="2026-11-23 01:00:00" channel="malayalam-443039">
-    <title>Location Hunt</title>
-    <desc>Filmmakers share their experiences regarding the search for ideal locations for their movies and the various challenges they face.</desc>
-  </programme>
-  <programme start="2026-11-23 01:00:00" stop="2026-11-23 01:30:00" channel="malayalam-443039">
-    <title>Animal Kingdom</title>
-    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
-  </programme>
-  <programme start="2026-11-23 01:30:00" stop="2026-11-23 02:00:00" channel="malayalam-443039">
-    <title>Charithram Ennilude</title>
-    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
-  </programme>
-  <programme start="2026-11-23 02:00:00" stop="2026-11-23 02:30:00" channel="malayalam-443039">
-    <title>Aa Yathrayil</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-23 02:30:00" stop="2026-11-23 03:00:00" channel="malayalam-443039">
-    <title>Palestine</title>
-    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
-  </programme>
-  <programme start="2026-11-23 02:30:00" stop="2026-11-23 03:00:00" channel="malayalam-443039">
-    <title>Sahasam</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
-  <programme start="2026-11-23 03:00:00" stop="2026-11-23 03:30:00" channel="malayalam-443039">
-    <title>Sancharam</title>
-    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
-  </programme>
-  <programme start="2026-11-23 03:30:00" stop="2026-11-23 04:00:00" channel="malayalam-443039">
-    <title>Sancharam</title>
-    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
-  </programme>
-  <programme start="2026-11-23 04:00:00" stop="2026-11-23 04:30:00" channel="malayalam-443039">
-    <title>Charithram Ennilude</title>
-    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
-  </programme>
-  <programme start="2026-11-23 04:30:00" stop="2026-11-23 05:00:00" channel="malayalam-443039">
-    <title>Sanchariyude Diarikurippukal</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-23 05:00:00" stop="2026-11-23 05:30:00" channel="malayalam-443039">
-    <title>Movies On The Road</title>
-    <desc>The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip.</desc>
-  </programme>
-  <programme start="2026-11-23 05:30:00" stop="2026-11-23 06:00:00" channel="malayalam-443039">
-    <title>Location Hunt</title>
-    <desc>Filmmakers share their experiences regarding the search for ideal locations for their movies and the various challenges they face.</desc>
-  </programme>
-  <programme start="2026-11-23 06:00:00" stop="2026-11-23 06:30:00" channel="malayalam-443039">
-    <title>Animal Kingdom</title>
-    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
-  </programme>
-  <programme start="2026-11-23 06:30:00" stop="2026-11-23 07:00:00" channel="malayalam-443039">
-    <title>Around The World In 30 Mins</title>
-    <desc>The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance.</desc>
-  </programme>
-  <programme start="2026-11-23 07:00:00" stop="2026-11-23 07:30:00" channel="malayalam-443039">
-    <title>Aa Yathrayil</title>
-    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
-  </programme>
-  <programme start="2026-11-23 07:30:00" stop="2026-11-23 08:00:00" channel="malayalam-443039">
-    <title>Palestine</title>
-    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
-  </programme>
-  <programme start="2026-11-23 07:30:00" stop="2026-11-23 08:00:00" channel="malayalam-443039">
-    <title>Sahasam</title>
-    <desc>Bringing the best in television.</desc>
-  </programme>
   <programme start="2026-11-23 08:00:00" stop="2026-11-23 08:30:00" channel="malayalam-443039">
     <title>Sancharam</title>
     <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
@@ -34512,6 +34592,198 @@
   <programme start="2026-12-01 23:30:00" stop="2026-12-02 00:00:00" channel="malayalam-443039">
     <title>HisStory</title>
     <desc>The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world.</desc>
+  </programme>
+  <programme start="2026-12-02 00:00:00" stop="2026-12-02 00:30:00" channel="malayalam-443039">
+    <title>Animal Kingdom</title>
+    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 00:30:00" stop="2026-12-02 01:00:00" channel="malayalam-443039">
+    <title>Smrithi</title>
+    <desc>The host speaks about eminent personalities from different walks of life and highlights their contributions to their respective fields.</desc>
+  </programme>
+  <programme start="2026-12-02 01:00:00" stop="2026-12-02 01:30:00" channel="malayalam-443039">
+    <title>Face To Face</title>
+    <desc>The host chats with personalities from various fields about their work and contributions to society and holds discussions on various social and political issues.</desc>
+  </programme>
+  <programme start="2026-12-02 01:30:00" stop="2026-12-02 02:00:00" channel="malayalam-443039">
+    <title>Charithram Ennilude</title>
+    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
+  </programme>
+  <programme start="2026-12-02 02:00:00" stop="2026-12-02 02:30:00" channel="malayalam-443039">
+    <title>Sanchariyude Diarikurippukal</title>
+    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
+  </programme>
+  <programme start="2026-12-02 02:30:00" stop="2026-12-02 03:00:00" channel="malayalam-443039">
+    <title>Palestine</title>
+    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
+  </programme>
+  <programme start="2026-12-02 03:00:00" stop="2026-12-02 03:30:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 03:30:00" stop="2026-12-02 04:00:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 04:00:00" stop="2026-12-02 04:30:00" channel="malayalam-443039">
+    <title>Charithram Ennilude</title>
+    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
+  </programme>
+  <programme start="2026-12-02 04:30:00" stop="2026-12-02 05:00:00" channel="malayalam-443039">
+    <title>HisStory</title>
+    <desc>The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world.</desc>
+  </programme>
+  <programme start="2026-12-02 05:00:00" stop="2026-12-02 05:30:00" channel="malayalam-443039">
+    <title>Animal Kingdom</title>
+    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 05:30:00" stop="2026-12-02 06:00:00" channel="malayalam-443039">
+    <title>Smrithi</title>
+    <desc>The host speaks about eminent personalities from different walks of life and highlights their contributions to their respective fields.</desc>
+  </programme>
+  <programme start="2026-12-02 06:00:00" stop="2026-12-02 06:30:00" channel="malayalam-443039">
+    <title>Face To Face</title>
+    <desc>The host chats with personalities from various fields about their work and contributions to society and holds discussions on various social and political issues.</desc>
+  </programme>
+  <programme start="2026-12-02 06:30:00" stop="2026-12-02 07:00:00" channel="malayalam-443039">
+    <title>Around The World In 30 Mins</title>
+    <desc>The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance.</desc>
+  </programme>
+  <programme start="2026-12-02 07:00:00" stop="2026-12-02 07:30:00" channel="malayalam-443039">
+    <title>Sanchariyude Diarikurippukal</title>
+    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
+  </programme>
+  <programme start="2026-12-02 07:30:00" stop="2026-12-02 08:00:00" channel="malayalam-443039">
+    <title>Palestine</title>
+    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
+  </programme>
+  <programme start="2026-12-02 08:00:00" stop="2026-12-02 08:30:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 08:30:00" stop="2026-12-02 09:00:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 09:00:00" stop="2026-12-02 09:30:00" channel="malayalam-443039">
+    <title>Charithram Ennilude</title>
+    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
+  </programme>
+  <programme start="2026-12-02 09:30:00" stop="2026-12-02 10:00:00" channel="malayalam-443039">
+    <title>HisStory</title>
+    <desc>The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world.</desc>
+  </programme>
+  <programme start="2026-12-02 10:00:00" stop="2026-12-02 10:30:00" channel="malayalam-443039">
+    <title>Animal Kingdom</title>
+    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 10:30:00" stop="2026-12-02 11:00:00" channel="malayalam-443039">
+    <title>Around The World In 30 Mins</title>
+    <desc>The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance.</desc>
+  </programme>
+  <programme start="2026-12-02 11:00:00" stop="2026-12-02 11:30:00" channel="malayalam-443039">
+    <title>Sanchariyude Diarikurippukal</title>
+    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
+  </programme>
+  <programme start="2026-12-02 11:30:00" stop="2026-12-02 12:00:00" channel="malayalam-443039">
+    <title>Palestine</title>
+    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
+  </programme>
+  <programme start="2026-12-02 12:00:00" stop="2026-12-02 12:30:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 12:30:00" stop="2026-12-02 13:00:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 13:00:00" stop="2026-12-02 13:30:00" channel="malayalam-443039">
+    <title>Charithram Ennilude</title>
+    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
+  </programme>
+  <programme start="2026-12-02 13:30:00" stop="2026-12-02 14:00:00" channel="malayalam-443039">
+    <title>HisStory</title>
+    <desc>The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world.</desc>
+  </programme>
+  <programme start="2026-12-02 14:00:00" stop="2026-12-02 14:30:00" channel="malayalam-443039">
+    <title>Animal Kingdom</title>
+    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 14:30:00" stop="2026-12-02 15:00:00" channel="malayalam-443039">
+    <title>Aa Yathrayil</title>
+    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
+  </programme>
+  <programme start="2026-12-02 15:00:00" stop="2026-12-02 15:30:00" channel="malayalam-443039">
+    <title>Opera House</title>
+    <desc>Talented artists from all around the globe come together and entertain the audience with their mesmerising performances.</desc>
+  </programme>
+  <programme start="2026-12-02 15:30:00" stop="2026-12-02 16:00:00" channel="malayalam-443039">
+    <title>Around The World In 30 Mins</title>
+    <desc>The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance.</desc>
+  </programme>
+  <programme start="2026-12-02 16:00:00" stop="2026-12-02 16:30:00" channel="malayalam-443039">
+    <title>Movies On The Road</title>
+    <desc>The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip.</desc>
+  </programme>
+  <programme start="2026-12-02 16:30:00" stop="2026-12-02 17:00:00" channel="malayalam-443039">
+    <title>Palestine</title>
+    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
+  </programme>
+  <programme start="2026-12-02 17:00:00" stop="2026-12-02 17:30:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 17:30:00" stop="2026-12-02 18:00:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 18:00:00" stop="2026-12-02 18:30:00" channel="malayalam-443039">
+    <title>Charithram Ennilude</title>
+    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
+  </programme>
+  <programme start="2026-12-02 18:30:00" stop="2026-12-02 19:00:00" channel="malayalam-443039">
+    <title>Location Hunt</title>
+    <desc>Filmmakers share their experiences regarding the search for ideal locations for their movies and the various challenges they face.</desc>
+  </programme>
+  <programme start="2026-12-02 19:00:00" stop="2026-12-02 19:30:00" channel="malayalam-443039">
+    <title>Animal Kingdom</title>
+    <desc>The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 19:30:00" stop="2026-12-02 20:00:00" channel="malayalam-443039">
+    <title>Aa Yathrayil</title>
+    <desc>The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals.</desc>
+  </programme>
+  <programme start="2026-12-02 20:00:00" stop="2026-12-02 20:30:00" channel="malayalam-443039">
+    <title>Opera House</title>
+    <desc>Talented artists from all around the globe come together and entertain the audience with their mesmerising performances.</desc>
+  </programme>
+  <programme start="2026-12-02 20:30:00" stop="2026-12-02 21:00:00" channel="malayalam-443039">
+    <title>Around The World In 30 Mins</title>
+    <desc>The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance.</desc>
+  </programme>
+  <programme start="2026-12-02 21:00:00" stop="2026-12-02 21:30:00" channel="malayalam-443039">
+    <title>Movies On The Road</title>
+    <desc>The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip.</desc>
+  </programme>
+  <programme start="2026-12-02 21:30:00" stop="2026-12-02 22:00:00" channel="malayalam-443039">
+    <title>Palestine</title>
+    <desc>The host gives a detailed report on news pertaining to Palestine while shedding light on crucial updates and developments in the region.</desc>
+  </programme>
+  <programme start="2026-12-02 22:00:00" stop="2026-12-02 22:30:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 22:30:00" stop="2026-12-02 23:00:00" channel="malayalam-443039">
+    <title>Sancharam</title>
+    <desc>The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine.</desc>
+  </programme>
+  <programme start="2026-12-02 23:00:00" stop="2026-12-02 23:30:00" channel="malayalam-443039">
+    <title>Charithram Ennilude</title>
+    <desc>Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives.</desc>
+  </programme>
+  <programme start="2026-12-02 23:30:00" stop="2026-12-03 00:00:00" channel="malayalam-443039">
+    <title>Location Hunt</title>
+    <desc>Filmmakers share their experiences regarding the search for ideal locations for their movies and the various challenges they face.</desc>
   </programme>
   <programme start="2026-11-22 08:00:00" stop="2026-11-22 08:30:00" channel="malayalam-443033">
     <title>Popular Mission</title>
@@ -36962,241 +37234,6 @@
     <title>International Movie Fest</title>
     <desc>Prominent film personalities and critics come together at the international film festival, an event that showcases cinema from around the world.</desc>
   </programme>
-  <programme start="2026-11-22 07:59:00" stop="2026-11-22 08:29:00" channel="malayalam-443028">
-    <title>12 Mani Nanpagal Seithigal</title>
-    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
-  </programme>
-  <programme start="2026-11-22 08:29:00" stop="2026-11-22 08:59:00" channel="malayalam-443028">
-    <title>Hello Kids</title>
-    <desc>The host interacts with children from all over the state over the phone, further strengthening their faith in the Almighty and His plans.</desc>
-  </programme>
-  <programme start="2026-11-22 08:59:00" stop="2026-11-22 09:29:00" channel="malayalam-443028">
-    <title>Jolly Time</title>
-    <desc>The host illuminates the teachings of the Almighty and shares various stories and morals to impart spiritual lessons to children.</desc>
-  </programme>
-  <programme start="2026-11-22 09:29:00" stop="2026-11-22 09:59:00" channel="malayalam-443028">
-    <title>Live: 2 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-22 09:59:00" stop="2026-11-22 10:29:00" channel="malayalam-443028">
-    <title>2 Mani Seithigal</title>
-    <desc>The host presents the latest news stories, important updates, developments and events from across the globe and the country.</desc>
-  </programme>
-  <programme start="2026-11-22 10:29:00" stop="2026-11-22 10:59:00" channel="malayalam-443028">
-    <title>Live: 3 Mani Seithigal</title>
-    <desc>The host collates and presents some of the latest news updates and developments from across the nation that caters to the interests of the people.</desc>
-  </programme>
-  <programme start="2026-11-22 10:59:00" stop="2026-11-22 11:29:00" channel="malayalam-443028">
-    <title>3 Mani Seithigal</title>
-    <desc>The host collates and presents some of the latest news updates and developments from across the nation that caters to the interests of the people.</desc>
-  </programme>
-  <programme start="2026-11-22 11:29:00" stop="2026-11-22 11:59:00" channel="malayalam-443028">
-    <title>Live: 4 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-22 11:59:00" stop="2026-11-22 12:29:00" channel="malayalam-443028">
-    <title>HT -Commercial Slot</title>
-    <desc>The host presents a wide variety of products at affordable prices sold by reputable brands that customers can purchase from the comfort of their homes.</desc>
-  </programme>
-  <programme start="2026-11-22 12:29:00" stop="2026-11-22 12:59:00" channel="malayalam-443028">
-    <title>Live: 5 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-22 12:59:00" stop="2026-11-22 13:29:00" channel="malayalam-443028">
-    <title>5 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-22 13:29:00" stop="2026-11-22 14:29:00" channel="malayalam-443028">
-    <title>GS- Commercial Slot</title>
-    <desc>The host presents a wide variety of products at affordable prices sold by reputable brands that customers can purchase from the comfort of their homes.</desc>
-  </programme>
-  <programme start="2026-11-22 14:29:00" stop="2026-11-22 17:00:00" channel="malayalam-443028">
-    <title>Live: Jr Commercial Slot</title>
-    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
-  </programme>
-  <programme start="2026-11-22 17:00:00" stop="2026-11-22 17:30:00" channel="malayalam-443028">
-    <title>DT- Commercial Slot</title>
-    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
-  </programme>
-  <programme start="2026-11-22 17:30:00" stop="2026-11-22 18:00:00" channel="malayalam-443028">
-    <title>Anbar Prayer Ministries</title>
-    <desc>A religious leader sheds light on the teachings of the Almighty and encourages followers to take the path of spirituality.</desc>
-  </programme>
-  <programme start="2026-11-22 18:00:00" stop="2026-11-22 18:30:00" channel="malayalam-443028">
-    <title>Kathullavan Ketkakadavan</title>
-    <desc>A religious leader delivers a discourse on the life of Jesus Christ and explains sacred verses from the Holy Bible to Christians.</desc>
-  </programme>
-  <programme start="2026-11-22 18:30:00" stop="2026-11-22 19:00:00" channel="malayalam-443028">
-    <title>GN- Commercial Slot</title>
-    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
-  </programme>
-  <programme start="2026-11-22 19:00:00" stop="2026-11-22 19:30:00" channel="malayalam-443028">
-    <title>5 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-22 19:30:00" stop="2026-11-22 20:00:00" channel="malayalam-443028">
-    <title>Arasiyal Sadhurangam</title>
-    <desc>The host interacts with prominent personalities to learn about their views on politics and discuss important issues and current affairs.</desc>
-  </programme>
-  <programme start="2026-11-22 20:00:00" stop="2026-11-22 20:30:00" channel="malayalam-443028">
-    <title>3 Mani Seithigal</title>
-    <desc>The host collates and presents some of the latest news updates and developments from across the nation that caters to the interests of the people.</desc>
-  </programme>
-  <programme start="2026-11-22 20:30:00" stop="2026-11-22 21:00:00" channel="malayalam-443028">
-    <title>News</title>
-  </programme>
-  <programme start="2026-11-22 21:00:00" stop="2026-11-22 21:30:00" channel="malayalam-443028">
-    <title>5 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-22 21:30:00" stop="2026-11-22 22:30:00" channel="malayalam-443028">
-    <title>Sathiyam Saathiyamae</title>
-    <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
-  </programme>
-  <programme start="2026-11-22 22:30:00" stop="2026-11-22 23:00:00" channel="malayalam-443028">
-    <title>Hello Kids</title>
-    <desc>The host interacts with children from all over the state over the phone, further strengthening their faith in the Almighty and His plans.</desc>
-  </programme>
-  <programme start="2026-11-22 23:00:00" stop="2026-11-22 23:30:00" channel="malayalam-443028">
-    <title>5 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-22 23:30:00" stop="2026-11-23 00:00:00" channel="malayalam-443028">
-    <title>Lens 360- Seithi Alasal</title>
-    <desc>The host presents information about the social, economic and political issues of the day and provides updates on current events.</desc>
-  </programme>
-  <programme start="2026-11-23 00:00:00" stop="2026-11-23 00:30:00" channel="malayalam-443028">
-    <title>Aradhanai Padalgal</title>
-    <desc>A comprehensive compilation of melodious devotional songs sung by talented singers is played to seek the divine blessings of the Almighty.</desc>
-  </programme>
-  <programme start="2026-11-23 00:30:00" stop="2026-11-23 01:00:00" channel="malayalam-443028">
-    <title>Kathullavan Ketkakadavan</title>
-    <desc>A religious leader delivers a discourse on the life of Jesus Christ and explains sacred verses from the Holy Bible to Christians.</desc>
-  </programme>
-  <programme start="2026-11-23 01:00:00" stop="2026-11-23 01:30:00" channel="malayalam-443028">
-    <title>Eci Diocese</title>
-    <desc>A religious leader sheds light on the teachings of the Almighty and encourages followers to take the path of spirituality.</desc>
-  </programme>
-  <programme start="2026-11-23 01:00:00" stop="2026-11-23 01:30:00" channel="malayalam-443028">
-    <title>Vishwavani</title>
-    <desc>Various Christian missionaries deliver devotional discourses on spirituality and help in spreading the Word of God to devotees.</desc>
-  </programme>
-  <programme start="2026-11-23 01:30:00" stop="2026-11-23 01:35:00" channel="malayalam-443028">
-    <title>Headlines</title>
-    <desc>The presenter reports the latest and most important political and socio-economic news headlines from India and around the world.</desc>
-  </programme>
-  <programme start="2026-11-23 01:35:00" stop="2026-11-23 02:00:00" channel="malayalam-443028">
-    <title>Live: 6 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 01:35:00" stop="2026-11-23 02:00:00" channel="malayalam-443028">
-    <title>6 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 02:00:00" stop="2026-11-23 02:30:00" channel="malayalam-443028">
-    <title>Jr Commercial Slot</title>
-    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
-  </programme>
-  <programme start="2026-11-23 02:30:00" stop="2026-11-23 02:59:00" channel="malayalam-443028">
-    <title>Prime Time</title>
-    <desc>The host presents the latest updates on crucial events happening in India and abroad pertaining to different fields like sports, politics and entertainment.</desc>
-  </programme>
-  <programme start="2026-11-23 02:30:00" stop="2026-11-23 02:55:00" channel="malayalam-443028">
-    <title>7 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 02:55:00" stop="2026-11-23 03:00:00" channel="malayalam-443028">
-    <title>5 Nimida Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 02:59:00" stop="2026-11-23 03:29:00" channel="malayalam-443028">
-    <title>Lens 360 Seithi Alasalgal</title>
-    <desc>The host delivers the latest news and updates about the social, economic and political issues of the day and provides updates on current events.</desc>
-  </programme>
-  <programme start="2026-11-23 03:00:00" stop="2026-11-23 03:30:00" channel="malayalam-443028">
-    <title>Lens 360- Seithi Alasal</title>
-    <desc>The host presents information about the social, economic and political issues of the day and provides updates on current events.</desc>
-  </programme>
-  <programme start="2026-11-23 03:29:00" stop="2026-11-23 04:29:00" channel="malayalam-443028">
-    <title>Live: 8 AM Prime Time</title>
-    <desc>The host provides a detailed report featuring insightful updates and developments, pertaining to matters concerning the state and the nation.</desc>
-  </programme>
-  <programme start="2026-11-23 03:30:00" stop="2026-11-23 03:35:00" channel="malayalam-443028">
-    <title>5 Nimida Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 03:35:00" stop="2026-11-23 04:30:00" channel="malayalam-443028">
-    <title>8 Mani Prime Time</title>
-    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
-  </programme>
-  <programme start="2026-11-23 04:29:00" stop="2026-11-23 05:29:00" channel="malayalam-443028">
-    <title>Sathiyam Saathiyamae</title>
-    <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
-  </programme>
-  <programme start="2026-11-23 04:30:00" stop="2026-11-23 04:35:00" channel="malayalam-443028">
-    <title>5 Nimida Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 04:35:00" stop="2026-11-23 05:30:00" channel="malayalam-443028">
-    <title>Sathiyam Saathiyamae</title>
-    <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
-  </programme>
-  <programme start="2026-11-23 05:29:00" stop="2026-11-23 05:59:00" channel="malayalam-443028">
-    <title>Live: 10 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 05:30:00" stop="2026-11-23 05:35:00" channel="malayalam-443028">
-    <title>5 Nimida Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 05:35:00" stop="2026-11-23 06:00:00" channel="malayalam-443028">
-    <title>10 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 05:59:00" stop="2026-11-23 06:29:00" channel="malayalam-443028">
-    <title>10 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 06:00:00" stop="2026-11-23 06:30:00" channel="malayalam-443028">
-    <title>10 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 06:29:00" stop="2026-11-23 06:59:00" channel="malayalam-443028">
-    <title>Live: 11 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 06:30:00" stop="2026-11-23 06:35:00" channel="malayalam-443028">
-    <title>5 Nimida Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 06:35:00" stop="2026-11-23 07:00:00" channel="malayalam-443028">
-    <title>11 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 06:59:00" stop="2026-11-23 07:29:00" channel="malayalam-443028">
-    <title>11 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 07:00:00" stop="2026-11-23 07:30:00" channel="malayalam-443028">
-    <title>11 Mani Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 07:29:00" stop="2026-11-23 07:59:00" channel="malayalam-443028">
-    <title>Live: 12 Mani Nanpagal Seithigal</title>
-    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
-  </programme>
-  <programme start="2026-11-23 07:30:00" stop="2026-11-23 07:35:00" channel="malayalam-443028">
-    <title>5 Nimida Seithigal</title>
-    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
-  </programme>
-  <programme start="2026-11-23 07:35:00" stop="2026-11-23 07:40:00" channel="malayalam-443028">
-    <title>Headlines</title>
-    <desc>The presenter reports the latest and most important political and socio-economic news headlines from India and around the world.</desc>
-  </programme>
-  <programme start="2026-11-23 07:40:00" stop="2026-11-23 08:30:00" channel="malayalam-443028">
-    <title>12 Mani Nanpagal Seithigal</title>
-    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
-  </programme>
   <programme start="2026-11-23 07:59:00" stop="2026-11-23 08:29:00" channel="malayalam-443028">
     <title>12 Mani Nanpagal Seithigal</title>
     <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
@@ -39262,6 +39299,226 @@
     <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
   </programme>
   <programme start="2026-12-01 23:30:00" stop="2026-12-02 00:30:00" channel="malayalam-443028">
+    <title>Sathiyam Saathiyamae</title>
+    <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
+  </programme>
+  <programme start="2026-12-02 00:30:00" stop="2026-12-02 01:00:00" channel="malayalam-443028">
+    <title>Kathullavan Ketkakadavan</title>
+    <desc>A religious leader delivers a discourse on the life of Jesus Christ and explains sacred verses from the Holy Bible to Christians.</desc>
+  </programme>
+  <programme start="2026-12-02 01:00:00" stop="2026-12-02 01:30:00" channel="malayalam-443028">
+    <title>IMS</title>
+    <desc>A religious leader sheds light on the teachings of the Almighty and encourages followers to take the path of spirituality.</desc>
+  </programme>
+  <programme start="2026-12-02 01:30:00" stop="2026-12-02 01:35:00" channel="malayalam-443028">
+    <title>Headlines</title>
+    <desc>The presenter reports the latest and most important political and socio-economic news headlines from India and around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 01:35:00" stop="2026-12-02 02:00:00" channel="malayalam-443028">
+    <title>6 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 02:00:00" stop="2026-12-02 02:30:00" channel="malayalam-443028">
+    <title>Jr Commercial Slot</title>
+    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
+  </programme>
+  <programme start="2026-12-02 02:30:00" stop="2026-12-02 02:55:00" channel="malayalam-443028">
+    <title>7 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 02:55:00" stop="2026-12-02 03:00:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 03:00:00" stop="2026-12-02 03:30:00" channel="malayalam-443028">
+    <title>Lens 360- Seithi Alasal</title>
+    <desc>The host presents information about the social, economic and political issues of the day and provides updates on current events.</desc>
+  </programme>
+  <programme start="2026-12-02 03:30:00" stop="2026-12-02 03:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 03:35:00" stop="2026-12-02 04:30:00" channel="malayalam-443028">
+    <title>8 Mani Prime Time</title>
+    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
+  </programme>
+  <programme start="2026-12-02 04:30:00" stop="2026-12-02 04:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 04:35:00" stop="2026-12-02 05:30:00" channel="malayalam-443028">
+    <title>Sathiyam Saathiyamae</title>
+    <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
+  </programme>
+  <programme start="2026-12-02 05:30:00" stop="2026-12-02 05:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 05:35:00" stop="2026-12-02 06:00:00" channel="malayalam-443028">
+    <title>10 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 06:00:00" stop="2026-12-02 06:30:00" channel="malayalam-443028">
+    <title>10 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 06:30:00" stop="2026-12-02 06:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 06:35:00" stop="2026-12-02 07:00:00" channel="malayalam-443028">
+    <title>11 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 07:00:00" stop="2026-12-02 07:30:00" channel="malayalam-443028">
+    <title>11 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 07:30:00" stop="2026-12-02 07:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 07:35:00" stop="2026-12-02 07:40:00" channel="malayalam-443028">
+    <title>Headlines</title>
+    <desc>The presenter reports the latest and most important political and socio-economic news headlines from India and around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 07:40:00" stop="2026-12-02 08:30:00" channel="malayalam-443028">
+    <title>12 Mani Nanpagal Seithigal</title>
+    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
+  </programme>
+  <programme start="2026-12-02 08:30:00" stop="2026-12-02 08:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 08:35:00" stop="2026-12-02 09:00:00" channel="malayalam-443028">
+    <title>1 Mani Seithigal</title>
+    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
+  </programme>
+  <programme start="2026-12-02 09:00:00" stop="2026-12-02 09:30:00" channel="malayalam-443028">
+    <title>1 Mani Seithigal</title>
+    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
+  </programme>
+  <programme start="2026-12-02 09:30:00" stop="2026-12-02 09:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 09:35:00" stop="2026-12-02 10:00:00" channel="malayalam-443028">
+    <title>Namma Ooru Seithigal</title>
+    <desc>The host presents information about the social, economic and political issues of the day and provides updates on current events.</desc>
+  </programme>
+  <programme start="2026-12-02 10:00:00" stop="2026-12-02 10:30:00" channel="malayalam-443028">
+    <title>Namma Ooru Seithigal</title>
+    <desc>The host presents information about the social, economic and political issues of the day and provides updates on current events.</desc>
+  </programme>
+  <programme start="2026-12-02 10:30:00" stop="2026-12-02 10:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 10:35:00" stop="2026-12-02 11:00:00" channel="malayalam-443028">
+    <title>3 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 11:00:00" stop="2026-12-02 11:30:00" channel="malayalam-443028">
+    <title>3 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 11:30:00" stop="2026-12-02 11:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 11:35:00" stop="2026-12-02 12:00:00" channel="malayalam-443028">
+    <title>4 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 12:00:00" stop="2026-12-02 12:30:00" channel="malayalam-443028">
+    <title>4 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 12:30:00" stop="2026-12-02 12:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 12:35:00" stop="2026-12-02 13:30:00" channel="malayalam-443028">
+    <title>Ungal Ooru Ungal Kural</title>
+    <desc>The host presents the latest information and developments on various issues affecting different districts in the state of Tamil Nadu.</desc>
+  </programme>
+  <programme start="2026-12-02 13:30:00" stop="2026-12-02 13:35:00" channel="malayalam-443028">
+    <title>Headlines</title>
+    <desc>The presenter reports the latest and most important political and socio-economic news headlines from India and around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 13:35:00" stop="2026-12-02 14:30:00" channel="malayalam-443028">
+    <title>6 PM Prime Time</title>
+    <desc>The host provides the latest information, advancements and developments regarding significant political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 14:30:00" stop="2026-12-02 15:30:00" channel="malayalam-443028">
+    <title>Sathiyam Saathiyamae</title>
+    <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
+  </programme>
+  <programme start="2026-12-02 15:30:00" stop="2026-12-02 15:35:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 15:35:00" stop="2026-12-02 16:00:00" channel="malayalam-443028">
+    <title>8 Mani Seithigal</title>
+    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
+  </programme>
+  <programme start="2026-12-02 16:00:00" stop="2026-12-02 16:30:00" channel="malayalam-443028">
+    <title>8 Mani Seithigal</title>
+    <desc>The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.</desc>
+  </programme>
+  <programme start="2026-12-02 16:30:00" stop="2026-12-02 16:35:00" channel="malayalam-443028">
+    <title>Headlines</title>
+    <desc>The presenter reports the latest and most important political and socio-economic news headlines from India and around the world.</desc>
+  </programme>
+  <programme start="2026-12-02 16:35:00" stop="2026-12-02 16:40:00" channel="malayalam-443028">
+    <title>5 Nimida Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 16:40:00" stop="2026-12-02 17:30:00" channel="malayalam-443028">
+    <title>9 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 17:30:00" stop="2026-12-02 18:00:00" channel="malayalam-443028">
+    <title>News</title>
+    <desc>The host provides the latest information, advancements, and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 18:00:00" stop="2026-12-02 18:30:00" channel="malayalam-443028">
+    <title>Jr Commercial Slot</title>
+    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
+  </programme>
+  <programme start="2026-12-02 18:30:00" stop="2026-12-02 19:00:00" channel="malayalam-443028">
+    <title>GN- Commercial Slot</title>
+    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
+  </programme>
+  <programme start="2026-12-02 19:00:00" stop="2026-12-02 19:30:00" channel="malayalam-443028">
+    <title>GN- Commercial Slot</title>
+    <desc>A wide range of products from a variety of popular brands are showcased for individuals to purchase from the comfort of their own home.</desc>
+  </programme>
+  <programme start="2026-12-02 19:30:00" stop="2026-12-02 20:00:00" channel="malayalam-443028">
+    <title>JK- Commercial Slot</title>
+    <desc>The host presents a wide variety of products at affordable prices sold by reputable brands that customers can purchase from the comfort of their homes.</desc>
+  </programme>
+  <programme start="2026-12-02 20:00:00" stop="2026-12-02 20:30:00" channel="malayalam-443028">
+    <title>9 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 20:30:00" stop="2026-12-02 21:00:00" channel="malayalam-443028">
+    <title>Nerukku Ner</title>
+    <desc>The host holds insightful conversations with various eminent personalities and discusses their opinions and views on diverse topics.</desc>
+  </programme>
+  <programme start="2026-12-02 21:00:00" stop="2026-12-02 21:30:00" channel="malayalam-443028">
+    <title>Crime Today</title>
+    <desc>The host presents the latest updates and information on various crimes prevalent in society and provides information on relevant current events.</desc>
+  </programme>
+  <programme start="2026-12-02 21:30:00" stop="2026-12-02 22:30:00" channel="malayalam-443028">
+    <title>Sathiyam Saathiyamae</title>
+    <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
+  </programme>
+  <programme start="2026-12-02 22:30:00" stop="2026-12-02 23:30:00" channel="malayalam-443028">
+    <title>9 Mani Seithigal</title>
+    <desc>The host provides the latest information, advancements and developments regarding various political, economic and social issues.</desc>
+  </programme>
+  <programme start="2026-12-02 23:30:00" stop="2026-12-03 00:30:00" channel="malayalam-443028">
     <title>Sathiyam Saathiyamae</title>
     <desc>The host invites prominent personalities from different fields to share their perspectives on various political and social issues impacting many lives.</desc>
   </programme>
